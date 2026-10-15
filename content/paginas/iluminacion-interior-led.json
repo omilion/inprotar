@@ -1,0 +1,312 @@
+{
+  "ruta": "/iluminacion-interior-led/",
+  "plantilla": "lineaProducto",
+  "unidad": "iluminacion",
+  "marcas": [
+    "philips"
+  ],
+  "protegida": false,
+  "seo": {
+    "titulo": "Iluminación Interior LED - INPROTAR",
+    "descripcion": "Iluminación interior LED que combina eficiencia energética, diseño moderno y tecnología avanzada. Nuestro portafolio de productos comparte características",
+    "imagen": {
+      "src": "/wp-content/uploads/2024/08/1625655634-ansell-estanca-led-tubular-apex-aplicacion-2-1024x683.webp",
+      "alt": "iluminación interior LED"
+    },
+    "publicado": "2024-08-20T15:55:50-04:00",
+    "modificado": "2024-08-27T20:34:35-04:00",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": [
+            "Organization",
+            "Person"
+          ],
+          "@id": "https://inprotar.cl/#person",
+          "name": "INPROTAR",
+          "url": "https://inprotar.cl",
+          "email": "etardones@inprotar.cl",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "CHAMISERO",
+            "addressLocality": "COLINA",
+            "addressRegion": "REGION METROPOLITANA",
+            "addressCountry": "CHILE"
+          },
+          "logo": {
+            "@type": "ImageObject",
+            "@id": "https://inprotar.cl/#logo",
+            "url": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro2.png",
+            "contentUrl": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro2.png",
+            "caption": "INPROTAR",
+            "inLanguage": "es",
+            "width": "360",
+            "height": "194"
+          },
+          "telephone": "+56 9 9089 4601",
+          "image": {
+            "@id": "https://inprotar.cl/#logo"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://inprotar.cl/#website",
+          "url": "https://inprotar.cl",
+          "name": "INPROTAR",
+          "alternateName": "INPROTAR",
+          "publisher": {
+            "@id": "https://inprotar.cl/#person"
+          },
+          "inLanguage": "es"
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://inprotar.cl/wp-content/uploads/2024/08/1625655634-ansell-estanca-led-tubular-apex-aplicacion-2-1024x683.webp",
+          "url": "https://inprotar.cl/wp-content/uploads/2024/08/1625655634-ansell-estanca-led-tubular-apex-aplicacion-2-1024x683.webp",
+          "width": "200",
+          "height": "200",
+          "inLanguage": "es"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://inprotar.cl/iluminacion-interior-led/#webpage",
+          "url": "https://inprotar.cl/iluminacion-interior-led/",
+          "name": "Iluminación Interior LED - INPROTAR",
+          "datePublished": "2024-08-20T15:55:50-04:00",
+          "dateModified": "2024-08-27T20:34:35-04:00",
+          "isPartOf": {
+            "@id": "https://inprotar.cl/#website"
+          },
+          "primaryImageOfPage": {
+            "@id": "https://inprotar.cl/wp-content/uploads/2024/08/1625655634-ansell-estanca-led-tubular-apex-aplicacion-2-1024x683.webp"
+          },
+          "inLanguage": "es"
+        },
+        {
+          "@type": "Person",
+          "@id": "https://inprotar.cl/author/spadmin/",
+          "name": "spadmin",
+          "url": "https://inprotar.cl/author/spadmin/",
+          "image": {
+            "@type": "ImageObject",
+            "@id": "https://secure.gravatar.com/avatar/04cbec8d3415f60b740fe70001182044fe83baa9f72d24541dfc338db2692af6?s=96&d=mm&r=g",
+            "url": "https://secure.gravatar.com/avatar/04cbec8d3415f60b740fe70001182044fe83baa9f72d24541dfc338db2692af6?s=96&d=mm&r=g",
+            "caption": "spadmin",
+            "inLanguage": "es"
+          },
+          "sameAs": [
+            "https://sistemasdeiluminacion.cl"
+          ]
+        },
+        {
+          "@type": "Article",
+          "headline": "Iluminación Interior LED - INPROTAR",
+          "keywords": "iluminación interior LED,downlight LED,panel LED,tubo LED,estanca LED",
+          "datePublished": "2024-08-20T15:55:50-04:00",
+          "dateModified": "2024-08-27T20:34:35-04:00",
+          "author": {
+            "@id": "https://inprotar.cl/author/spadmin/",
+            "name": "spadmin"
+          },
+          "publisher": {
+            "@id": "https://inprotar.cl/#person"
+          },
+          "description": "Iluminación interior LED que combina eficiencia energética, diseño moderno y tecnología avanzada. Nuestro portafolio de productos comparte características",
+          "name": "Iluminación Interior LED - INPROTAR",
+          "@id": "https://inprotar.cl/iluminacion-interior-led/#richSnippet",
+          "isPartOf": {
+            "@id": "https://inprotar.cl/iluminacion-interior-led/#webpage"
+          },
+          "image": {
+            "@id": "https://inprotar.cl/wp-content/uploads/2024/08/1625655634-ansell-estanca-led-tubular-apex-aplicacion-2-1024x683.webp"
+          },
+          "inLanguage": "es",
+          "mainEntityOfPage": {
+            "@id": "https://inprotar.cl/iluminacion-interior-led/#webpage"
+          }
+        }
+      ]
+    }
+  },
+  "bloques": [
+    {
+      "tipo": "hero",
+      "titulo": "Iluminación Interior LED",
+      "fondo": "/wp-content/uploads/2024/08/led-panel-62x62-office-lighting-1.jpg",
+      "oscurecer": 0.29,
+      "alto": 390
+    },
+    {
+      "tipo": "titulo",
+      "titulo": {
+        "texto": "Iluminación Interior LED para Espacios Eficientes y Conectados",
+        "nivel": "h2"
+      }
+    },
+    {
+      "tipo": "textoImagen",
+      "imagen": {
+        "src": "/wp-content/uploads/2024/08/1625655634-ansell-estanca-led-tubular-apex-aplicacion-2-1024x683.webp",
+        "alt": "",
+        "ancho": 800,
+        "alto": 534
+      },
+      "imagenAlLado": "derecha",
+      "texto_md": "Iluminación interior LED que combina eficiencia energética, diseño moderno y tecnología avanzada. Nuestro portafolio de productos comparte características técnicas destacadas que aseguran un rendimiento superior en cualquier entorno:\n\n- **Compatibilidad IoT e Interact:** Todos nuestros productos están preparados para ser gestionados de forma remota y en tiempo real a través del sistema Interact, ofreciendo control inteligente sobre la iluminación de tus espacios.\n- **Alta Eficiencia Lumínica:** Los productos del portafolio de Inprotar tienen eficiencias de hasta 156 lm/W, lo que se traduce en un mayor ahorro energético sin comprometer la calidad de la iluminación.\n\n- **Larga Vida Útil:** Con una vida útil de hasta 60,000 horas, nuestros productos requieren menos mantenimiento, lo que reduce significativamente los costos operativos.\n- **Diseño Robusto y Duradero:** Nuestras luminarias están diseñadas con materiales de alta calidad como aluminio y policarbonato, garantizando durabilidad y resistencia en cualquier entorno.\n- **Protección IP y IK:** Las luminarias LED de Inprotar ofrecen protección contra polvo, agua y golpes, asegurando un funcionamiento fiable en condiciones desafiantes.",
+      "botones": []
+    },
+    {
+      "tipo": "bannerImagen",
+      "fondo": "/wp-content/uploads/2024/08/shutterstock_238421026-min-scaled-1.jpg",
+      "oscurecer": 0.26,
+      "ladoTexto": "izquierda",
+      "titulo": "Ilumina con Inteligencia Y CONTROL",
+      "botones": [
+        {
+          "texto": "whatssapp",
+          "url": "https://wa.me/56990894601",
+          "estilo": "contornoClaro"
+        },
+        {
+          "texto": "Necesito una Visita",
+          "url": "https://wa.me/56990894601?text=Quiero%20agendar%20una%20visita",
+          "estilo": "contornoClaro"
+        }
+      ],
+      "antetitulo": "¿Listo para llevar la iluminación de tu espacio al siguiente nivel?",
+      "colorTitulo": "#09328b",
+      "texto_md": "Descubre cómo las soluciones LED de Inprotar, compatibles con sistemas IoT e Interact, pueden transformar tus interiores. Controla cada detalle de tu iluminación y maximiza la eficiencia energética. ¡Solicita tu cotización hoy y lleva tu espacio al siguiente nivel!"
+    },
+    {
+      "tipo": "fichas",
+      "fichas": [
+        {
+          "nombre": "Downlight LED CoreLine Gen5 (DN135B)",
+          "imagen": {
+            "src": "/wp-content/uploads/2024/08/GreenSpace-G6-Standard_Product_Photo-ADAM-60d0e75435764f61b9e7b065009db5c8-1024x683.jpg",
+            "alt": "downlight LED",
+            "ancho": 800,
+            "alto": 534
+          },
+          "especificaciones_md": "#### Espacificaciones técnicas\n\n- - **Potencia:** 14 W\n  - **Flujo Luminoso:** 1500 lm\n  - **Eficiencia Lumínica:** 107 lm/W\n  - **Temperatura de Color:** 4000 K\n  - **Índice de Reproducción Cromática (CRI):** ≥80\n  - **Conectividad:** Interact Ready\n  - **Vida útil:** 50,000 horas (L80)\n  - **Material:** Carcasa de aluminio, cubierta de policarbonato\n  - **Dimensiones:** 200x200x90 mm\n  - **Protección:** IP44 (protección contra salpicaduras de agua)\n  - **Dimmer:** Sí, compatible con sistema de control inalámbrico Interact"
+        },
+        {
+          "nombre": "Panel LED CoreLine Gen5 (RC132V)",
+          "imagen": {
+            "src": "/wp-content/uploads/2024/08/CoreLine-panel-G5-60x60-front-of-pack_SPP-e1724773823552.webp",
+            "alt": "panel LED",
+            "ancho": 375,
+            "alto": 268
+          },
+          "especificaciones_md": "#### Espacificaciones técnicas\n\n- **Potencia:** 28.5 W\n- **Flujo Luminoso:** 3600 lm\n- **Eficiencia Lumínica:** 125 lm/W\n- **Temperatura de Color:** 4000 K\n- **Índice de Reproducción Cromática (CRI):** ≥80\n- **Conectividad:** Interact Ready\n- **Dimensiones:** 595x595x70 mm\n- **Protección:** IP20/44 (protección contra polvo y salpicaduras), IK03 (protección contra impactos de 0.3 J)\n- **Material:** Carcasa de acero, cubierta de policarbonato\n- **Vida útil:** 50,000 horas (L80)\n- **Dimmer:** Sí, compatible con sistema de control inalámbrico Interact"
+        }
+      ]
+    },
+    {
+      "tipo": "fichas",
+      "fichas": [
+        {
+          "nombre": "Estanca LED CoreLine (WT120C)",
+          "imagen": {
+            "src": "/wp-content/uploads/2024/08/L1200-Standard_Product_Photo-ADAM-f8781ed8baac4b94b1a3ad9600abdc5c-e1724774173661-1024x403.jpg",
+            "alt": "estanca LED",
+            "ancho": 800,
+            "alto": 315
+          },
+          "especificaciones_md": "#### Espacificaciones técnicas\n\n- - - **Potencia:** 35 W\n    - **Flujo Luminoso:** 4200 lm\n    - **Eficiencia Lumínica:** 120 lm/W\n    - **Temperatura de Color:** 4000 K\n    - **Índice de Reproducción Cromática (CRI):** ≥80\n    - **Conectividad:** Interact Ready\n    - **Dimensiones:** 1200x70x75 mm\n    - **Protección:** IP65 (protección completa contra polvo y chorros de agua)\n    - **Material:** Carcasa de policarbonato\n    - **Vida útil:** 50,000 horas (L80)\n    - **Dimmer:** Sí, compatible con sistema de control inalámbrico Interact"
+        },
+        {
+          "nombre": "Tubo LED MasterConnect T8",
+          "imagen": {
+            "src": "/wp-content/uploads/2024/08/Application-Photo-Application_Photo-ADAM-335927f62669458095e5af4900a06578-1024x768.jpg",
+            "alt": "tubo LED",
+            "ancho": 800,
+            "alto": 600
+          },
+          "especificaciones_md": "#### Espacificaciones técnicas\n\n- - **Potencia:** 16 W\n  - **Flujo Luminoso:** 2500 lm\n  - **Eficiencia Lumínica:** 156 lm/W\n  - **Temperatura de Color:** 4000 K\n  - **Índice de Reproducción Cromática (CRI):** 83\n  - **Conectividad:** Interact Ready\n  - **Vida útil:** 60,000 horas\n  - **Regulable:** Sí, con sistema de control inalámbrico Interact\n  - **Material:** Tubo de policarbonato\n  - **Factor de Potencia:** >0.9, asegurando una eficiencia eléctrica óptima.\n  - **Ángulo de Apertura:** 160°, proporcionando una distribución uniforme de la luz.\n  - **Tecnología de Encendido:** Encendido instantáneo sin parpadeos, mejorando el confort visual y la seguridad en el entorno."
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "texto_md": "Nuestra cobertura de garantía no se limita solo a la carcasa de las luminarias, sino que también incluye componentes electrónicos clave, como los LED y los controladores de nuestros Downlight LED, Estanca LED, Panel LED y Tubo LED . Esto garantiza que la luminaria mantenga su rendimiento óptimo a lo largo del tiempo, proporcionando tranquilidad a nuestros clientes.",
+      "titulo": {
+        "texto": "5 años de garantía",
+        "nivel": "h2"
+      }
+    },
+    {
+      "tipo": "bannerImagen",
+      "fondo": "/wp-content/uploads/2024/08/luminariaphilips-ledinaire-slim-estanca-qmadis.jpg",
+      "oscurecer": 0.26,
+      "ladoTexto": "derecha",
+      "titulo": "Ilumina y Controla tus Estacionamientos con Precisión",
+      "botones": [
+        {
+          "texto": "whatssapp",
+          "url": "https://wa.me/56990894601",
+          "estilo": "contornoClaro"
+        },
+        {
+          "texto": "Necesito una Visita",
+          "url": "https://wa.me/56990894601?text=Quiero%20agendar%20una%20visita",
+          "estilo": "contornoClaro"
+        }
+      ],
+      "antetitulo": "Eficiencia y seguridad en cada rincón",
+      "colorTitulo": "#fff900",
+      "texto_md": "Asegura una iluminación perfecta en tus estacionamientos con las soluciones LED de Inprotar, diseñadas para optimizar el control y la eficiencia energética. Gestiona remotamente cada luz y crea un ambiente seguro para todos. ¡Contáctanos hoy y descubre cómo nuestras soluciones pueden transformar tu espacio!"
+    },
+    {
+      "tipo": "textoImagen",
+      "imagen": {
+        "src": "/wp-content/uploads/2024/08/Picturjhujhe1-1024x984.png",
+        "alt": "",
+        "ancho": 800,
+        "alto": 769
+      },
+      "imagenAlLado": "izquierda",
+      "texto_md": "La gestión de activos en iluminación industrial es una herramienta crucial para maximizar la eficiencia operativa y garantizar que tus luminarias conectadas funcionen de manera óptima en todo momento. Con sistemas de control avanzados como Interact, es posible monitorear el rendimiento de cada luminaria en tiempo real, recibir notificaciones automáticas sobre fallos y realizar mantenimientos preventivos. Esto no solo minimiza el tiempo de inactividad, sino que también asegura que la iluminación esté siempre en las condiciones adecuadas para evitar accidentes y mejorar la productividad.",
+      "botones": [],
+      "titulo": {
+        "texto": "¿Estás maximizando la eficiencia de tu industria con la gestión inteligente de tus activos de iluminación?",
+        "nivel": "h2"
+      }
+    },
+    {
+      "tipo": "faq",
+      "titulo": "Preguntas Frecuentes sobre Iluminación interior LED",
+      "preguntas": [
+        {
+          "pregunta": "¿Qué beneficios ofrece la iluminación LED de Inprotar en comparación con las soluciones tradicionales?",
+          "respuesta_md": "Los productos LED de Inprotar proporcionan una mayor eficiencia energética, con ahorros de hasta un 70% en comparación con la iluminación tradicional. Además, tienen una vida útil prolongada de hasta 60,000 horas, lo que reduce los costos de mantenimiento. También ofrecen una mejor calidad de luz, contribuyendo a un ambiente más confortable y productivo."
+        },
+        {
+          "pregunta": "¿Cómo funciona la integración con el sistema Interact?",
+          "respuesta_md": "Todos nuestros productos de iluminación interior LED están diseñados para ser compatibles con el sistema Interact. Esto permite gestionar y controlar la iluminación de forma remota a través de una aplicación, optimizando el uso de la energía y ajustando la iluminación en tiempo real según las necesidades del espacio."
+        },
+        {
+          "pregunta": "¿En qué entornos son ideales los paneles y downlights LED de Inprotar?",
+          "respuesta_md": "Nuestros paneles LED y downlights LED son ideales para oficinas, escuelas, hospitales y áreas comerciales. Proporcionan una iluminación uniforme y sin deslumbramientos, mejorando la comodidad visual y el rendimiento en entornos donde la calidad de la luz es clave."
+        },
+        {
+          "pregunta": "¿Qué tipo de protección ofrecen las luminarias estancas LED?",
+          "respuesta_md": "Las luminarias estancas LED de Inprotar están clasificadas con protección IP65, lo que significa que son completamente resistentes al polvo y protegidas contra chorros de agua. Esto las hace ideales para aplicaciones en entornos industriales, almacenes y estacionamientos donde se requiere una luminaria robusta y duradera."
+        },
+        {
+          "pregunta": "¿Qué ventajas ofrece el MasterConnect LEDtube T8 frente a otros tubos LED?",
+          "respuesta_md": "El MasterConnect LEDtube T8 no solo es altamente eficiente, con 156 lm/W, sino que también ofrece conectividad IoT a través de Interact, lo que permite un control total de la iluminación de forma remota. Además, su encendido instantáneo sin parpadeos mejora la seguridad y el confort visual, mientras que su ángulo de apertura de 160° asegura una distribución uniforme de la luz."
+        },
+        {
+          "pregunta": "¿Qué opciones de personalización y control ofrece la iluminación interior LED de Inprotar?",
+          "respuesta_md": "Nuestros productos LED, al estar integrados con Interact, permiten la creación de escenas de iluminación personalizadas, horarios de encendido y apagado automático, y la optimización del uso energético en función de la ocupación del espacio. Esta flexibilidad garantiza que la iluminación se adapte perfectamente a las necesidades cambiantes de cualquier entorno."
+        }
+      ]
+    },
+    {
+      "tipo": "cierre",
+      "texto": "Para más información sobre cómo Inprotar puede optimizar la iluminación interior LED conectadas¡contáctenos hoy mismo!"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "ruta": "/2024/08/26/iluminacion-para-acuicultura-en-la-salmonicultura-chilena-mejorando-la-productividad/",
+  "titulo": "Iluminación para Acuicultura en la Salmonicultura Chilena: Mejorando la Productividad",
+  "fecha": "2024-08-26T22:50:55-04:00",
+  "imagen": {
+    "src": "/wp-content/uploads/2024/07/1687265348163.jpeg",
+    "alt": "",
+    "ancho": 452,
+    "alto": 350
+  },
+  "unidad": "iluminacion",
+  "marcas": [
+    "philips"
+  ],
+  "cuerpo_md": "**Iluminación para Acuicultura en la Salmonicultura Chilena: Mejorando la Productividad**\n\nLa salmonicultura en Chile se beneficia significativamente de la iluminación artificial. Esta tecnología se utiliza para controlar el fotoperiodo, que influye directamente en procesos biológicos críticos como la esmoltificación (la transformación de los alevines en peces juveniles adaptados al agua salada) y el crecimiento continuo, incluso en condiciones de baja luz natural.\n\nLa iluminación LED en la acuicultura no solo mejora el bienestar de los salmones al reducir el estrés, sino que también permite mantener una tasa de alimentación óptima, lo que resulta en un crecimiento más rápido y uniforme. Según estudios recientes, la implementación de luces artificiales en los cultivos de salmón puede aumentar la eficiencia de conversión alimenticia y reducir el tiempo de producción, lo que se traduce en un producto de mejor calidad y más rentable.\n\n![](/wp-content/uploads/2024/07/1687265348163.jpeg)![](/wp-content/uploads/2024/07/1687265349787-e1722464873859.png)**</iluminacion-para-acuicultura/>Soluciones de Inprotar para la Iluminación en Acuicultura:**\n\nInprotar ofrece una gama de productos diseñados específicamente para acuicultura, entre los que destacan:\n\n- **Luminarias LED sumergibles:** Estas luminarias permiten una distribución homogénea de la luz en ambientes acuáticos, favoreciendo el crecimiento uniforme de los salmones.\n- **Control de fotoperiodo:** Los sistemas de iluminación de Inprotar permiten ajustar el ciclo de luz para simular condiciones óptimas, manteniendo los salmones activos y mejorando su tasa de conversión alimenticia.\n- **Sistemas de control inteligente:** Integrados con sensores que monitorean la calidad del agua y el comportamiento de los peces, estos sistemas optimizan automáticamente la iluminación, asegurando un ambiente de cultivo ideal.\n![](/wp-content/uploads/2024/08/1369319.jpeg)\n\n**Beneficios para la Salmonicultura en Chile:**\n\n1. **Aumento de la productividad:** Al controlar el ciclo de luz, se acelera el crecimiento de los salmones y se mejora la conversión alimenticia.\n2. **Reducción de costos operativos:** Las luminarias LED de alta eficiencia energética reducen el consumo de energía.\n3. **Mejora en la calidad del producto final:** La iluminación constante y controlada reduce el estrés de los peces, mejorando su salud y, en consecuencia, la calidad del salmón.\n\nEn resumen, las soluciones de iluminación de Inprotar no solo optimizan el rendimiento de las granjas de salmón en Chile, sino que también garantizan un enfoque sostenible y eficiente en la acuicultura.\n\nPara conocer más sobre cómo Inprotar puede ayudar a mejorar tu operación de salmonicultura, visita [Inprotar – Iluminación para Acuicultura](/iluminacion-para-acuicultura/).",
+  "seo": {
+    "titulo": "Iluminación para Acuicultura en la Salmonicultura Chilena: Mejorando la Productividad - INPROTAR",
+    "descripcion": "Iluminación para Acuicultura en la Salmonicultura Chilena: Mejorando la Productividad ",
+    "imagen": {
+      "src": "/wp-content/uploads/2024/07/1687265348163.jpeg",
+      "alt": "Iluminación para Acuicultura en la Salmonicultura Chilena: Mejorando la Productividad",
+      "ancho": 452,
+      "alto": 350
+    },
+    "publicado": "2024-08-26T22:50:55-04:00",
+    "modificado": "2025-03-25T19:56:50-04:00",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": [
+            "Organization",
+            "Person"
+          ],
+          "@id": "https://inprotar.cl/#person",
+          "name": "INPROTAR",
+          "url": "https://inprotar.cl",
+          "email": "etardones@inprotar.cl",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "CHAMISERO",
+            "addressLocality": "COLINA",
+            "addressRegion": "REGION METROPOLITANA",
+            "addressCountry": "CHILE"
+          },
+          "logo": {
+            "@type": "ImageObject",
+            "@id": "https://inprotar.cl/#logo",
+            "url": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro2.png",
+            "contentUrl": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro2.png",
+            "caption": "INPROTAR",
+            "inLanguage": "es",
+            "width": "360",
+            "height": "194"
+          },
+          "telephone": "+56 9 9089 4601",
+          "image": {
+            "@id": "https://inprotar.cl/#logo"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://inprotar.cl/#website",
+          "url": "https://inprotar.cl",
+          "name": "INPROTAR",
+          "alternateName": "INPROTAR",
+          "publisher": {
+            "@id": "https://inprotar.cl/#person"
+          },
+          "inLanguage": "es"
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://inprotar.cl/wp-content/uploads/2024/07/1687265348163.jpeg",
+          "url": "https://inprotar.cl/wp-content/uploads/2024/07/1687265348163.jpeg",
+          "width": "452",
+          "height": "350",
+          "inLanguage": "es"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://inprotar.cl/2024/08/26/iluminacion-para-acuicultura-en-la-salmonicultura-chilena-mejorando-la-productividad/#webpage",
+          "url": "https://inprotar.cl/2024/08/26/iluminacion-para-acuicultura-en-la-salmonicultura-chilena-mejorando-la-productividad/",
+          "name": "Iluminación para Acuicultura en la Salmonicultura Chilena: Mejorando la Productividad - INPROTAR",
+          "datePublished": "2024-08-26T22:50:55-04:00",
+          "dateModified": "2025-03-25T19:56:50-04:00",
+          "isPartOf": {
+            "@id": "https://inprotar.cl/#website"
+          },
+          "primaryImageOfPage": {
+            "@id": "https://inprotar.cl/wp-content/uploads/2024/07/1687265348163.jpeg"
+          },
+          "inLanguage": "es"
+        },
+        {
+          "@type": "Person",
+          "@id": "https://inprotar.cl/author/spadmin/",
+          "name": "spadmin",
+          "url": "https://inprotar.cl/author/spadmin/",
+          "image": {
+            "@type": "ImageObject",
+            "@id": "https://secure.gravatar.com/avatar/04cbec8d3415f60b740fe70001182044fe83baa9f72d24541dfc338db2692af6?s=96&d=mm&r=g",
+            "url": "https://secure.gravatar.com/avatar/04cbec8d3415f60b740fe70001182044fe83baa9f72d24541dfc338db2692af6?s=96&d=mm&r=g",
+            "caption": "spadmin",
+            "inLanguage": "es"
+          },
+          "sameAs": [
+            "https://sistemasdeiluminacion.cl"
+          ]
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Iluminación para Acuicultura en la Salmonicultura Chilena: Mejorando la Productividad - INPROTAR",
+          "datePublished": "2024-08-26T22:50:55-04:00",
+          "dateModified": "2025-03-25T19:56:50-04:00",
+          "articleSection": "Iluminación",
+          "author": {
+            "@id": "https://inprotar.cl/author/spadmin/",
+            "name": "spadmin"
+          },
+          "publisher": {
+            "@id": "https://inprotar.cl/#person"
+          },
+          "description": "Iluminación para Acuicultura en la Salmonicultura Chilena: Mejorando la Productividad ",
+          "name": "Iluminación para Acuicultura en la Salmonicultura Chilena: Mejorando la Productividad - INPROTAR",
+          "@id": "https://inprotar.cl/2024/08/26/iluminacion-para-acuicultura-en-la-salmonicultura-chilena-mejorando-la-productividad/#richSnippet",
+          "isPartOf": {
+            "@id": "https://inprotar.cl/2024/08/26/iluminacion-para-acuicultura-en-la-salmonicultura-chilena-mejorando-la-productividad/#webpage"
+          },
+          "image": {
+            "@id": "https://inprotar.cl/wp-content/uploads/2024/07/1687265348163.jpeg"
+          },
+          "inLanguage": "es",
+          "mainEntityOfPage": {
+            "@id": "https://inprotar.cl/2024/08/26/iluminacion-para-acuicultura-en-la-salmonicultura-chilena-mejorando-la-productividad/#webpage"
+          }
+        }
+      ]
+    }
+  }
+}

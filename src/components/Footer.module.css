@@ -1,0 +1,290 @@
+.footerWrap {
+  position: relative;
+}
+
+.footer {
+  position: relative;
+  min-height: 387px;
+  display: flex;
+  align-items: center;
+  background-color: #393f3a;
+  background-image: url("/wp-content/uploads/2024/06/dark-room-with-yellow-line-that-says-word-steel-scaled.jpg");
+  background-position: -314px -529px;
+}
+.footer::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(360deg, #7a7a7a14 0%, #000000 94%);
+}
+
+.inner {
+  position: relative;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.brandCol {
+  width: 260px;
+  flex-shrink: 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.logo {
+  display: block;
+  text-align: center;
+}
+.logo img {
+  width: 240px;
+  height: auto;
+}
+.tagline {
+  margin: 0 0 14.4px;
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  color: #fff;
+  text-align: center;
+}
+
+.navCol {
+  width: 325px;
+  flex-shrink: 0;
+  padding: 10px;
+}
+.navCol2 {
+  width: 296px;
+}
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav li {
+  position: relative;
+}
+.nav a {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 4px 42px;
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+}
+.nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 3px;
+  background: #fff;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.nav a:hover::after,
+.nav a.active::after {
+  opacity: 1;
+}
+.subCaret {
+  margin-left: 4px;
+}
+
+/* Submenús desplegables (Areas de negocio) */
+.sub {
+  position: absolute;
+  left: 100%;
+  top: 0;
+  min-width: 260px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 5;
+  display: none;
+}
+.hasSub:hover > .sub {
+  display: block;
+}
+.sub a {
+  color: #33373d;
+  padding: 13px 20px;
+  font-size: 13px;
+}
+.sub a:hover {
+  background: #3f444b;
+  color: #fff;
+}
+.sub a::after {
+  display: none;
+}
+
+.formCol {
+  flex: 1;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+.formBox {
+  margin-top: -140px;
+  margin-bottom: 0;
+  padding: 20px 20px 40px;
+  background: #000;
+  box-shadow: -1px -9px 28px -1px rgba(0, 0, 0, 0.18);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.formTitle {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 47px;
+  font-weight: 500;
+  line-height: 1;
+  color: #fff;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.field {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.field label {
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1;
+  color: #fff;
+}
+.field input,
+.field textarea {
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 15px;
+  line-height: 1.4;
+  color: #b8b4b4;
+  background: #131313;
+  border: 1px solid #69727d;
+  border-radius: 3px;
+  padding: 5px 14px;
+  min-height: 40px;
+  width: 100%;
+  outline: none;
+}
+.field textarea {
+  resize: vertical;
+}
+.field input::placeholder,
+.field textarea::placeholder {
+  color: #7a7a7a;
+}
+.submit {
+  width: 100%;
+  background: #16161600;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 1px;
+  padding: 12px 24px;
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1;
+  cursor: pointer;
+  margin-top: 0;
+}
+.submit:hover {
+  background: #ffffff1a;
+}
+.sent {
+  color: #fff;
+  font-size: 14px;
+  margin: 6px 0 0;
+}
+.formSocial a {
+  padding: 12px;
+}
+
+.credits {
+  background: #fff;
+  padding: 10px;
+  text-align: center;
+}
+.credits p {
+  margin: 0;
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 15px;
+  line-height: 22.5px;
+  color: #494141;
+}
+.credits a {
+  color: #cc3366;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .footer {
+    background-position: 0 0;
+    background-size: cover;
+  }
+  .inner {
+    flex-wrap: wrap;
+    padding: 0 10px;
+  }
+  .brandCol,
+  .navCol,
+  .navCol2 {
+    width: calc(33.33% - 14px);
+  }
+  .formCol {
+    flex: 1 1 100%;
+  }
+  .formBox {
+    margin-top: 23px;
+    margin-bottom: 20px;
+  }
+}
+
+/* Móvil */
+@media (max-width: 767px) {
+  .footer {
+    background-position: -115px -678px;
+    background-size: auto;
+  }
+  .footer::before {
+    opacity: 0.69;
+  }
+  .brandCol,
+  .navCol,
+  .navCol2 {
+    width: 100%;
+  }
+  .nav a {
+    font-size: 13px;
+    padding: 4px 20px;
+    justify-content: center;
+  }
+  .formCol {
+    padding: 0 13px;
+  }
+  .formBox {
+    padding: 16px;
+  }
+  .formTitle {
+    font-size: 35px;
+  }
+  .sub {
+    position: static;
+    box-shadow: none;
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "ruta": "/conductores-electricos-chile/",
+  "plantilla": "lineaProducto",
+  "unidad": "suministros",
+  "marcas": [
+    "inprotar-conductores"
+  ],
+  "protegida": true,
+  "seo": {
+    "titulo": "Conductores Eléctricos Chile - INPROTAR",
+    "descripcion": "Conductores elctricos de alta resistencia química y mecánica, flexibilidad comprobada y eficiencia garantizada para proyectos industriales y mineros críticos.",
+    "imagen": {
+      "src": "/wp-content/uploads/2025/03/conductores-electricos-chile-e1742929730332.jpg",
+      "alt": "conductores electricos",
+      "ancho": 900,
+      "alto": 552
+    },
+    "publicado": "2025-03-25T14:38:54-04:00",
+    "modificado": "2025-03-25T16:27:38-04:00",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": [
+            "Organization",
+            "Person"
+          ],
+          "@id": "https://inprotar.cl/#person",
+          "name": "INPROTAR",
+          "url": "https://inprotar.cl",
+          "email": "etardones@inprotar.cl",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "CHAMISERO",
+            "addressLocality": "COLINA",
+            "addressRegion": "REGION METROPOLITANA",
+            "addressCountry": "CHILE"
+          },
+          "logo": {
+            "@type": "ImageObject",
+            "@id": "https://inprotar.cl/#logo",
+            "url": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro2.png",
+            "contentUrl": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro2.png",
+            "caption": "INPROTAR",
+            "inLanguage": "es",
+            "width": "360",
+            "height": "194"
+          },
+          "telephone": "+56 9 9089 4601",
+          "image": {
+            "@id": "https://inprotar.cl/#logo"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://inprotar.cl/#website",
+          "url": "https://inprotar.cl",
+          "name": "INPROTAR",
+          "alternateName": "INPROTAR",
+          "publisher": {
+            "@id": "https://inprotar.cl/#person"
+          },
+          "inLanguage": "es"
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://inprotar.cl/wp-content/uploads/2025/03/conductores-electricos-chile-e1742929730332.jpg",
+          "url": "https://inprotar.cl/wp-content/uploads/2025/03/conductores-electricos-chile-e1742929730332.jpg",
+          "width": "200",
+          "height": "200",
+          "inLanguage": "es"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://inprotar.cl/conductores-electricos-chile/#webpage",
+          "url": "https://inprotar.cl/conductores-electricos-chile/",
+          "name": "Conductores Eléctricos Chile - INPROTAR",
+          "datePublished": "2025-03-25T14:38:54-04:00",
+          "dateModified": "2025-03-25T16:27:38-04:00",
+          "isPartOf": {
+            "@id": "https://inprotar.cl/#website"
+          },
+          "primaryImageOfPage": {
+            "@id": "https://inprotar.cl/wp-content/uploads/2025/03/conductores-electricos-chile-e1742929730332.jpg"
+          },
+          "inLanguage": "es"
+        },
+        {
+          "@type": "Person",
+          "@id": "https://inprotar.cl/author/spadmin/",
+          "name": "spadmin",
+          "url": "https://inprotar.cl/author/spadmin/",
+          "image": {
+            "@type": "ImageObject",
+            "@id": "https://secure.gravatar.com/avatar/04cbec8d3415f60b740fe70001182044fe83baa9f72d24541dfc338db2692af6?s=96&d=mm&r=g",
+            "url": "https://secure.gravatar.com/avatar/04cbec8d3415f60b740fe70001182044fe83baa9f72d24541dfc338db2692af6?s=96&d=mm&r=g",
+            "caption": "spadmin",
+            "inLanguage": "es"
+          },
+          "sameAs": [
+            "https://sistemasdeiluminacion.cl"
+          ]
+        },
+        {
+          "@type": "Article",
+          "headline": "Conductores Eléctricos Chile - INPROTAR",
+          "datePublished": "2025-03-25T14:38:54-04:00",
+          "dateModified": "2025-03-25T16:27:38-04:00",
+          "author": {
+            "@id": "https://inprotar.cl/author/spadmin/",
+            "name": "spadmin"
+          },
+          "publisher": {
+            "@id": "https://inprotar.cl/#person"
+          },
+          "description": "Conductores elctricos de alta resistencia química y mecánica, flexibilidad comprobada y eficiencia garantizada para proyectos industriales y mineros críticos.",
+          "name": "Conductores Eléctricos Chile - INPROTAR",
+          "@id": "https://inprotar.cl/conductores-electricos-chile/#richSnippet",
+          "isPartOf": {
+            "@id": "https://inprotar.cl/conductores-electricos-chile/#webpage"
+          },
+          "image": {
+            "@id": "https://inprotar.cl/wp-content/uploads/2025/03/conductores-electricos-chile-e1742929730332.jpg"
+          },
+          "inLanguage": "es",
+          "mainEntityOfPage": {
+            "@id": "https://inprotar.cl/conductores-electricos-chile/#webpage"
+          }
+        }
+      ]
+    }
+  },
+  "bloques": [
+    {
+      "tipo": "heroDividido",
+      "antetitulo": "Garantiza la Continuidad Operativa con",
+      "titulo": "Conductores Eléctricos Industriales Certificados",
+      "texto_md": "Conductores elctricos de alta resistencia química y mecánica, flexibilidad comprobada y eficiencia garantizada para proyectos industriales y mineros críticos.",
+      "boton": {
+        "texto": "Solicita Asesoría Técnica Especializada",
+        "url": "https://api.whatsapp.com/send?phone=+56990894601",
+        "estilo": "contorno"
+      },
+      "imagen": {
+        "src": "/wp-content/uploads/2025/03/conductores-electricos-chile-e1742929730332.jpg",
+        "alt": "conductores electricos",
+        "ancho": 800,
+        "alto": 491
+      }
+    },
+    {
+      "tipo": "productos",
+      "titulo": {
+        "texto": "Nuestros conductores electricos",
+        "nivel": "h2"
+      },
+      "productos": [
+        {
+          "nombre": "Cable Sumergible Industrial Alta Resistencia",
+          "url": "/producto/cable-sumergible-industrial-alta-resistencia/",
+          "imagen": {
+            "src": "/wp-content/uploads/2025/03/cable-sumergible.png",
+            "alt": "cable sumergible",
+            "ancho": 800,
+            "alto": 800
+          },
+          "puntos": [
+            "Alta resistencia química, ideal para entornos sumergidos en procesos industriales.",
+            "Versiones 3G/4G desde 2,5 mm² hasta 10 mm², tensión nominal hasta 1 kV."
+          ]
+        },
+        {
+          "nombre": "Cordon de Fuerza Industrial Alta Resistencia",
+          "url": "/producto/cordon-de-fuerza-industrial-alta-resistencia/",
+          "imagen": {
+            "src": "/wp-content/uploads/2025/03/Cordon-de-fuerza-industrial.png",
+            "alt": "Cordon de fuerza industrial",
+            "ancho": 800,
+            "alto": 800
+          },
+          "puntos": [
+            "Soportan condiciones exigentes en instalaciones industriales y mineras.",
+            "Versiones disponibles: 3G/4G, calibres 16 AWG (1,5 mm²) y 14 AWG (2,5 mm²)."
+          ]
+        },
+        {
+          "nombre": "Cable Apantallado Instrumentación/Comunicaciones",
+          "url": "/producto/cable-apantallado-instrumentacion-comunicaciones/",
+          "imagen": {
+            "src": "/wp-content/uploads/2025/03/Cable-instrumentacion.png",
+            "alt": "Cable instrumentación",
+            "ancho": 800,
+            "alto": 800
+          },
+          "puntos": [
+            "Apantallado por par/triada y total, para eliminar interferencias electromagnéticas en procesos críticos.",
+            "Disponible en configuraciones 1P, 2P, 1T, 2T (16 AWG)."
+          ]
+        },
+        {
+          "nombre": "Cable Minero SHD-GC+Fo – 3C4/0 AWG x Tierras + Hilo Piloto (15 kV / 8 kV)",
+          "url": "/producto/cable-minero-shd-gcfo-3c4-0-awg-x-tierras-hilo-piloto-15-kv-8-kv/",
+          "imagen": {
+            "src": "/wp-content/uploads/2025/03/cable-minero.png",
+            "alt": "cable minero",
+            "ancho": 800,
+            "alto": 800
+          },
+          "puntos": [
+            "Alta tensión hasta 15 kV/8 kV, configuración especial para maquinaria pesada.",
+            "Cubierta resistente al desgaste extremo, rollos de 300 metros."
+          ]
+        },
+        {
+          "nombre": "Cordon de Control Industrial 16 AWG – Alta Resistencia",
+          "url": "/producto/cordon-de-control-industrial-16-awg-alta-resistencia/",
+          "imagen": {
+            "src": "/wp-content/uploads/2025/03/cable-de-control.png",
+            "alt": "",
+            "ancho": 800,
+            "alto": 800
+          },
+          "puntos": [
+            "Alta resistencia para señales de control, disponibles en 3G, 5G, 7G, 12G x 16 AWG.",
+            "Diseñados específicamente para tableros eléctricos industriales y automatización"
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "textoImagen",
+      "titulo": {
+        "texto": "¡Conduce tu proyecto al éxito!",
+        "nivel": "h2"
+      },
+      "texto_md": "**⚡ ¿Buscas Energía Confiable?**\n\nNuestros conductores eléctricos no solo transmiten energía, también transmiten confianza, resistencia y durabilidad. Elige seguridad, elige calidad, elige Inprotar.",
+      "imagen": {
+        "src": "/wp-content/uploads/2025/03/experto-electrico-chile-1-1024x835.png",
+        "alt": "",
+        "ancho": 800,
+        "alto": 652
+      },
+      "imagenAlLado": "derecha",
+      "botones": [
+        {
+          "texto": "Conecta con un Experto",
+          "url": "https://api.whatsapp.com/send?phone=+56990894601",
+          "estilo": "primario"
+        }
+      ]
+    },
+    {
+      "tipo": "columnas",
+      "columnas": [
+        {
+          "titulo": "¿Por qué elegir conductores Inprotar?",
+          "texto_md": "- **Resistencia Comprobada**: Materiales certificados para ambientes industriales severos.\n- **Máxima Fiabilidad**: Reduce el riesgo de interrupciones operativas con productos diseñados para alta exigencia.\n- **Cumplimiento Normativo**: Nuestros cables cumplen con normativas IEC, ICEA, UL, VDE.\n- **Reducción de Costos**: Larga vida útil y bajo mantenimiento que se traduce en ahorro directo."
+        },
+        {
+          "titulo": "¿Para qué industrias?",
+          "texto_md": "Nuestros conductores eléctricos están especialmente desarrollados para:\n\n- **Industria Minera**: Equipos móviles, faenas subterráneas y superficiales.\n- **Plantas Industriales**: Automatización, instrumentación, y control de procesos.\n- **Proyectos Energéticos**: Centrales eléctricas, subestaciones y parques de generación renovable.\n- **Industria Petroquímica**: Instalaciones en áreas con alta concentración química y abrasiva.\n- **Construcción Industrial**: Edificaciones especializadas con requerimientos eléctricos exigentes."
+        }
+      ]
+    },
+    {
+      "tipo": "bandaCta",
+      "titulo": "Soporte técnico especializado",
+      "texto_md": "Recibe asesoría técnica personalizada de nuestro equipo especializado y optimiza la selección del conductor ideal para tus requerimientos operativos.",
+      "boton": {
+        "texto": "Contacta al Equipo Técnico",
+        "url": "https://api.whatsapp.com/send?phone=+56990894601",
+        "estilo": "primario"
+      },
+      "tema": "claro"
+    }
+  ]
+}

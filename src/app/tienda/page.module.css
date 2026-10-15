@@ -1,0 +1,111 @@
+/* Generado a partir del diseño Elementor original (escritorio + móvil). */
+.c_b7b6954 {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 10px;
+  margin: -131px 0px 0px 0px;
+  min-height: 277px;
+  background-color: rgb(27, 27, 27);
+}
+.c_b7b6954_in {
+  width: 100%;
+  max-width: min(100%, 1140px);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 0px;
+  flex-grow: 1;
+}
+.w_3bb68eb {
+  max-width: 100%;
+  margin: 0px 0px 19px 0px;
+  margin-block: 0;
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1;
+  color: rgb(252, 252, 252);
+  text-align: center;
+}
+.c_db7fbd4 {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 10px;
+}
+.c_db7fbd4_in {
+  width: 100%;
+  max-width: min(100%, 1140px);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px 0px;
+  flex-grow: 1;
+}
+.w_1482f46 {
+  height: 50px;
+}
+.c_7941785 {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 10px;
+}
+.c_7941785_in {
+  width: 100%;
+  max-width: min(100%, 1140px);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px 0px;
+  flex-grow: 1;
+}
+.c_0823c46 {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 10px;
+}
+.c_0823c46_in {
+  width: 100%;
+  max-width: min(100%, 1140px);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px 0px;
+  flex-grow: 1;
+}
+.w_0a54143 {
+  height: 150px;
+}
+.c_b7b6954 {
+  margin-top: -4.8px;
+}
+
+@media (max-width: 767px) {
+  .c_b7b6954_in {
+    flex-wrap: wrap;
+    max-width: min(100%, 767px);
+  }
+  .w_3bb68eb {
+    font-size: 28px;
+  }
+  .c_db7fbd4_in {
+    flex-wrap: wrap;
+    max-width: min(100%, 767px);
+  }
+  .c_7941785_in {
+    flex-wrap: wrap;
+    max-width: min(100%, 767px);
+  }
+  .c_0823c46_in {
+    flex-wrap: wrap;
+    max-width: min(100%, 767px);
+  }
+  .c_b7b6954 {
+    margin-top: 23.6px;
+  }
+}

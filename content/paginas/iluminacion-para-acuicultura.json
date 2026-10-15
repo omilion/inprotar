@@ -1,0 +1,326 @@
+{
+  "ruta": "/iluminacion-para-acuicultura/",
+  "plantilla": "lineaProducto",
+  "unidad": "iluminacion",
+  "marcas": [
+    "philips"
+  ],
+  "protegida": true,
+  "seo": {
+    "titulo": "Iluminación para Acuicultura​ Chile - INPROTAR",
+    "descripcion": "Iluminación para Acuicultura​ en ambientes marinos, nuestras soluciones LED están diseñadas para soportar las condiciones más extremas y proporcionar una luz",
+    "imagen": {
+      "src": "/wp-content/uploads/2024/07/header-land-16-9.png",
+      "alt": "Iluminación para Acuicultura",
+      "ancho": 1920,
+      "alto": 1080
+    },
+    "publicado": "2024-07-31T21:13:05-04:00",
+    "modificado": "2024-08-26T22:49:20-04:00",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": [
+            "Organization",
+            "Person"
+          ],
+          "@id": "https://inprotar.cl/#person",
+          "name": "INPROTAR",
+          "url": "https://inprotar.cl",
+          "email": "etardones@inprotar.cl",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "CHAMISERO",
+            "addressLocality": "COLINA",
+            "addressRegion": "REGION METROPOLITANA",
+            "addressCountry": "CHILE"
+          },
+          "logo": {
+            "@type": "ImageObject",
+            "@id": "https://inprotar.cl/#logo",
+            "url": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro2.png",
+            "contentUrl": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro2.png",
+            "caption": "INPROTAR",
+            "inLanguage": "es",
+            "width": "360",
+            "height": "194"
+          },
+          "telephone": "+56 9 9089 4601",
+          "image": {
+            "@id": "https://inprotar.cl/#logo"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://inprotar.cl/#website",
+          "url": "https://inprotar.cl",
+          "name": "INPROTAR",
+          "alternateName": "INPROTAR",
+          "publisher": {
+            "@id": "https://inprotar.cl/#person"
+          },
+          "inLanguage": "es"
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://inprotar.cl/wp-content/uploads/2024/07/header-land-16-9-1024x576.png",
+          "url": "https://inprotar.cl/wp-content/uploads/2024/07/header-land-16-9-1024x576.png",
+          "width": "200",
+          "height": "200",
+          "inLanguage": "es"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://inprotar.cl/iluminacion-para-acuicultura/#webpage",
+          "url": "https://inprotar.cl/iluminacion-para-acuicultura/",
+          "name": "Iluminación para Acuicultura​ Chile - INPROTAR",
+          "datePublished": "2024-07-31T21:13:05-04:00",
+          "dateModified": "2024-08-26T22:49:20-04:00",
+          "isPartOf": {
+            "@id": "https://inprotar.cl/#website"
+          },
+          "primaryImageOfPage": {
+            "@id": "https://inprotar.cl/wp-content/uploads/2024/07/header-land-16-9-1024x576.png"
+          },
+          "inLanguage": "es"
+        },
+        {
+          "@type": "Person",
+          "@id": "https://inprotar.cl/author/spadmin/",
+          "name": "spadmin",
+          "url": "https://inprotar.cl/author/spadmin/",
+          "image": {
+            "@type": "ImageObject",
+            "@id": "https://secure.gravatar.com/avatar/04cbec8d3415f60b740fe70001182044fe83baa9f72d24541dfc338db2692af6?s=96&d=mm&r=g",
+            "url": "https://secure.gravatar.com/avatar/04cbec8d3415f60b740fe70001182044fe83baa9f72d24541dfc338db2692af6?s=96&d=mm&r=g",
+            "caption": "spadmin",
+            "inLanguage": "es"
+          },
+          "sameAs": [
+            "https://sistemasdeiluminacion.cl"
+          ]
+        },
+        {
+          "@type": "Article",
+          "headline": "Iluminación para Acuicultura​ Chile - INPROTAR",
+          "keywords": "Iluminación para Acuicultura",
+          "datePublished": "2024-07-31T21:13:05-04:00",
+          "dateModified": "2024-08-26T22:49:20-04:00",
+          "author": {
+            "@id": "https://inprotar.cl/author/spadmin/",
+            "name": "spadmin"
+          },
+          "publisher": {
+            "@id": "https://inprotar.cl/#person"
+          },
+          "description": "Iluminación para Acuicultura​ en ambientes marinos, nuestras soluciones LED están diseñadas para soportar las condiciones más extremas y proporcionar una luz",
+          "name": "Iluminación para Acuicultura​ Chile - INPROTAR",
+          "@id": "https://inprotar.cl/iluminacion-para-acuicultura/#richSnippet",
+          "isPartOf": {
+            "@id": "https://inprotar.cl/iluminacion-para-acuicultura/#webpage"
+          },
+          "image": {
+            "@id": "https://inprotar.cl/wp-content/uploads/2024/07/header-land-16-9-1024x576.png"
+          },
+          "inLanguage": "es",
+          "mainEntityOfPage": {
+            "@id": "https://inprotar.cl/iluminacion-para-acuicultura/#webpage"
+          }
+        }
+      ]
+    }
+  },
+  "bloques": [
+    {
+      "tipo": "hero",
+      "titulo": "Iluminación para Acuicultura",
+      "fondo": "/wp-content/uploads/2024/07/1702473895081.jpeg",
+      "oscurecer": 0.29,
+      "alto": 390
+    },
+    {
+      "tipo": "titulo",
+      "titulo": {
+        "texto": "Iluminación para Acuicultura Maximiza la Producción y el Bienestar de los Peces",
+        "nivel": "h2"
+      }
+    },
+    {
+      "tipo": "fichas",
+      "fichas": [
+        {
+          "nombre": "Iluminación para Acuicultura Marina",
+          "imagen": {
+            "src": "/wp-content/uploads/2024/07/header-land-16-9-1024x576.png",
+            "alt": "",
+            "ancho": 800,
+            "alto": 450,
+            "pie": "Iluminación para Acuicultura"
+          },
+          "especificaciones_md": "Iluminación para Acuicultura en ambientes marinos, nuestras soluciones LED están diseñadas para soportar las condiciones más extremas y proporcionar una luz uniforme sin sombras ni parpadeos, que pueden causar estrés a los peces.\n\n- **Materiales de Calidad Naval**: Fabricadas con los mejores materiales para asegurar su durabilidad y resistencia.\n\n- **Control del Ciclo de Vida**: La luz influye en todas las fases del ciclo de vida de los peces, desde la supervivencia de las ovas y larvas hasta la optimización del desove."
+        },
+        {
+          "nombre": "Iluminación para Acuicultura en Tierra",
+          "imagen": {
+            "src": "/wp-content/uploads/2024/08/1369319.jpeg",
+            "alt": "",
+            "ancho": 960,
+            "alto": 642,
+            "pie": "Iluminación para Acuicultura"
+          },
+          "especificaciones_md": "En acuicultura en tierra, nuestras soluciones proporcionan un entorno controlado y optimizado para el crecimiento de los peces.\n\n- **Espectro de Luz Específico para Peces**: Imitamos la luz natural del día para proporcionar las condiciones óptimas de iluminación.\n- **Eliminación de Distorsiones**: Evitamos sombras, parpadeos u otros elementos que puedan generar estrés en los peces, asegurando una luz uniforme en toda la instalación."
+        }
+      ]
+    },
+    {
+      "tipo": "bannerImagen",
+      "fondo": "/wp-content/uploads/2024/07/Aquaculture-lighting-3.png",
+      "oscurecer": 0.35,
+      "ladoTexto": "izquierda",
+      "titulo": "Lleva la acuicultura al siguiente nivel",
+      "botones": [
+        {
+          "texto": "whatssapp",
+          "url": "https://wa.me/56990894601",
+          "estilo": "contornoClaro"
+        },
+        {
+          "texto": "Necesito una Visita",
+          "url": "https://wa.me/56990894601?text=Quiero%20agendar%20una%20visita",
+          "estilo": "contornoClaro"
+        }
+      ],
+      "antetitulo": "Intensidad optimizada de luz azul y verde con haz de luz dirigido",
+      "colorTitulo": "#0fb924",
+      "texto_md": "La luz influye en todas las fases del ciclo de vida de los peces y puede utilizarse como herramienta de gestión para controlar la supervivencia de las ovas y de las larvas, la manipulación del tiempo de esmoltificación, el control de la maduración durante la fase de crecimiento y la optimización del desove de los reproductores."
+    },
+    {
+      "tipo": "fichas",
+      "fichas": [
+        {
+          "nombre": "Portafolio Iluminación para Acuicultura Marina",
+          "imagen": {
+            "src": "/wp-content/uploads/2024/07/1687265349743-e1722464836870.png",
+            "alt": "",
+            "ancho": 358,
+            "alto": 405,
+            "pie": "Iluminación para Acuicultura"
+          },
+          "especificaciones_md": "|  |  |\n| --- | --- |\n| Flujo luminoso | 51 klm |\n| Eficiencia | 150 lm/W |\n| Índice IP | IP68 + 20 m |\n\n|  |  |\n| --- | --- |\n| Flujo luminoso | 48 klm |\n| Eficiencia | 120 lm/W |\n| Índice IP | IP68 + 20 m |\n\n|  |  |\n| --- | --- |\n| Flujo luminoso | 48 klm |\n| Eficiencia | 120 lm/W |\n| Índice IP | IP68 + 20 m |"
+        },
+        {
+          "nombre": "Portafolio Iluminación para Acuicultura Marina",
+          "imagen": {
+            "src": "/wp-content/uploads/2024/07/1687265349743-e1722464836870.png",
+            "alt": "",
+            "ancho": 358,
+            "alto": 405,
+            "pie": "Iluminación para Acuicultura"
+          },
+          "especificaciones_md": "|  |  |\n| --- | --- |\n| Flujo luminoso | 51 klm |\n| Eficiencia | 150 lm/W |\n| Índice IP | IP68 + 20 m |\n\n|  |  |\n| --- | --- |\n| Flujo luminico | 33 kLum |\n| Eficiencia | 135 Lum/W |\n| Clasificación de IP | IP66 |\n\n|  |  |\n| --- | --- |\n| Flujo luminico | 33 kLum |\n| Eficiencia | 135 Lum/W |\n| Clasificación de IP | IP66 |"
+        }
+      ]
+    },
+    {
+      "tipo": "titulo",
+      "titulo": {
+        "texto": "Ventajas de la iluminación para acuicultura de INPROTAR",
+        "nivel": "h2"
+      }
+    },
+    {
+      "tipo": "galeria",
+      "columnas": 1,
+      "imagenes": [
+        {
+          "src": "/wp-content/uploads/2024/08/Captura-de-pantalla-2024-07-31-201045-1536x314.png",
+          "alt": "",
+          "ancho": 1556,
+          "alto": 318
+        }
+      ]
+    },
+    {
+      "tipo": "bannerImagen",
+      "fondo": "/wp-content/uploads/2024/08/8fa60d_dad922cac9b04985b1d6c2e776b30c06mv2-e1722475535627.webp",
+      "oscurecer": 0.5,
+      "ladoTexto": "derecha",
+      "titulo": "optimiza el desarrollo y el bienestar de los peces",
+      "botones": [
+        {
+          "texto": "whatssapp",
+          "url": "https://wa.me/56990894601",
+          "estilo": "contornoClaro"
+        },
+        {
+          "texto": "Necesito una Visita",
+          "url": "https://wa.me/56990894601?text=Quiero%20agendar%20una%20visita",
+          "estilo": "contornoClaro"
+        }
+      ],
+      "antetitulo": "Comprendemos las necesidades específicas de los criaderos acuícolas y de las plantas de crecimiento, ya sea en tierra o en alta mar",
+      "colorTitulo": "#6dfff2",
+      "texto_md": "Nuestro sistema de iluminación se ha desarrollado en estrecha colaboración con importantes universidades e institutos, asegurando soluciones basadas en la investigación y la innovación. Nuestras luces incorporan los chips y controles LED más avanzados, utilizando los mejores materiales de calidad naval para garantizar su durabilidad en las condiciones más extremas. Con Inprotar, su producción acuícola estará respaldada por tecnología de vanguardia y una fiabilidad inigualable."
+    },
+    {
+      "tipo": "textoImagen",
+      "imagen": {
+        "src": "/wp-content/uploads/2024/08/1687265347209.png",
+        "alt": "",
+        "ancho": 720,
+        "alto": 405,
+        "pie": "Iluminación para Acuicultura"
+      },
+      "imagenAlLado": "izquierda",
+      "texto_md": "Según la ONU, casi el 90% de la población de peces marinos del mundo están agotadas, sobreexplotadas o en régimen de plena explotación. Para conservar esta población de peces, se requieren políticas sensatas combinadas con prácticas de piscicultura responsable. En Inprotar, ofrecemos sistemas de fotoperiodo LED que permiten a nuestros clientes crear las condiciones de iluminación específicas necesarias para optimizar el desarrollo y el bienestar de los peces, reducir los costos y el tiempo de producción, e incrementar los ingresos.",
+      "botones": [],
+      "titulo": {
+        "texto": "La luz se percibe mediante fotorreceptores específicos que influyen en la fisiología a través de las neuronas y de la comunicación celular.",
+        "nivel": "h2"
+      }
+    },
+    {
+      "tipo": "faq",
+      "titulo": "Preguntas Frecuentes sobre Iluminación para Acuicultura",
+      "preguntas": [
+        {
+          "pregunta": "1. ¿Qué beneficios ofrece la iluminación LED de Inprotar para la acuicultura?",
+          "respuesta_md": "La iluminación LED de Inprotar está diseñada específicamente para optimizar el crecimiento y el bienestar de los peces. Al proporcionar condiciones de iluminación controladas, nuestros sistemas LED ayudan a reducir los costos y el tiempo de producción, mejorando la eficiencia general y aumentando los ingresos de las instalaciones acuícolas."
+        },
+        {
+          "pregunta": "2. ¿Cómo se adapta la iluminación de Inprotar a diferentes fases de crecimiento y reproducción de los peces?",
+          "respuesta_md": "Lorem fistrum por la gloria de mi madre esse jarl aliqua llevame al sircoo. De la pradera ullamco qué dise usteer está la cosa muy malar."
+        },
+        {
+          "pregunta": "3. ¿Qué hace que las luces de Inprotar sean adecuadas para condiciones extremas?",
+          "respuesta_md": "Las luces de Inprotar incorporan los chips y controles LED más avanzados y están fabricadas con materiales de calidad naval. Esto garantiza su durabilidad y rendimiento en las condiciones más extremas, tanto en criaderos acuícolas en tierra como en instalaciones en alta mar."
+        },
+        {
+          "pregunta": "4. ¿Cuál es el impacto de la iluminación LED en el bienestar de los peces?",
+          "respuesta_md": "La iluminación adecuada es crucial para el bienestar de los peces. Nuestros sistemas de fotoperiodo LED están diseñados para replicar los ciclos de luz natural, lo que reduce el estrés y promueve un crecimiento saludable. Además, al controlar la iluminación, se puede mejorar la eficiencia de la alimentación y el comportamiento reproductivo de los peces."
+        },
+        {
+          "pregunta": "5 ¿Cómo contribuye la colaboración con universidades e institutos a la efectividad de los sistemas de Inprotar?",
+          "respuesta_md": "En Inprotar, trabajamos en estrecha colaboración con importantes universidades e institutos de investigación para desarrollar nuestras soluciones de iluminación. Esta colaboración nos permite incorporar los últimos avances científicos y tecnológicos, asegurando que nuestros sistemas LED sean altamente efectivos y estén basados en las mejores prácticas de la industria."
+        },
+        {
+          "pregunta": "6. ¿Qué tipos de instalaciones acuícolas pueden beneficiarse de la iluminación LED de Inprotar?",
+          "respuesta_md": "Nuestros sistemas de iluminación LED son adecuados para una amplia variedad de instalaciones acuícolas, incluyendo criaderos y plantas de crecimiento en tierra, así como instalaciones en alta mar. La versatilidad de nuestros sistemas permite adaptarse a diferentes entornos y necesidades específicas."
+        },
+        {
+          "pregunta": "7. ¿Cómo pueden los sistemas de iluminación de Inprotar ayudar a reducir los costos operativos en la acuicultura?",
+          "respuesta_md": "Al optimizar las condiciones de iluminación, nuestros sistemas LED mejoran la eficiencia del crecimiento de los peces, lo que puede resultar en una reducción del tiempo necesario para alcanzar tamaños de mercado y en una mejor conversión alimenticia. Esto, a su vez, reduce los costos operativos asociados con la alimentación y el mantenimiento de los peces."
+        },
+        {
+          "pregunta": "8. ¿Qué garantía ofrece Inprotar para sus sistemas de iluminación LED?",
+          "respuesta_md": "En Inprotar, ofrecemos una garantía robusta para nuestros sistemas de iluminación LED, asegurando a nuestros clientes que están invirtiendo en una solución duradera y de alta calidad. Nuestra garantía refleja nuestro compromiso con la satisfacción del cliente y la confiabilidad de nuestros productos."
+        }
+      ]
+    },
+    {
+      "tipo": "cierre",
+      "texto": "Para más información sobre cómo Inprotar puede optimizar su operación acuícola con iluminación LED avanzada, ¡contáctenos hoy mismo!"
+    }
+  ]
+}

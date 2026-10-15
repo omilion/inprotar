@@ -1,0 +1,434 @@
+/* Franja superior bajo el header (#050408 + overlay #28193A al 50%) */
+.topBar {
+  position: relative;
+  height: 150px;
+  background: #050408;
+}
+.topBar::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: #28193a;
+  opacity: 0.5;
+}
+
+/* ---------- Secciones con cielo estrellado ---------- */
+.sky {
+  position: relative;
+  padding: 0 10px;
+  background-size: cover;
+}
+.sky::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.5;
+}
+.sky1 {
+  background-image: url("/wp-content/uploads/2024/11/vertical-shot-beautiful-starry-sky-1-scaled.webp");
+}
+.sky1::before {
+  background: #28193a;
+}
+.sky2 {
+  background-image: url("/wp-content/uploads/2024/11/mesmerizing-view-reflection-mountain-lake-starry-night-sky-1-scaled.webp");
+  background-repeat: no-repeat;
+}
+.sky2::before {
+  background: #2b1e46;
+}
+.skyInner {
+  position: relative;
+  z-index: 2;
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ---------- Grilla tipo Elementor ---------- */
+.row {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+}
+.reverse {
+  flex-direction: row-reverse;
+}
+.innerRow {
+  display: flex;
+  gap: 20px;
+}
+.col {
+  flex: 1;
+  min-width: 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.colTight {
+  padding: 10px;
+}
+.colTight img {
+  margin-left: 10px;
+}
+.centerV {
+  justify-content: center;
+}
+.relative {
+  position: relative;
+}
+.bordered {
+  border: 1px solid rgba(32, 35, 59, 0.58);
+  border-radius: 8px;
+}
+.center {
+  text-align: center;
+}
+
+.why {
+  width: 77%;
+  margin-left: 60px;
+}
+.mapCol {
+  flex: 0 0 138px;
+}
+.datesRow {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  margin-top: 70px;
+}
+.datesRow > .col {
+  flex: 0 0 50%;
+}
+.commitment {
+  width: 1175px;
+  max-width: 100%;
+  min-height: 366px;
+  margin-top: 40px;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+}
+.commitment > .col {
+  flex: 0 0 577px;
+}
+.expertCol {
+  flex: 0 0 577px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---------- Tipografía ---------- */
+.kicker {
+  margin: 0;
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+}
+.h44,
+.h25,
+.h25Blue {
+  margin: 0;
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 1;
+  color: #ffd559;
+  text-align: center;
+}
+.h25,
+.h25Blue {
+  font-size: 25px;
+}
+.h25Blue {
+  color: #0044aa;
+}
+.h32 {
+  margin: 0;
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1;
+  color: #fff;
+}
+.h20 {
+  margin: 0;
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1;
+  color: #4e4e4e;
+}
+.text,
+.textDark {
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+.textDark {
+  color: #4e4e4e;
+}
+p.text,
+p.textDark,
+.text p,
+.textDark p {
+  margin: 0 0 14.4px;
+}
+.text ul,
+.textDark ul {
+  padding-left: 40px;
+}
+
+.note {
+  position: relative;
+  top: -80px;
+  height: 0;
+  margin: 0;
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 11px;
+  line-height: 16.5px;
+  color: #fff;
+}
+
+/* ---------- Imágenes ---------- */
+.img {
+  text-align: center;
+}
+.observatory {
+  height: 300px;
+  width: auto;
+}
+.observatoryMobile {
+  height: 193px;
+  width: auto;
+}
+.bird {
+  position: absolute;
+  left: 402px;
+  top: 129px;
+  height: 200px;
+  width: auto;
+}
+.slide {
+  display: block;
+  width: 100%;
+}
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* ---------- Ilumina con responsabilidad ---------- */
+.responsible {
+  position: relative;
+  min-height: 277px;
+  padding: 0 10px;
+  background: #140d1d;
+  display: flex;
+}
+.responsibleInner {
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 10px 0;
+  display: flex;
+}
+.responsibleImg {
+  position: relative;
+  flex: 0 0 353px;
+}
+.responsibleImg img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.outlineWhite {
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 27px;
+  padding: 12px 20px;
+  font-size: 16px;
+}
+.outlineWhite:hover {
+  background: #fff;
+  color: #000 !important;
+}
+
+/* ---------- Radiancia ---------- */
+.boxed {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.boxedRow {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+}
+.radianceTitle {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1;
+  color: #4e4e4e;
+  text-align: center;
+}
+.outlineDark {
+  display: block;
+  width: 100%;
+  margin: -14px 0 10px;
+  background: transparent;
+  border: 2px solid #303030;
+  border-radius: 27px;
+  padding: 12px 20px;
+  font-size: 16px;
+  color: #303030 !important;
+}
+.outlineDark:hover {
+  background: #303030;
+  color: #fff !important;
+}
+.hoursCol {
+  flex: 1;
+  padding: 50px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* ---------- CTA asesoría ---------- */
+.cta {
+  position: relative;
+  min-height: 391px;
+  padding: 0 10px;
+  background: #19142c;
+  display: flex;
+}
+.ctaInner {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 10px 0;
+  display: flex;
+}
+.ctaBtnCol {
+  flex: 1;
+  padding: 10px;
+  margin-bottom: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blueRound {
+  margin: 20px;
+  background: #002dff;
+  border-radius: 27px;
+  padding: 10px 30px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.blueRound:hover {
+  background: #0022c4;
+}
+
+.closing {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1;
+  color: #4e4e4e;
+  text-align: center;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 1024px) {
+  .datesRow > .col,
+  .commitment > .col,
+  .expertCol {
+    flex: 1 1 0;
+  }
+  .commitment {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .topBar {
+    height: 170px;
+  }
+  .sky {
+    padding: 0;
+  }
+  .row,
+  .reverse,
+  .innerRow,
+  .datesRow,
+  .commitment,
+  .responsibleInner,
+  .boxedRow,
+  .ctaInner {
+    flex-direction: column;
+  }
+  .why {
+    width: 100%;
+    margin-left: 0;
+  }
+  .col {
+    flex: 1 1 auto !important;
+  }
+  .mapCol {
+    flex: 0 0 auto;
+  }
+  .h44 {
+    font-size: 20px;
+  }
+  .h25,
+  .h25Blue,
+  .h32 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .kicker {
+    font-size: 16px;
+  }
+  .text,
+  .textDark {
+    font-size: 12px;
+    text-align: center;
+  }
+  .text ul,
+  .textDark ul {
+    text-align: left;
+  }
+  .ctaInner {
+    flex-direction: column-reverse;
+  }
+  .ctaBtnCol {
+    margin-bottom: 40px;
+  }
+  .closing {
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,294 @@
+{
+  "ruta": "/iluminacion-antiexplosiva/",
+  "plantilla": "lineaProducto",
+  "unidad": "iluminacion",
+  "marcas": [
+    "philips"
+  ],
+  "protegida": false,
+  "seo": {
+    "titulo": "Iluminacion Antiexplosiva LED - INPROTAR",
+    "descripcion": "Iluminación Antiexplosiva LED​ ATEX  diseñadas específicamente para zonas clasificadas como 2 y 22, donde la seguridad es crítica. Estas luminarias están",
+    "imagen": {
+      "src": "/wp-content/uploads/2024/08/hazardous-location-lighting.webp",
+      "alt": "Iluminación antiexplosiva",
+      "ancho": 600,
+      "alto": 301
+    },
+    "publicado": "2024-08-20T15:55:00-04:00",
+    "modificado": "2024-08-28T00:21:56-04:00",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": [
+            "Organization",
+            "Person"
+          ],
+          "@id": "https://inprotar.cl/#person",
+          "name": "INPROTAR",
+          "url": "https://inprotar.cl",
+          "email": "etardones@inprotar.cl",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "CHAMISERO",
+            "addressLocality": "COLINA",
+            "addressRegion": "REGION METROPOLITANA",
+            "addressCountry": "CHILE"
+          },
+          "logo": {
+            "@type": "ImageObject",
+            "@id": "https://inprotar.cl/#logo",
+            "url": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro2.png",
+            "contentUrl": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro2.png",
+            "caption": "INPROTAR",
+            "inLanguage": "es",
+            "width": "360",
+            "height": "194"
+          },
+          "telephone": "+56 9 9089 4601",
+          "image": {
+            "@id": "https://inprotar.cl/#logo"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://inprotar.cl/#website",
+          "url": "https://inprotar.cl",
+          "name": "INPROTAR",
+          "alternateName": "INPROTAR",
+          "publisher": {
+            "@id": "https://inprotar.cl/#person"
+          },
+          "inLanguage": "es"
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://inprotar.cl/wp-content/uploads/2024/08/hazardous-location-lighting.webp",
+          "url": "https://inprotar.cl/wp-content/uploads/2024/08/hazardous-location-lighting.webp",
+          "width": "200",
+          "height": "200",
+          "inLanguage": "es"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://inprotar.cl/iluminacion-antiexplosiva/#webpage",
+          "url": "https://inprotar.cl/iluminacion-antiexplosiva/",
+          "name": "Iluminacion Antiexplosiva LED - INPROTAR",
+          "datePublished": "2024-08-20T15:55:00-04:00",
+          "dateModified": "2024-08-28T00:21:56-04:00",
+          "isPartOf": {
+            "@id": "https://inprotar.cl/#website"
+          },
+          "primaryImageOfPage": {
+            "@id": "https://inprotar.cl/wp-content/uploads/2024/08/hazardous-location-lighting.webp"
+          },
+          "inLanguage": "es"
+        },
+        {
+          "@type": "Person",
+          "@id": "https://inprotar.cl/author/spadmin/",
+          "name": "spadmin",
+          "url": "https://inprotar.cl/author/spadmin/",
+          "image": {
+            "@type": "ImageObject",
+            "@id": "https://secure.gravatar.com/avatar/04cbec8d3415f60b740fe70001182044fe83baa9f72d24541dfc338db2692af6?s=96&d=mm&r=g",
+            "url": "https://secure.gravatar.com/avatar/04cbec8d3415f60b740fe70001182044fe83baa9f72d24541dfc338db2692af6?s=96&d=mm&r=g",
+            "caption": "spadmin",
+            "inLanguage": "es"
+          },
+          "sameAs": [
+            "https://sistemasdeiluminacion.cl"
+          ]
+        },
+        {
+          "@type": "Article",
+          "headline": "Iluminacion Antiexplosiva LED - INPROTAR",
+          "keywords": "Iluminación antiexplosiva,led",
+          "datePublished": "2024-08-20T15:55:00-04:00",
+          "dateModified": "2024-08-28T00:21:56-04:00",
+          "author": {
+            "@id": "https://inprotar.cl/author/spadmin/",
+            "name": "spadmin"
+          },
+          "publisher": {
+            "@id": "https://inprotar.cl/#person"
+          },
+          "description": "Iluminación Antiexplosiva LED​ ATEX  diseñadas específicamente para zonas clasificadas como 2 y 22, donde la seguridad es crítica. Estas luminarias están",
+          "name": "Iluminacion Antiexplosiva LED - INPROTAR",
+          "@id": "https://inprotar.cl/iluminacion-antiexplosiva/#richSnippet",
+          "isPartOf": {
+            "@id": "https://inprotar.cl/iluminacion-antiexplosiva/#webpage"
+          },
+          "image": {
+            "@id": "https://inprotar.cl/wp-content/uploads/2024/08/hazardous-location-lighting.webp"
+          },
+          "inLanguage": "es",
+          "mainEntityOfPage": {
+            "@id": "https://inprotar.cl/iluminacion-antiexplosiva/#webpage"
+          }
+        }
+      ]
+    }
+  },
+  "bloques": [
+    {
+      "tipo": "hero",
+      "titulo": "Iluminación Antiexplosiva LED",
+      "fondo": "/wp-content/uploads/2024/08/explosion-proof-led-flood-light-class-1-div-2-zone-2-shf-ii-series.jpg",
+      "oscurecer": 0.29,
+      "alto": 390
+    },
+    {
+      "tipo": "titulo",
+      "titulo": {
+        "texto": "Iluminación Segura y Eficiente en Zonas de Riesgo 2 y 22",
+        "nivel": "h2"
+      }
+    },
+    {
+      "tipo": "textoImagen",
+      "imagen": {
+        "src": "/wp-content/uploads/2024/08/hazardous-location-lighting.webp",
+        "alt": "",
+        "ancho": 600,
+        "alto": 301,
+        "pie": "Iluminación Antiexplosiva LED​ Chile"
+      },
+      "imagenAlLado": "derecha",
+      "texto_md": "### Aplicaciones Comunes:\n\n- **Procesamiento de Alimentos y Bebidas:** Donde el polvo combustible puede ser un riesgo.\n- **Industria Petroquímica y Farmacéutica:** Ambientes con gases y polvos inflamables que requieren medidas de seguridad extremas.\n- **Agricultura y Almacenamiento de Granos:** Áreas donde el polvo y los químicos presentan riesgos significativos.\n\n### Beneficios de las Luminarias ATEX de Inprotar\n\n- **Reducción de Costos Operativos:** Gracias a su alta eficiencia energética y durabilidad, las luminarias ATEX de Inprotar son una inversión inteligente para minimizar los costos operativos a largo plazo.\n- **Conformidad con Normativas:** Asegura que tu instalación cumpla con todas las regulaciones europeas de seguridad, protegiendo tanto a tu equipo como a tu infraestructura.\n- **Compatibilidad con Sistemas de Conectividad:** Integra nuestras luminarias en sistemas de control avanzados para una gestión más eficiente y segura.\n\nIluminación Antiexplosiva LED ATEX  diseñadas específicamente para zonas clasificadas como 2 y 22, donde la seguridad es crítica. Estas luminarias están preparadas para operar en entornos industriales peligrosos, garantizando que tu instalación cumpla con las normativas de seguridad más estrictas.",
+      "botones": []
+    },
+    {
+      "tipo": "bannerImagen",
+      "fondo": "/wp-content/uploads/2024/08/Workers-Welding-in-a-Factory.jpg",
+      "oscurecer": 0.5,
+      "ladoTexto": "izquierda",
+      "titulo": "Protege tu operación en zonas peligrosas con Inprotar",
+      "botones": [
+        {
+          "texto": "whatssapp",
+          "url": "https://wa.me/56990894601",
+          "estilo": "contornoClaro"
+        },
+        {
+          "texto": "Necesito una Visita",
+          "url": "https://wa.me/56990894601?text=Quiero%20agendar%20una%20visita",
+          "estilo": "contornoClaro"
+        }
+      ],
+      "antetitulo": "¡Descubre cómo nuestras luminarias pueden transformar tu industria!",
+      "colorTitulo": "#ffaa00",
+      "texto_md": "Nuestras soluciones de iluminación ATEX están diseñadas para resistir las condiciones más duras y garantizar un rendimiento seguro y confiable en zonas de riesgo."
+    },
+    {
+      "tipo": "titulo",
+      "titulo": {
+        "texto": "CATáLOGO iluminación antiexplosiva LED INPROTAR",
+        "nivel": "h2"
+      }
+    },
+    {
+      "tipo": "fichas",
+      "fichas": [
+        {
+          "nombre": "Campana LED antiexplosiva GentleSpace Gen3 ATEX 2/22",
+          "imagen": {
+            "src": "/wp-content/uploads/2024/08/GentleSpace-Gen3-BY480-Standard_Product_Photo-ADAM-5f75530fc2d54f8bae00a914011ef807-1024x532.png",
+            "alt": "iluminacion antiexplosiva LED",
+            "ancho": 800,
+            "alto": 416
+          },
+          "especificaciones_md": "#### Espacificaciones técnicas\n\n- **Modelo:** GentleSpace Gen3 ATEX 2/22\n- **Aplicaciones:** Ideal para entornos industriales de gran altura y áreas de alto riesgo.\n- **Características Técnicas:**\n  - **Flujo Luminoso (Lúmenes):** 13,000 lm, 17,000 lm, 25,000 lm, 35,000 lm\n  - **Eficiencia:** 160 lm/W\n  - **Vida Útil:** Hasta 100,000 horas L80\n  - **Protección:** IP66 contra agua y polvo, IK08 contra impactos.\n  - **Conectividad:** Compatible con aplicaciones de conectividad.\n  - **Temperatura:** Funciona en temperaturas de hasta 70°C."
+        },
+        {
+          "nombre": "Estanca LED antiexplosiva Pacífico Gen5 ATEX 2/22",
+          "imagen": {
+            "src": "/wp-content/uploads/2024/08/Pacific-LED-gen5-ATEX-2-22-Wieland-connector-Standard_Product_Photo-ADAM-4a860e9db89e42adb596afd200971728-1024x521.png",
+            "alt": "Iluminación Antiexplosiva LED",
+            "ancho": 800,
+            "alto": 407
+          },
+          "especificaciones_md": "#### Espacificaciones técnicas\n\n- **Modelo:** Pacífico LED Gen5 ATEX 2/22\n- **Aplicaciones:** Perfecto para aplicaciones industriales en entornos húmedos y polvorientos.\n- **Características Técnicas:**\n  - **Flujo Luminoso (Lúmenes):** 3,500, 4,200, 6,400, 8,000 lm, 10,000 lm\n  - **Eficiencia:** 140 lm/W\n  - **Vida Útil:** Hasta 100,000 horas L80\n  - **Protección:** IP66 e IK08\n  - **Conectividad:** Preparado para conectividad y control avanzado.\n  - **Materiales:** Alta resistencia a productos químicos y"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "texto_md": "[Iluminación Antiexplosiva](/iluminacion-antiexplosiva/) LED ATEX de Inprotar están respaldadas por una garantía de hasta 5 años, cubriendo tanto defectos de fabricación como de materiales, lo que asegura que el producto funcione según lo prometido durante un período prolongado. Esta garantía abarca no solo la carcasa de la luminaria, sino también los componentes electrónicos, como los LED y los controladores, garantizando que la luminaria mantendrá su rendimiento durante toda su vida útil. Además, Inprotar ofrece soporte técnico especializado para asistir en la instalación y el mantenimiento de las luminarias ATEX, lo que resulta especialmente valioso en áreas donde el acceso a los equipos puede ser complicado y costoso.",
+      "titulo": {
+        "texto": "5 años de garantía",
+        "nivel": "h2"
+      }
+    },
+    {
+      "tipo": "bannerImagen",
+      "fondo": "/wp-content/uploads/2024/08/e604ea05756532809eb6e3a786b75140.png",
+      "oscurecer": 0.5,
+      "ladoTexto": "derecha",
+      "titulo": "¿Preocupado por la seguridad en zonas de riesgo?",
+      "botones": [
+        {
+          "texto": "whatssapp",
+          "url": "https://wa.me/56990894601",
+          "estilo": "contornoClaro"
+        },
+        {
+          "texto": "Necesito una Visita",
+          "url": "https://wa.me/56990894601?text=Quiero%20agendar%20una%20visita",
+          "estilo": "contornoClaro"
+        }
+      ],
+      "antetitulo": "¡Contáctanos hoy y asegura tu industria!",
+      "colorTitulo": "#ffaa00",
+      "texto_md": "En Inprotar, nuestras luminarias ATEX para zonas 2 y 22 están diseñadas para brindarte la tranquilidad que necesitas en ambientes peligrosos. Protege a tu equipo y tu operación con iluminación segura y eficiente."
+    },
+    {
+      "tipo": "textoImagen",
+      "imagen": {
+        "src": "/wp-content/uploads/2024/08/atex-zone-e1724286852222.jpg",
+        "alt": "",
+        "ancho": 712,
+        "alto": 500,
+        "pie": "Iluminación Antiexplosiva LED Chile"
+      },
+      "imagenAlLado": "izquierda",
+      "texto_md": "## ¿Qué son las Zonas 2 y 22?\n\nZona 2: Un área en la que no es probable que se produzca una atmósfera explosiva compuesta de gases, vapores o nieblas durante el funcionamiento normal, pero si ocurre, solo persistirá por un corto período de tiempo.\nZona 22: Un área en la que no es probable que se produzca una atmósfera explosiva en forma de nube de polvo combustible en el aire durante el funcionamiento normal, pero si ocurre, persistirá solo durante un corto período de tiempo.\n\n### **Certificación y Cumplimiento Normativo:**\n\n- **Certificación ATEX:** Las luminarias diseñadas para zonas ATEX deben cumplir estrictamente con la Directiva ATEX 2014/34/UE, lo que asegura que son seguras para su uso en áreas donde hay riesgo de explosión. Esta certificación no solo es una exigencia regulatoria, sino que también garantiza que los productos han sido probados y validados bajo condiciones rigurosas.\n- **Certificaciones adicionales:** Es importante resaltar si las luminarias tienen otras certificaciones relevantes, como IECEx, que refuerzan su capacidad de operar en ambientes peligrosos.",
+      "botones": []
+    },
+    {
+      "tipo": "faq",
+      "titulo": "Preguntas Frecuentes sobre Luminarias ANtiexplosivas LED",
+      "preguntas": [
+        {
+          "pregunta": "¿Qué es la iluminación LED antiexplosiva y por qué es necesaria en entornos industriales?",
+          "respuesta_md": "La iluminación LED antiexplosiva está diseñada para operar de manera segura en áreas donde hay presencia de gases, vapores, polvos o fibras combustibles que podrían causar una explosión si entran en contacto con una fuente de ignición. Estas luminarias están certificadas según las normativas ATEX para garantizar que no generen chispas o calor excesivo, protegiendo así tanto a las personas como a las instalaciones."
+        },
+        {
+          "pregunta": "¿Cuáles son las zonas de riesgo donde se recomienda utilizar iluminación antiexplosiva?",
+          "respuesta_md": "La iluminación antiexplosiva se recomienda en zonas clasificadas como Zona 1, Zona 2, Zona 21 y Zona 22. Estas zonas son áreas donde es probable que se forme una atmósfera explosiva durante las operaciones normales o en situaciones excepcionales. Por ejemplo, Zona 2 y Zona 22 son áreas donde la atmósfera explosiva solo está presente durante cortos períodos de tiempo."
+        },
+        {
+          "pregunta": "¿Qué certificaciones deben tener las luminarias LED antiexplosivas?",
+          "respuesta_md": "Las luminarias LED antiexplosivas deben estar certificadas bajo la Directiva ATEX (2014/34/UE) y, en algunos casos, también bajo la certificación IECEx. Estas certificaciones garantizan que el equipo ha sido diseñado y probado para cumplir con los estándares de seguridad necesarios en entornos con riesgo de explosión."
+        },
+        {
+          "pregunta": "¿Qué ventajas ofrece la iluminación LED antiexplosiva en comparación con las tecnologías de iluminación tradicionales?",
+          "respuesta_md": "Las luminarias LED antiexplosivas ofrecen varias ventajas, como mayor eficiencia energética, vida útil prolongada (hasta 100,000 horas), menor mantenimiento y una mejor calidad de luz. Además, la tecnología LED reduce significativamente el riesgo de sobrecalentamiento, lo que es crítico en ambientes donde la seguridad es prioritaria."
+        },
+        {
+          "pregunta": "¿Cómo afecta el material de construcción de las luminarias antiexplosivas a su rendimiento?",
+          "respuesta_md": "El material de construcción de las luminarias antiexplosivas, como el aluminio y el policarbonato de alta resistencia, es fundamental para garantizar la durabilidad y la resistencia a la corrosión en entornos industriales difíciles. Estos materiales también contribuyen a la protección contra impactos (clasificación IK) y al sellado contra polvo y agua (clasificación IP)."
+        },
+        {
+          "pregunta": "¿Qué tipo de mantenimiento requieren las luminarias antiexplosivas?",
+          "respuesta_md": "Las luminarias LED antiexplosivas están diseñadas para requerir un mantenimiento mínimo debido a su alta durabilidad y larga vida útil. Sin embargo, se recomienda realizar inspecciones periódicas para asegurar que no haya daños en la carcasa y que los sellos estén intactos, especialmente en entornos donde hay presencia de sustancias químicas corrosivas."
+        }
+      ]
+    },
+    {
+      "tipo": "cierre",
+      "texto": "Para más información sobre cómo Inprotar puede optimizar sus requerimientos ATEX en ilunacion con nuestras Lumionarias Antiexplosivas LED ¡contáctenos hoy mismo!"
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "ruta": "/proyectores-de-area-led/",
+  "plantilla": "lineaProducto",
+  "unidad": "iluminacion",
+  "marcas": [
+    "philips"
+  ],
+  "protegida": false,
+  "seo": {
+    "titulo": "Proyectores de area LED - INPROTAR",
+    "descripcion": "Proyectores de area LED de la familia Tango G4 son la 4.ª generación de soluciones de iluminación que brindan un rendimiento superior y una mayor vida útil.",
+    "imagen": {
+      "src": "/wp-content/uploads/2024/08/BVP431.png",
+      "alt": "proyectores de area",
+      "ancho": 1000,
+      "alto": 714
+    },
+    "publicado": "2024-08-20T15:52:01-04:00",
+    "modificado": "2025-07-18T08:55:11-04:00",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": [
+            "Organization",
+            "Person"
+          ],
+          "@id": "https://inprotar.cl/#person",
+          "name": "INPROTAR",
+          "url": "https://inprotar.cl",
+          "email": "etardones@inprotar.cl",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "CHAMISERO",
+            "addressLocality": "COLINA",
+            "addressRegion": "REGION METROPOLITANA",
+            "addressCountry": "CHILE"
+          },
+          "logo": {
+            "@type": "ImageObject",
+            "@id": "https://inprotar.cl/#logo",
+            "url": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro2.png",
+            "contentUrl": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro2.png",
+            "caption": "INPROTAR",
+            "inLanguage": "es",
+            "width": "360",
+            "height": "194"
+          },
+          "telephone": "+56 9 9089 4601",
+          "image": {
+            "@id": "https://inprotar.cl/#logo"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://inprotar.cl/#website",
+          "url": "https://inprotar.cl",
+          "name": "INPROTAR",
+          "alternateName": "INPROTAR",
+          "publisher": {
+            "@id": "https://inprotar.cl/#person"
+          },
+          "inLanguage": "es"
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://inprotar.cl/wp-content/uploads/2024/08/BVP431.png",
+          "url": "https://inprotar.cl/wp-content/uploads/2024/08/BVP431.png",
+          "width": "200",
+          "height": "200",
+          "inLanguage": "es"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://inprotar.cl/proyectores-de-area-led/#webpage",
+          "url": "https://inprotar.cl/proyectores-de-area-led/",
+          "name": "Proyectores de area LED - INPROTAR",
+          "datePublished": "2024-08-20T15:52:01-04:00",
+          "dateModified": "2025-07-18T08:55:11-04:00",
+          "isPartOf": {
+            "@id": "https://inprotar.cl/#website"
+          },
+          "primaryImageOfPage": {
+            "@id": "https://inprotar.cl/wp-content/uploads/2024/08/BVP431.png"
+          },
+          "inLanguage": "es"
+        },
+        {
+          "@type": "Person",
+          "@id": "https://inprotar.cl/author/spadmin/",
+          "name": "spadmin",
+          "url": "https://inprotar.cl/author/spadmin/",
+          "image": {
+            "@type": "ImageObject",
+            "@id": "https://secure.gravatar.com/avatar/04cbec8d3415f60b740fe70001182044fe83baa9f72d24541dfc338db2692af6?s=96&d=mm&r=g",
+            "url": "https://secure.gravatar.com/avatar/04cbec8d3415f60b740fe70001182044fe83baa9f72d24541dfc338db2692af6?s=96&d=mm&r=g",
+            "caption": "spadmin",
+            "inLanguage": "es"
+          },
+          "sameAs": [
+            "https://sistemasdeiluminacion.cl"
+          ]
+        },
+        {
+          "@type": "Article",
+          "headline": "Proyectores de area LED - INPROTAR",
+          "keywords": "proyectores de area",
+          "datePublished": "2024-08-20T15:52:01-04:00",
+          "dateModified": "2025-07-18T08:55:11-04:00",
+          "author": {
+            "@id": "https://inprotar.cl/author/spadmin/",
+            "name": "spadmin"
+          },
+          "publisher": {
+            "@id": "https://inprotar.cl/#person"
+          },
+          "description": "Proyectores de area LED de la familia Tango G4 son la 4.ª generación de soluciones de iluminación que brindan un rendimiento superior y una mayor vida útil.",
+          "name": "Proyectores de area LED - INPROTAR",
+          "@id": "https://inprotar.cl/proyectores-de-area-led/#richSnippet",
+          "isPartOf": {
+            "@id": "https://inprotar.cl/proyectores-de-area-led/#webpage"
+          },
+          "image": {
+            "@id": "https://inprotar.cl/wp-content/uploads/2024/08/BVP431.png"
+          },
+          "inLanguage": "es",
+          "mainEntityOfPage": {
+            "@id": "https://inprotar.cl/proyectores-de-area-led/#webpage"
+          }
+        }
+      ]
+    }
+  },
+  "bloques": [
+    {
+      "tipo": "hero",
+      "titulo": "Proyectores de Área LED",
+      "fondo": "/wp-content/uploads/2024/08/75w-led-flood-light.jpg",
+      "oscurecer": 0.45,
+      "alto": 390
+    },
+    {
+      "tipo": "bannerImagen",
+      "fondo": "/wp-content/uploads/2024/08/tango1.png",
+      "oscurecer": 0.35,
+      "ladoTexto": "izquierda",
+      "titulo": "Potencia y Eficiencia con los Proyectores LED Tango G4 de Inprotar",
+      "botones": [],
+      "texto_md": "Proyectores de area LED de la familia Tango G4 son la 4.ª generación de soluciones de iluminación que brindan un rendimiento superior y una mayor vida útil. Ideales para una amplia gama de aplicaciones, desde áreas industriales hasta deportes recreativos, estos proyectores combinan la tecnología LED más avanzada con un diseño optimizado que reduce el peso y el área de resistencia al viento."
+    },
+    {
+      "tipo": "bannerImagen",
+      "fondo": "/wp-content/uploads/2024/08/led-flood-light-at-construction-site.jpg",
+      "oscurecer": 0.36,
+      "ladoTexto": "izquierda",
+      "titulo": "Optimiza la seguridad y eficiencia de tus áreas con la mejor iluminación.",
+      "botones": [
+        {
+          "texto": "whatssapp",
+          "url": "https://wa.me/56990894601",
+          "estilo": "contornoClaro"
+        },
+        {
+          "texto": "Necesito una Visita",
+          "url": "https://wa.me/56990894601?text=Quiero%20agendar%20una%20visita",
+          "estilo": "contornoClaro"
+        }
+      ],
+      "antetitulo": "¡Confía en Inprotar para estudios personalizados y soluciones a medida!",
+      "colorTitulo": "#fff900",
+      "texto_md": "Con los proyectores de área LED de la familia Tango G4 de Inprotar, aseguras un entorno más brillante y seguro. Maximiza el rendimiento energético y asegura la durabilidad con nuestra tecnología avanzada."
+    },
+    {
+      "tipo": "fichas",
+      "fichas": [
+        {
+          "nombre": "BVP431 Tango G4 LED Flood",
+          "imagen": {
+            "src": "/wp-content/uploads/2024/08/BVP431.png",
+            "alt": "",
+            "ancho": 800,
+            "alto": 571
+          },
+          "especificaciones_md": "- **Modelos:**\n  - **BVP431 LED92/CW 220~240V 70W SWB GM**\n- **Especificaciones Técnicas:**\n  - **Potencia:** 70W\n  - **Flujo Luminoso:** 9,200 lm\n  - **Eficiencia:** 131 lm/W\n  - **Temperatura de Color:** 5700 K (Blanco frío)\n  - **Material de la Carcasa:** Aluminio moldeado a presión\n  - **Material de la Cubierta:** Policarbonato\n  - **Clasificación IP:** IP66 (Protección contra polvo y chorros de agua)\n  - **Clasificación IK:** IK08 (Protección contra impactos de 5 J)\n  - **Rango de Temperatura:** -40 a +50 °C\n  - **Dimensiones:** 79 x 419 x 265 mm\n  - **Peso:** 4,430 kg"
+        },
+        {
+          "nombre": "BVP432 Tango G4 LED Flood",
+          "imagen": {
+            "src": "/wp-content/uploads/2024/08/BVP432-1024x883.png",
+            "alt": "",
+            "ancho": 800,
+            "alto": 690
+          },
+          "especificaciones_md": "- **Modelos:**\n  - **BVP432 LED161/CW 220~240V 120W SWB GM**\n  - **BVP432 LED272/CW 220~240V 200W SWB GM**\n- **Especificaciones Técnicas:**\n  - **Potencia:** 120W y 200W\n  - **Flujo Luminoso:** 16,100 lm (120W) y 27,200 lm (200W)\n  - **Eficiencia:** 134 lm/W (120W) y 136 lm/W (200W)\n  - **Temperatura de Color:** 5700 K (Blanco frío)\n  - **Material de la Carcasa:** Aluminio moldeado a presión\n  - **Material de la Cubierta:** Policarbonato\n  - **Clasificación IP:** IP66 (Protección contra polvo y chorros de agua)\n  - **Clasificación IK:** IK08 (Protección contra impactos de 5 J)\n  - **Rango de Temperatura:** -40 a +50 °C\n  - **Dimensiones:** 77 x 414 x 347 mm\n  - **Peso:** 6,190 kg"
+        },
+        {
+          "nombre": "BVP433 Tango G4 LED Flood",
+          "imagen": {
+            "src": "/wp-content/uploads/2024/08/BVP433-951x1024.png",
+            "alt": "",
+            "ancho": 800,
+            "alto": 861
+          },
+          "especificaciones_md": "- **Modelos:**\n  - **BVP433 LED517/CW 220~240V 380W SWB GM**\n- **Especificaciones Técnicas:**\n  - **Potencia:** 380W\n  - **Flujo Luminoso:** 51,700 lm\n  - **Eficiencia:** 136 lm/W\n  - **Temperatura de Color:** 5700 K (Blanco frío)\n  - **Material de la Carcasa:** Aluminio moldeado a presión\n  - **Material de la Cubierta:** Policarbonato\n  - **Clasificación IP:** IP66 (Protección contra polvo y chorros de agua)\n  - **Clasificación IK:** IK08 (Protección contra impactos de 5 J)\n  - **Rango de Temperatura:** -40 a +50 °C\n  - **Dimensiones:** 71 x 559 x 523 mm\n  - **Peso:** 12,160 kg"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "texto_md": "Todos los proyectores LED Tango G4 de Inprotar están respaldados por una garantía de hasta 5 años. Esta garantía cubre tanto defectos de fabricación como de materiales, asegurando que tu inversión esté protegida a largo plazo. Con la tranquilidad de saber que cuentas con un producto confiable y duradero, puedes centrarte en mantener tu instalación operativa y eficiente, sin preocuparte por reparaciones inesperadas o reemplazos prematuros.",
+      "titulo": {
+        "texto": "5 años de garantía",
+        "nivel": "h2"
+      }
+    },
+    {
+      "tipo": "bannerImagen",
+      "fondo": "/wp-content/uploads/2024/08/APOLO8.jpg",
+      "oscurecer": 0.5,
+      "ladoTexto": "derecha",
+      "titulo": "Ilumina tus Centros Deportivos con Precisión y Calidad Profesional",
+      "botones": [
+        {
+          "texto": "whatssapp",
+          "url": "https://wa.me/56990894601",
+          "estilo": "contornoClaro"
+        },
+        {
+          "texto": "Necesito una Visita",
+          "url": "https://wa.me/56990894601?text=Quiero%20agendar%20una%20visita",
+          "estilo": "contornoClaro"
+        }
+      ],
+      "antetitulo": "Ilumina tus Espacios con Potencia y Precisión",
+      "colorTitulo": "#63d872",
+      "texto_md": "**Proyectores Tango G4 de Inprotar para Canchas de Fútbol, Tenis, Pádel y Atletismo**\nAsegura una iluminación uniforme y potente en cada rincón de tus instalaciones deportivas con nuestros proyectores de área LED Tango G4. Diseñados para ofrecer un rendimiento óptimo en canchas de fútbol, tenis, pádel y pistas de atletismo, nuestros proyectores garantizan visibilidad y seguridad en cada juego. **Eleva la experiencia deportiva con la mejor iluminación, ¡contáctanos hoy para una solución personalizada!**"
+    },
+    {
+      "tipo": "textoImagen",
+      "imagen": {
+        "src": "/wp-content/uploads/2024/08/Picturjhujhe1-1024x984.png",
+        "alt": "",
+        "ancho": 800,
+        "alto": 769
+      },
+      "imagenAlLado": "izquierda",
+      "texto_md": "La gestión de activos en iluminación industrial es una herramienta crucial para maximizar la eficiencia operativa y garantizar que tus luminarias conectadas funcionen de manera óptima en todo momento. Con sistemas de control avanzados como Interact, es posible monitorear el rendimiento de cada luminaria en tiempo real, recibir notificaciones automáticas sobre fallos y realizar mantenimientos preventivos. Esto no solo minimiza el tiempo de inactividad, sino que también asegura que la iluminación esté siempre en las condiciones adecuadas para evitar accidentes y mejorar la productividad.",
+      "botones": [],
+      "titulo": {
+        "texto": "¿Estás maximizando la eficiencia de tu industria con la gestión inteligente de tus activos de iluminación?",
+        "nivel": "h2"
+      }
+    },
+    {
+      "tipo": "faq",
+      "titulo": "Preguntas Frecuentes sobre Proyectores de area LED",
+      "preguntas": [
+        {
+          "pregunta": "¿Qué beneficios ofrece la iluminación LED de los proyectores Tango G4 en comparación con las soluciones tradicionales?",
+          "respuesta_md": "Los proyectores LED Tango G4 ofrecen mayor eficiencia energética, una vida útil más prolongada y requieren menos mantenimiento que las tecnologías tradicionales. Además, brindan una mejor calidad de luz, lo que mejora la seguridad y visibilidad en las áreas iluminadas."
+        },
+        {
+          "pregunta": "¿Cómo afectan las clasificaciones IP66 e IK08 al rendimiento de los proyectores?",
+          "respuesta_md": "La clasificación IP66 asegura que las luminarias estén protegidas contra el polvo y chorros de agua, mientras que la clasificación IK08 garantiza resistencia a impactos. Esto los hace ideales para entornos industriales y deportivos donde las condiciones pueden ser exigentes y donde la durabilidad es crucial."
+        },
+        {
+          "pregunta": "¿Qué aplicaciones son ideales para los proyectores Tango G4 de Inprotar?",
+          "respuesta_md": "Estos proyectores son perfectos para áreas industriales, puertos, estacionamientos, aeropuertos, centro deportivos, y cualquier aplicación que requiera una iluminación potente y fiable. Además, son ideales para iluminar canchas de fútbol, tenis, pádel y pistas de atletismo."
+        },
+        {
+          "pregunta": "¿Qué opciones de control están disponibles para los proyectores de área LED?",
+          "respuesta_md": "Los proyectores LED Tango G4 pueden integrarse con sistemas de control avanzados, como Interact Sport, permitiendo la gestión inteligente y eficiente de la iluminación. Esto incluye la capacidad de ajustar la intensidad lumínica y optimizar el consumo energético según las necesidades específicas de cada instalación."
+        },
+        {
+          "pregunta": "¿Qué es la telegestión y cómo puede beneficiar a mi instalación deportiva o industrial?",
+          "respuesta_md": "La telegestión es un sistema que permite el control remoto de la iluminación, optimizando su funcionamiento en tiempo real. Con esta tecnología, puedes monitorizar y ajustar los proyectores desde una ubicación centralizada, mejorando la eficiencia energética y reduciendo costos operativos. Inprotar ofrece una versión con telegestión que puedes cotizar directamente con nosotros."
+        },
+        {
+          "pregunta": "¿Cuál es la garantía de los proyectores LED Tango G4?",
+          "respuesta_md": "Todos los proyectores LED Tango G4 de Inprotar están respaldados por una garantía de hasta 5 años. Esto cubre tanto defectos de fabricación como de materiales, asegurando que tu inversión esté protegida a largo plazo."
+        }
+      ]
+    },
+    {
+      "tipo": "cierre",
+      "texto": "Para más información sobre cómo Inprotar puede optimizar la iluminación industrial con nuestros Proyectores de área LED conectadas¡contáctenos hoy mismo!"
+    }
+  ]
+}

@@ -1,0 +1,300 @@
+/* Header transparente superpuesto al primer bloque de cada página (igual que en Elementor). */
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  padding-top: 13px;
+}
+
+/* ----------------------------- Escritorio ----------------------------- */
+.desktop {
+  display: flex;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.logoCol {
+  width: 25%;
+  padding: 10px;
+  margin-top: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.logo {
+  display: block;
+  text-align: center;
+  margin-top: -13px;
+}
+.logo img {
+  width: 195px;
+  height: auto;
+}
+
+.midCol {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.infoRow {
+  display: flex;
+  gap: 20px;
+}
+.info {
+  padding: 10px;
+}
+.infoMail,
+.infoPhone {
+  flex: 0 0 auto;
+  border-right: 2px dotted #ffffffa3;
+}
+.infoMail {
+  width: 265px;
+}
+.infoPhone {
+  width: 182px;
+}
+.infoAddr {
+  flex: 1;
+}
+.info a,
+.infoItem {
+  display: flex;
+  align-items: center;
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 13px;
+  line-height: 19.5px;
+  color: #e6e6e6;
+}
+.info a span,
+.infoItem span {
+  padding-inline-start: 8px;
+}
+.infoAddr .infoItem {
+  font-size: 10px;
+}
+.infoIcon {
+  width: 21px;
+  height: 21px;
+  color: #fff;
+  flex-shrink: 0;
+}
+
+.navRow {
+  border-top: 2px dotted #ffffff9e;
+  margin: -10px 0 0;
+}
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.menuTitle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 16px;
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  white-space: nowrap;
+}
+.menuTitle a {
+  color: #fff;
+  transition: color 0.3s;
+}
+.menuTitle a.active {
+  color: #4049bd;
+}
+.menuTitle:hover a,
+.menuTitle:hover button {
+  color: #2255d6;
+}
+.menuTitle button {
+  background: none;
+  border: 0;
+  padding: 0;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  transition: transform 0.3s, color 0.3s;
+}
+.caretOpen {
+  transform: rotate(180deg);
+  color: #2255d6 !important;
+}
+
+/* Mega menú: fondo #000000E8 definido en el CSS original del header */
+.mega {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  margin-top: -3px;
+  background: #000000e8;
+  box-shadow: 0 0 21px -6px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s, visibility 0.5s;
+}
+.megaOpen {
+  opacity: 1;
+  visibility: visible;
+}
+.megaInner {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+}
+.megaCol {
+  flex: 1;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.megaTitle {
+  margin: 0;
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1;
+}
+.megaTitle a {
+  color: #d5d5d5;
+}
+.megaTitle a:hover {
+  color: #2255d6;
+}
+.megaLinks {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.megaLinksCols {
+  columns: 2;
+}
+.megaLinks a {
+  display: block;
+  padding: 7px 17px 7px 0;
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 13px;
+  color: #bdbdbd;
+  transition: color 0.3s;
+}
+.megaLinks a:hover {
+  color: #fff;
+}
+
+.rightCol {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.ctaWrap {
+  padding: 10px;
+  text-align: center;
+}
+.cta {
+  display: inline-block;
+  background: #0044aa;
+  color: #fff;
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1;
+  padding: 12px 24px;
+  border-radius: 17px;
+}
+.cta:hover,
+.cta:focus {
+  background: #787e78;
+  color: #fff;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+.social a {
+  display: inline-flex;
+  padding: 9px;
+  color: #fff;
+  transition: opacity 0.3s;
+}
+.social a:hover {
+  opacity: 0.9;
+}
+
+/* ----------------------------- Móvil ----------------------------- */
+.mobile {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  .mobileTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  .mobileLogo img {
+    width: 185px;
+    height: auto;
+  }
+  .toggle {
+    background: none;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    padding: 6px;
+    display: flex;
+  }
+  .mobileSocial {
+    padding: 4px 0 0;
+  }
+  .dropdown {
+    display: none;
+    background: #0749ac;
+  }
+  .dropdownOpen {
+    display: block;
+  }
+  .dropdown ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .dropdown a {
+    display: block;
+    padding: 12px 20px;
+    color: #fff;
+    font-family: var(--font-roboto), sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .dropdown a:hover {
+    background: #161616;
+    color: #fff;
+  }
+  .dropHeading a {
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}

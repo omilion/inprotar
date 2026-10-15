@@ -1,0 +1,123 @@
+.bar {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: flex-start;
+  gap: 50px;
+  font-family: var(--font-roboto), sans-serif;
+}
+.views {
+  display: flex;
+  gap: 15px;
+  color: #000;
+}
+.viewActive {
+  color: #f05b64;
+}
+.count {
+  margin: 0;
+  color: #333;
+}
+.order {
+  margin-left: auto;
+  width: 270px;
+  padding: 8px 16px;
+  font-family: inherit;
+  font-size: 16px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  background: #fff;
+}
+@media (max-width: 767px) {
+  .bar {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .order {
+    width: 100%;
+  }
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 57px 30px;
+  align-items: start;
+}
+.inner {
+  border: 1px solid #f1f1f1;
+  font-family: var(--font-roboto), sans-serif;
+  color: #444;
+}
+.image {
+  display: block;
+  text-align: center;
+}
+.image img {
+  width: 100%;
+  transition: transform 0.4s;
+}
+.inner:hover .image img {
+  transform: scale(1.04);
+}
+.content {
+  min-height: 161px;
+  padding: 37px 30px 30px;
+  background: #fff;
+}
+.cat {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  font-size: 13px;
+  line-height: 1.4;
+}
+.cat::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 12px;
+  border-top: 1px solid #444;
+}
+.cat a {
+  color: #444;
+}
+.title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+.title a {
+  color: #444;
+}
+.title a:hover {
+  color: #0044aa;
+}
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 767px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+.pagination {
+  display: flex;
+  margin-top: 30px;
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 14px;
+}
+.pagination a,
+.pagination span {
+  min-width: 25px;
+  padding: 2px 7px;
+  border: 1px solid #cfc8d8;
+  margin-right: -1px;
+  text-align: center;
+}
+.pagination span {
+  background: #ebe9eb;
+  color: #8a7e88;
+}

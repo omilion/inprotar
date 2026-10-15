@@ -1,0 +1,132 @@
+{
+  "ruta": "/quienes-somos/",
+  "plantilla": "institucional",
+  "unidad": "institucional",
+  "marcas": [],
+  "protegida": false,
+  "seo": {
+    "titulo": "Quienes somos - INPROTAR",
+    "descripcion": "En Inprotar SpA, somos expertos en soluciones de iluminación, automatización y tecnología digital avanzada. Fundada en 2024 por Enzo Tardones Contreras,",
+    "imagen": {
+      "src": "/wp-content/uploads/2024/06/43784e_b2aa8b74572a42b1b52fa73109c06fc7mv2-541x1024.webp",
+      "alt": "Quienes somos"
+    },
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": [
+            "Organization",
+            "Person"
+          ],
+          "@id": "https://inprotar.cl/#person",
+          "name": "INPROTAR",
+          "url": "https://inprotar.cl",
+          "email": "etardones@inprotar.cl",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "CHAMISERO",
+            "addressLocality": "COLINA",
+            "addressRegion": "REGION METROPOLITANA",
+            "addressCountry": "CHILE"
+          },
+          "logo": {
+            "@type": "ImageObject",
+            "@id": "https://inprotar.cl/#logo",
+            "url": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro2.png",
+            "contentUrl": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro2.png",
+            "caption": "INPROTAR",
+            "inLanguage": "es",
+            "width": "360",
+            "height": "194"
+          },
+          "telephone": "+56 9 9089 4601",
+          "image": {
+            "@id": "https://inprotar.cl/#logo"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://inprotar.cl/#website",
+          "url": "https://inprotar.cl",
+          "name": "INPROTAR",
+          "alternateName": "INPROTAR",
+          "publisher": {
+            "@id": "https://inprotar.cl/#person"
+          },
+          "inLanguage": "es"
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://inprotar.cl/wp-content/uploads/2024/06/43784e_b2aa8b74572a42b1b52fa73109c06fc7mv2-541x1024.webp",
+          "url": "https://inprotar.cl/wp-content/uploads/2024/06/43784e_b2aa8b74572a42b1b52fa73109c06fc7mv2-541x1024.webp",
+          "width": "200",
+          "height": "200",
+          "inLanguage": "es"
+        },
+        {
+          "@type": "AboutPage",
+          "@id": "https://inprotar.cl/quienes-somos/#webpage",
+          "url": "https://inprotar.cl/quienes-somos/",
+          "name": "Quienes somos - INPROTAR",
+          "datePublished": "2024-07-26T22:59:47-04:00",
+          "dateModified": "2024-09-01T12:31:18-04:00",
+          "isPartOf": {
+            "@id": "https://inprotar.cl/#website"
+          },
+          "primaryImageOfPage": {
+            "@id": "https://inprotar.cl/wp-content/uploads/2024/06/43784e_b2aa8b74572a42b1b52fa73109c06fc7mv2-541x1024.webp"
+          },
+          "inLanguage": "es"
+        }
+      ]
+    }
+  },
+  "bloques": [
+    {
+      "tipo": "hero",
+      "titulo": "QUIENES SOMOS",
+      "fondo": "/wp-content/uploads/2024/07/fondo1.jpg",
+      "oscurecer": 0.7,
+      "alto": 390
+    },
+    {
+      "tipo": "textoImagen",
+      "imagen": {
+        "src": "/wp-content/uploads/2024/06/43784e_b2aa8b74572a42b1b52fa73109c06fc7mv2-541x1024.webp",
+        "alt": "",
+        "ancho": 541,
+        "alto": 1024
+      },
+      "imagenAlLado": "derecha",
+      "texto_md": "### **Nosotros**\n\nEn **Inprotar SpA**, somos expertos en soluciones de iluminación, automatización y tecnología digital avanzada. Fundada en 2024 por Enzo Tardones Contreras, Inprotar nace con la experiencia de más de 25 años en la comercialización y venta de productos y servicios para la minería e industria. Nuestra misión es impulsar el éxito de nuestros clientes proporcionando soluciones personalizadas para la Industria 4.0 y 5.0.\n\nNos especializamos en proyectos de especialidad eléctrica, instrumentación, automatización y control. Nuestras soluciones e integraciones están diseñadas para la eficiencia energética, con un enfoque centrado en el bienestar de las personas y el planeta. Desde la iluminación conectada hasta la digitalización de procesos, en Inprotar brindamos un portafolio completo de productos y servicios, adaptándonos siempre a las necesidades y expectativas de nuestros clientes.",
+      "botones": []
+    },
+    {
+      "tipo": "texto",
+      "texto_md": "### **Por Qué Elegirnos**\n\n- **Innovación en Iluminación**: Diseñamos y desarrollamos soluciones lumínicas avanzadas, adaptadas a las necesidades de cada proyecto.\n- **Automatización y Control**: Digitalizamos procesos críticos para optimizar tiempos y recursos en la operación diaria.\n- **Sostenibilidad y Responsabilidad**: Nos comprometemos con la sostenibilidad, utilizando tecnologías que minimizan el impacto ambiental y promueven la eficiencia energética.\n- **Experiencia y Confianza**: Contamos con una vasta experiencia en proyectos industriales y mineros, trabajando junto a grandes marcas y partners desde Arica a Punta Arenas.\n\n### **Misión y Visión**\n\nNuestra **misión** es proporcionar a nuestros clientes soluciones innovadoras y personalizadas en iluminación, automatización y tecnología digital, asegurando que obtengan el máximo valor de nuestro portafolio.\n\nNuestra **visión** es ser líderes en el campo de la digitalización, integrando electricidad, electrónica y automatización, mejorando continuamente el bienestar de las personas y la eficiencia de los procesos productivos."
+    },
+    {
+      "tipo": "bannerImagen",
+      "fondo": "/wp-content/uploads/2024/07/warehouse-header-image2_3000x-1-scaled.webp",
+      "oscurecer": 0.5,
+      "ladoTexto": "izquierda",
+      "titulo": "GreenPerform Highbay G5 CAmpana led",
+      "botones": [
+        {
+          "texto": "Ver más de Highbay g5",
+          "url": "/campanas-led-industriales/",
+          "estilo": "contornoClaro"
+        },
+        {
+          "texto": "Necesito una Visita",
+          "url": "https://wa.me/56990894601?text=Quiero%20agendar%20una%20visita",
+          "estilo": "contornoClaro"
+        }
+      ],
+      "antetitulo": "Elige la iluminación industrial que combina eficiencia energética y durabilidad.",
+      "colorTitulo": "#1e2341",
+      "texto_md": "**Beneficios:**\n\n- **Alta Eficiencia**: Ahorra hasta un 60% en costos energéticos.\n- **Durabilidad Excepcional**: Vida útil de hasta 50,000 horas.\n- **Calidad de Luz Superior**: Proporciona una iluminación uniforme y sin parpadeos."
+    }
+  ]
+}

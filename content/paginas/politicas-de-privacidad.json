@@ -1,0 +1,138 @@
+{
+  "ruta": "/politicas-de-privacidad/",
+  "plantilla": "institucional",
+  "unidad": "institucional",
+  "marcas": [],
+  "protegida": false,
+  "seo": {
+    "titulo": "Politicas de privacidad - INPROTAR",
+    "descripcion": "1. Responsable del Tratamiento de Datos",
+    "publicado": "2024-11-15T17:05:43-04:00",
+    "modificado": "2024-11-15T17:08:51-04:00",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": [
+            "Organization",
+            "Person"
+          ],
+          "@id": "https://inprotar.cl/#person",
+          "name": "INPROTAR",
+          "url": "https://inprotar.cl",
+          "email": "etardones@inprotar.cl",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "CHAMISERO",
+            "addressLocality": "COLINA",
+            "addressRegion": "REGION METROPOLITANA",
+            "addressCountry": "CHILE"
+          },
+          "logo": {
+            "@type": "ImageObject",
+            "@id": "https://inprotar.cl/#logo",
+            "url": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro2.png",
+            "contentUrl": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro2.png",
+            "caption": "INPROTAR",
+            "inLanguage": "es",
+            "width": "360",
+            "height": "194"
+          },
+          "telephone": "+56 9 9089 4601",
+          "image": {
+            "@id": "https://inprotar.cl/#logo"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://inprotar.cl/#website",
+          "url": "https://inprotar.cl",
+          "name": "INPROTAR",
+          "alternateName": "INPROTAR",
+          "publisher": {
+            "@id": "https://inprotar.cl/#person"
+          },
+          "inLanguage": "es"
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro.png",
+          "url": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro.png",
+          "width": "360",
+          "height": "194",
+          "inLanguage": "es"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://inprotar.cl/politicas-de-privacidad/#webpage",
+          "url": "https://inprotar.cl/politicas-de-privacidad/",
+          "name": "Politicas de privacidad - INPROTAR",
+          "datePublished": "2024-11-15T17:05:43-04:00",
+          "dateModified": "2024-11-15T17:08:51-04:00",
+          "isPartOf": {
+            "@id": "https://inprotar.cl/#website"
+          },
+          "primaryImageOfPage": {
+            "@id": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro.png"
+          },
+          "inLanguage": "es"
+        },
+        {
+          "@type": "Person",
+          "@id": "https://inprotar.cl/author/spadmin/",
+          "name": "spadmin",
+          "url": "https://inprotar.cl/author/spadmin/",
+          "image": {
+            "@type": "ImageObject",
+            "@id": "https://secure.gravatar.com/avatar/04cbec8d3415f60b740fe70001182044fe83baa9f72d24541dfc338db2692af6?s=96&d=mm&r=g",
+            "url": "https://secure.gravatar.com/avatar/04cbec8d3415f60b740fe70001182044fe83baa9f72d24541dfc338db2692af6?s=96&d=mm&r=g",
+            "caption": "spadmin",
+            "inLanguage": "es"
+          },
+          "sameAs": [
+            "https://sistemasdeiluminacion.cl"
+          ]
+        },
+        {
+          "@type": "Article",
+          "headline": "Politicas de privacidad - INPROTAR",
+          "datePublished": "2024-11-15T17:05:43-04:00",
+          "dateModified": "2024-11-15T17:08:51-04:00",
+          "author": {
+            "@id": "https://inprotar.cl/author/spadmin/",
+            "name": "spadmin"
+          },
+          "publisher": {
+            "@id": "https://inprotar.cl/#person"
+          },
+          "description": "1. Responsable del Tratamiento de Datos",
+          "name": "Politicas de privacidad - INPROTAR",
+          "@id": "https://inprotar.cl/politicas-de-privacidad/#richSnippet",
+          "isPartOf": {
+            "@id": "https://inprotar.cl/politicas-de-privacidad/#webpage"
+          },
+          "image": {
+            "@id": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro.png"
+          },
+          "inLanguage": "es",
+          "mainEntityOfPage": {
+            "@id": "https://inprotar.cl/politicas-de-privacidad/#webpage"
+          }
+        }
+      ]
+    }
+  },
+  "bloques": [
+    {
+      "tipo": "hero",
+      "titulo": "POLITICAS DE PRIVACIDAD",
+      "fondo": "/wp-content/uploads/2024/07/fondo1.jpg",
+      "oscurecer": 0.7,
+      "alto": 390
+    },
+    {
+      "tipo": "texto",
+      "texto_md": "**1. Responsable del Tratamiento de Datos**\n\nCOMERCIALIZADORA DE BIENES Y SERVICIOS TARDONES SPA (en adelante, «INPROTAR») es la entidad responsable del tratamiento de los datos personales recopilados a través de este sitio web.\n\n- **Razón Social:** COMERCIALIZADORA DE BIENES Y SERVICIOS TARDONES SPA\n- **RUT:** 77.223.082- 6\n- **Domicilio:** CAMINO DEL PARQUE 425 LT 84 PORTAL CHAMISERO\n- **Correo Electrónico:** info@inprotar.cl\n- **Teléfono:** +56 9 9089 4601\n\n**2. Datos Personales Recopilados**\n\nA través de los formularios de contacto disponibles en nuestro sitio web, podemos recopilar los siguientes datos personales:\n\n- Nombre y apellidos\n- Dirección de correo electrónico\n- Número de teléfono\n- Empresa o institución\n- Mensaje o consulta específica\n\n**3. Finalidad del Tratamiento de Datos**\n\nLos datos personales proporcionados serán utilizados con las siguientes finalidades:\n\n- Responder a consultas o solicitudes de información sobre nuestros productos y servicios.\n- Proporcionar asesoramiento y soporte técnico relacionado con nuestras soluciones.\n- Enviar información comercial o promocional sobre productos, servicios, ofertas o eventos de INPROTAR, siempre que el usuario haya otorgado su consentimiento expreso para ello.\n\n**4. Legitimación para el Tratamiento de Datos**\n\nEl tratamiento de los datos personales se basa en el consentimiento explícito otorgado por el usuario al completar y enviar los formularios de contacto disponibles en nuestro sitio web.\n\n**5. Conservación de los Datos**\n\nLos datos personales serán conservados durante el tiempo necesario para cumplir con las finalidades para las cuales fueron recopilados. Posteriormente, se mantendrán bloqueados durante el período en que puedan derivarse responsabilidades legales o contractuales, y serán eliminados conforme a las normativas aplicables.\n\n**6. Destinatarios de los Datos**\n\nINPROTAR no compartirá los datos personales de los usuarios con terceros, salvo en los siguientes casos:\n\n- Cuando sea necesario para cumplir con obligaciones legales.\n- Cuando el usuario haya otorgado su consentimiento expreso para ello.\n\n**7. Derechos de los Usuarios**\n\nLos usuarios tienen derecho a:\n\n- Acceder a sus datos personales.\n- Rectificar datos inexactos o incompletos.\n- Solicitar la supresión de sus datos cuando, entre otros motivos, ya no sean necesarios para los fines que fueron recogidos.\n- Oponerse al tratamiento de sus datos personales.\n- Solicitar la limitación del tratamiento de sus datos en determinadas circunstancias.\n- Solicitar la portabilidad de sus datos a otro responsable del tratamiento.\n\nPara ejercer estos derechos, los usuarios pueden contactar a INPROTAR a través del correo electrónico info@inprotar.cl, adjuntando una copia de su cédula de identidad o documento equivalente que acredite su identidad.\n\n**8. Medidas de Seguridad**\n\nINPROTAR implementa medidas técnicas y organizativas adecuadas para garantizar la seguridad de los datos personales y evitar su alteración, pérdida, tratamiento o acceso no autorizado.\n\n**9. Modificaciones a la Política de Privacidad**\n\nINPROTAR se reserva el derecho de modificar la presente Política de Privacidad para adaptarla a novedades legislativas o jurisprudenciales. Se recomienda a los usuarios revisar periódicamente esta política para estar informados sobre cómo protegemos su información.\n\n**10. Contacto**\n\nPara cualquier consulta o comentario relacionado con esta Política de Privacidad, los usuarios pueden contactar a INPROTAR a través de:\n\n- **Correo Electrónico:** info@inprotar.cl\n- **Teléfono:** +56 9 9089 4601\n\nEsta Política de Privacidad está vigente desde el 15 de septiembre de 2024."
+    }
+  ]
+}

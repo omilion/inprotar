@@ -1,0 +1,322 @@
+{
+  "ruta": "/iluminacion-profesional-conectada/",
+  "plantilla": "unidad",
+  "unidad": "iluminacion",
+  "marcas": [],
+  "protegida": false,
+  "seo": {
+    "titulo": "Iluminación Profesional Conectada​ - INPROTAR",
+    "descripcion": "Iluminación Profesional Conectada para sectores como minería, naves industriales, alumbrado público, acuicultura, horticultura y oficinas.",
+    "imagen": {
+      "src": "/wp-content/uploads/2024/07/DSC_1925DnnSC_1925_1-Large.png",
+      "alt": "iluminación profesional conectada​",
+      "ancho": 1080,
+      "alto": 1618
+    },
+    "publicado": "2024-07-26T19:50:48-04:00",
+    "modificado": "2024-08-27T20:49:24-04:00",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": [
+            "Organization",
+            "Person"
+          ],
+          "@id": "https://inprotar.cl/#person",
+          "name": "INPROTAR",
+          "url": "https://inprotar.cl",
+          "email": "etardones@inprotar.cl",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "CHAMISERO",
+            "addressLocality": "COLINA",
+            "addressRegion": "REGION METROPOLITANA",
+            "addressCountry": "CHILE"
+          },
+          "logo": {
+            "@type": "ImageObject",
+            "@id": "https://inprotar.cl/#logo",
+            "url": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro2.png",
+            "contentUrl": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro2.png",
+            "caption": "INPROTAR",
+            "inLanguage": "es",
+            "width": "360",
+            "height": "194"
+          },
+          "telephone": "+56 9 9089 4601",
+          "image": {
+            "@id": "https://inprotar.cl/#logo"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://inprotar.cl/#website",
+          "url": "https://inprotar.cl",
+          "name": "INPROTAR",
+          "alternateName": "INPROTAR",
+          "publisher": {
+            "@id": "https://inprotar.cl/#person"
+          },
+          "inLanguage": "es"
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://inprotar.cl/wp-content/uploads/2024/07/DSC_1925DnnSC_1925_1-Large-684x1024.png",
+          "url": "https://inprotar.cl/wp-content/uploads/2024/07/DSC_1925DnnSC_1925_1-Large-684x1024.png",
+          "width": "200",
+          "height": "200",
+          "inLanguage": "es"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://inprotar.cl/iluminacion-profesional-conectada/#webpage",
+          "url": "https://inprotar.cl/iluminacion-profesional-conectada/",
+          "name": "Iluminación Profesional Conectada​ - INPROTAR",
+          "datePublished": "2024-07-26T19:50:48-04:00",
+          "dateModified": "2024-08-27T20:49:24-04:00",
+          "isPartOf": {
+            "@id": "https://inprotar.cl/#website"
+          },
+          "primaryImageOfPage": {
+            "@id": "https://inprotar.cl/wp-content/uploads/2024/07/DSC_1925DnnSC_1925_1-Large-684x1024.png"
+          },
+          "inLanguage": "es"
+        },
+        {
+          "@type": "Person",
+          "@id": "https://inprotar.cl/author/spadmin/",
+          "name": "spadmin",
+          "url": "https://inprotar.cl/author/spadmin/",
+          "image": {
+            "@type": "ImageObject",
+            "@id": "https://secure.gravatar.com/avatar/04cbec8d3415f60b740fe70001182044fe83baa9f72d24541dfc338db2692af6?s=96&d=mm&r=g",
+            "url": "https://secure.gravatar.com/avatar/04cbec8d3415f60b740fe70001182044fe83baa9f72d24541dfc338db2692af6?s=96&d=mm&r=g",
+            "caption": "spadmin",
+            "inLanguage": "es"
+          },
+          "sameAs": [
+            "https://sistemasdeiluminacion.cl"
+          ]
+        },
+        {
+          "@type": "Article",
+          "headline": "Iluminación Profesional Conectada​ - INPROTAR",
+          "keywords": "iluminación profesional conectada​,LED",
+          "datePublished": "2024-07-26T19:50:48-04:00",
+          "dateModified": "2024-08-27T20:49:24-04:00",
+          "author": {
+            "@id": "https://inprotar.cl/author/spadmin/",
+            "name": "spadmin"
+          },
+          "publisher": {
+            "@id": "https://inprotar.cl/#person"
+          },
+          "description": "Iluminación Profesional Conectada para sectores como minería, naves industriales, alumbrado público, acuicultura, horticultura y oficinas.",
+          "name": "Iluminación Profesional Conectada​ - INPROTAR",
+          "@id": "https://inprotar.cl/iluminacion-profesional-conectada/#richSnippet",
+          "isPartOf": {
+            "@id": "https://inprotar.cl/iluminacion-profesional-conectada/#webpage"
+          },
+          "image": {
+            "@id": "https://inprotar.cl/wp-content/uploads/2024/07/DSC_1925DnnSC_1925_1-Large-684x1024.png"
+          },
+          "inLanguage": "es",
+          "mainEntityOfPage": {
+            "@id": "https://inprotar.cl/iluminacion-profesional-conectada/#webpage"
+          }
+        }
+      ]
+    }
+  },
+  "bloques": [
+    {
+      "tipo": "hero",
+      "titulo": "Iluminación Profesional Conectada",
+      "fondo": "/wp-content/uploads/2024/07/Refinery.jpg",
+      "oscurecer": 0.5,
+      "alto": 390
+    },
+    {
+      "tipo": "texto",
+      "texto_md": "Iluminación Profesional Conectada para sectores como minería, infraestructura, y turismo. Nos enfocamos en el ahorro energético y el confort visual a través de soluciones avanzadas, como la iluminación solar de alto rendimiento y el modelo LaaS (Light as a Service). Nuestras soluciones abarcan desde la iluminación para horticultura y desinfección de ambientes hasta luminarias y proyectores de áreas."
+    },
+    {
+      "tipo": "tarjetas",
+      "titulo": {
+        "texto": "Categorías Iluminación Profesional Conectada",
+        "nivel": "h2"
+      },
+      "columnas": 3,
+      "tarjetas": [
+        {
+          "titulo": "ALUMBRADO PÚBLICO LED",
+          "imagen": "/wp-content/uploads/2024/07/Gaiserwald_Strassen_HR_17_4c-16-9-1.webp",
+          "texto": "Descubre cómo nuestras soluciones de iluminación LED pueden transformar tu instalación acuícola, mejorando la producción y el bienestar de tus peces. En Inprotar ofrecemos tecnología de iluminación de vanguardia diseñada específicamente para acuicultura, tanto en tierra como en ambientes marinos.",
+          "textoBoton": "Ver alumbrado público"
+        },
+        {
+          "titulo": "ILUMINACIÓN SOLAR LED",
+          "imagen": "/wp-content/uploads/2024/07/Signify-luminarias-1.jpg",
+          "texto": "En Inprotar, ofrecemos soluciones de alumbrado público solar con las avanzadas luminarias SunStay. Ideales para aplicaciones industriales y viales, nuestros sistemas de iluminación garantizan eficiencia, sostenibilidad y durabilidad.",
+          "textoBoton": "Ver iluminacón solar",
+          "url": "/alumbrado-publico-solar/"
+        },
+        {
+          "titulo": "CAMPANAS LED INDUSTRIALES",
+          "imagen": "/wp-content/uploads/2024/06/top-view-modern-operational-plant-producing-fiberglass-heavy-industry-machinery-metalworking-workshop-concept-scaled.jpg",
+          "texto": "Descubre cómo nuestras soluciones de iluminación UV-C pueden transformar tus espacios, eliminando efectivamente virus, bacterias y otros patógenos. En Inprotar ofrecemos tecnología de desinfección UV-C de última generación, diseñada para aplicaciones en superficies, objetos y agua.",
+          "textoBoton": "Ver iluminación naves y galpones",
+          "url": "/campanas-led-industriales/"
+        },
+        {
+          "titulo": "PROYECTORES DE ÁREA LED",
+          "imagen": "/wp-content/uploads/2024/07/alumbrado-industrial-1.jpg",
+          "texto": "Descubre cómo nuestras soluciones de iluminación LED pueden transformar tu instalación acuícola, mejorando la producción y el bienestar de tus peces. En Inprotar ofrecemos tecnología de iluminación de vanguardia diseñada específicamente para acuicultura, tanto en tierra como en ambientes marinos.",
+          "textoBoton": "Ver proyectores de área",
+          "url": "/proyector-de-area-led/"
+        },
+        {
+          "titulo": "ILUMINACIÓN ANTIEXPLOSIVA LED",
+          "imagen": "/wp-content/uploads/2024/07/image-10-1024x493-1.png",
+          "texto": "En Inprotar, ofrecemos soluciones de iluminación ATEX diseñadas específicamente para zonas clasificadas como 2 y 22, donde la seguridad es crítica. Estas luminarias están preparadas para operar en entornos industriales peligrosos, garantizando que tu instalación cumpla con las normativas de seguridad más estrictas.",
+          "textoBoton": "Ver iluminacón antiexplosiva",
+          "url": "/iluminacion-antiexplosiva/"
+        },
+        {
+          "titulo": "ILUMINACIÓN INTERIOR",
+          "imagen": "/wp-content/uploads/2024/07/141872-10058098.webp",
+          "texto": "Descubre cómo nuestras soluciones de iluminación UV-C pueden transformar tus espacios, eliminando efectivamente virus, bacterias y otros patógenos. En Inprotar ofrecemos tecnología de desinfección UV-C de última generación, diseñada para aplicaciones en superficies, objetos y agua.",
+          "textoBoton": "Ver iluminación interior",
+          "url": "/iluminacion-interior-led/"
+        }
+      ]
+    },
+    {
+      "tipo": "tarjetas",
+      "titulo": {
+        "texto": "Soluciones especializadas de iluminación",
+        "nivel": "h2"
+      },
+      "columnas": 3,
+      "tarjetas": [
+        {
+          "titulo": "ILUMINACIÓN PARA ACUICULTURA",
+          "imagen": "/wp-content/uploads/2024/07/1687265348163.jpeg",
+          "texto": "Descubre cómo nuestras soluciones de iluminación LED pueden transformar tu instalación acuícola, mejorando la producción y el bienestar de tus peces. En Inprotar ofrecemos tecnología de iluminación de vanguardia diseñada específicamente para acuicultura, tanto en tierra como en ambientes marinos.",
+          "textoBoton": "Ver acuicultura LED",
+          "url": "/iluminacion-para-acuicultura/"
+        },
+        {
+          "titulo": "ILUMIACIÓN PARA HORTICULTURA",
+          "imagen": "/wp-content/uploads/2024/07/1687262121456.jpeg",
+          "texto": "Transforma tu cultivo con nuestras soluciones de iluminación LED diseñadas específicamente para horticultura. En Inprotar ofrecemos tecnología de vanguardia que mejora el rendimiento, la calidad y la eficiencia de tus cultivos en invernaderos, granjas verticales y otras instalaciones.",
+          "textoBoton": "Ver horticultura LED",
+          "url": "/iluminacion-para-horticultura/"
+        },
+        {
+          "titulo": "DESINFECCIÓN UVC",
+          "imagen": "/wp-content/uploads/2024/07/1687265368283.jpeg",
+          "texto": "Descubre cómo nuestras soluciones de iluminación UV-C pueden transformar tus espacios, eliminando efectivamente virus, bacterias y otros patógenos. En Inprotar ofrecemos tecnología de desinfección UV-C de última generación, diseñada para aplicaciones en superficies, objetos y agua.",
+          "textoBoton": "Ver desinfección UV-C",
+          "url": "/iluminacion-para-desinfeccion-uv-c/"
+        }
+      ]
+    },
+    {
+      "tipo": "bannerImagen",
+      "fondo": "/wp-content/uploads/2024/07/warehouse-header-image2_3000x-1-scaled.webp",
+      "oscurecer": 0.55,
+      "ladoTexto": "derecha",
+      "antetitulo": "Elige la iluminación industrial que combina eficiencia energética y durabilidad.",
+      "titulo": "GreenPerform Highbay G5 Campana LED",
+      "colorTitulo": "#ffffff",
+      "texto_md": "**Beneficios:**\n\n- **Alta Eficiencia**: Ahorra hasta un 60% en costos energéticos.\n- **Durabilidad Excepcional**: Vida útil de hasta 50,000 horas.\n- **Calidad de Luz Superior**: Proporciona una iluminación uniforme y sin parpadeos.",
+      "botones": [
+        {
+          "texto": "Ver más de Highbay G5",
+          "url": "/campanas-led-industriales/",
+          "estilo": "contornoClaro"
+        },
+        {
+          "texto": "Necesito una visita",
+          "url": "https://wa.me/56990894601?text=Quiero%20agendar%20una%20visita",
+          "estilo": "contornoClaro"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "titulo": {
+        "texto": "Light as a Service (iluminación como servicio)",
+        "nivel": "h2"
+      },
+      "texto_md": "Iluminación Profesional Conectada para sectores como minería, infraestructura, y turismo. Nos enfocamos en el ahorro energético y el confort visual a través de soluciones avanzadas, como la iluminación solar de alto rendimiento y el modelo LaaS (Light as a Service). Nuestras soluciones abarcan desde la iluminación para horticultura y desinfección de ambientes hasta luminarias y proyectores de áreas."
+    },
+    {
+      "tipo": "columnas",
+      "columnas": [
+        {
+          "titulo": "Sin Inversión Inicial",
+          "texto_md": "Con LaaS, no hay necesidad de un gasto inicial en equipos y luminarias. Todo se incluye en una tarifa mensual fija."
+        },
+        {
+          "titulo": "Ahorro Energético y Económico",
+          "texto_md": "Nuestras soluciones de iluminación LED reducen significativamente el consumo de energía, generando ahorros desde el primer día y optimizando el flujo de caja."
+        },
+        {
+          "titulo": "Mantenimiento y Operación Sin Preocupaciones",
+          "texto_md": "Nos encargamos del diseño, instalación, operación y mantenimiento de los sistemas de iluminación, asegurando un rendimiento óptimo y continuo."
+        },
+        {
+          "titulo": "Flexibilidad y Adaptabilidad",
+          "texto_md": "Los sistemas de iluminación pueden ser ajustados y actualizados según las necesidades cambiantes del cliente, asegurando siempre la mejor eficiencia y funcionalidad."
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "titulo": {
+        "texto": "¿Por qué elegir nuestras soluciones de iluminación?",
+        "nivel": "h2"
+      },
+      "texto_md": "- **Ahorro de Energía:** uestras soluciones de iluminación permiten un ahorro de energí a de hasta un 50% , reduciendo significativamente los costos operativos y promoviendo la sostenibilidad.\n- **Cumplimiento Normativo:** Cumplimos con las normativas nacionales e internacionales (IEC/Nema) , asegurando que nuestras soluciones sean seguras, eficientes y de alta calidad.\n- **Retorno de Inversión (ROI):** Con un retorno de inversión menor a 4 a ños, nuestras soluciones garantizan beneficios económicos rápidos y sostenibles para su empresa.\n- **Temperatura de Color Ajustable:** Nuestros equipos permiten ajustar la temperatura de color (Kelvin), adaptándose a las necesidades específicas de cada entorno y mejorando el confort visual.\n- **Garantía en Producto y Servicio:** Ofrecemos garantí a en todos nuestros productos y servicios, asegurando calidad y fiabilidad en cada instalación y mantenimiento.\n- **Reducción de Tiempos de Montaje:** Nuestra tecnología avanzada permite reducir los tiempos de montaje y mantenimiento, facilitando una instalación rápida y sin complicaciones."
+    },
+    {
+      "tipo": "bandaCta",
+      "titulo": "¿Quieres reducir costos y contribuir al medio ambiente?",
+      "texto_md": "Descubre cómo nuestras soluciones de iluminación pueden transformar tu empresa. ¡Contáctanos hoy mismo para una consulta gratuita y comienza a ahorrar energía de inmediato!",
+      "boton": {
+        "texto": "Contáctanos",
+        "url": "https://wa.me/56990894601?text=Necesito%20m%C3%A1s%20informaci%C3%B3n",
+        "estilo": "primario"
+      },
+      "tema": "oscuro"
+    },
+    {
+      "tipo": "columnas",
+      "columnas": [
+        {
+          "titulo": "Compromiso con la Sostenibilidad y la Circularidad",
+          "imagen": {
+            "src": "/wp-content/uploads/2024/07/iStock_000024262498_Small-726x404-1.jpg",
+            "alt": "",
+            "ancho": 726,
+            "alto": 404
+          },
+          "texto_md": "En Inprotar, estamos profundamente comprometidos con la sostenibilidad y la economía circular. Nuestras soluciones están diseñadas para minimizar el impacto ambiental y maximizar la eficiencia energética.\n\n- **Declaración Ambiental de Producto**: Transparencia en el impacto ambiental de nuestros productos.\n- **100% Neutral en Carbono**: Nuestras operaciones no emiten carbono.\n- **Cero Residuo en Vertedero**: Eliminamos todos los residuos de manera sostenible.\n- **100% Uso de Electricidad Renovable**: Toda nuestra energía proviene de fuentes renovables.\n- **60% Menos Energía**: Nuestras soluciones utilizan significativamente menos energía.\n- **3.5 Veces Más Vida Útil**: Nuestros productos tienen una vida útil prolongada.\n- **Tecnología Ultra Eficiente**: Implementamos las tecnologías más eficientes.\n- **Diseñado para Economía Circular**: Nuestros productos están diseñados para ser reutilizables y reciclables, promoviendo un ciclo de vida sostenible."
+        },
+        {
+          "titulo": "Iluminación Conectada con Interact",
+          "imagen": {
+            "src": "/wp-content/uploads/2024/07/grid-solar-hybrid-solar-street-light-1024x412-2.png",
+            "alt": "",
+            "ancho": 448,
+            "alto": 172
+          },
+          "texto_md": "En Inprotar, ofrecemos soluciones avanzadas de iluminación conectada a través de Interact, una plataforma de IoT de Philips que transforma la gestión de la iluminación en un proceso inteligente y eficiente.\n\n**Beneficios de Interact:**\n\n- **Gestión Centralizada**: Controla y monitoriza todo el sistema de iluminación desde una única plataforma.\n- **Ahorro Energético**: Optimiza el uso de la energía mediante ajustes automáticos y programados.\n- **Mejora del Ambiente**: Ajusta la iluminación para mejorar el confort y la productividad.\n- **Datos en Tiempo Real**: Accede a información en tiempo real para tomar decisiones basadas en datos."
+        }
+      ]
+    }
+  ]
+}

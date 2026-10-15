@@ -1,0 +1,106 @@
+.item {
+  margin: 0;
+}
+.header {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.header::-webkit-details-marker {
+  display: none;
+}
+.iconOpened {
+  display: none;
+}
+.item[open] .iconOpened {
+  display: inline-flex;
+}
+.item[open] .iconClosed {
+  display: none;
+}
+.iconClosed,
+.iconOpened {
+  display: inline-flex;
+}
+.item:not([open]) .iconOpened {
+  display: none;
+}
+.title {
+  flex: 1;
+}
+
+/* ---------- Essential Addons (eael) ---------- */
+.eael .header {
+  min-height: 50px;
+  justify-content: space-between;
+  padding: 15px;
+  background: #f1f1f1;
+  border: 1px solid rgba(0, 0, 0, 0.02);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+}
+.eael .iconClosed,
+.eael .iconOpened {
+  margin: 0 10px 0 10px;
+  color: #333;
+}
+.eael .toggle {
+  display: inline-flex;
+  color: #444;
+  transition: transform 0.3s;
+}
+.eael .header:hover,
+.eael .item[open] > .header {
+  background: #414141;
+  color: #fff;
+}
+.eael .header:hover .iconClosed,
+.eael .header:hover .iconOpened,
+.eael .header:hover .toggle,
+.eael .item[open] > .header .iconOpened,
+.eael .item[open] > .header .toggle {
+  color: #fff;
+}
+.eael .item[open] .toggle {
+  transform: rotate(90deg);
+}
+.eael .content {
+  padding: 15px;
+  border: 1px solid #eee;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #333;
+}
+.eael .content ul {
+  padding-left: 40px;
+  margin-bottom: 14.4px;
+}
+
+/* ---------- Nested accordion de Elementor ---------- */
+.nested .header {
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid #d5d8dc;
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1f2124;
+}
+.nested .iconClosed,
+.nested .iconOpened {
+  width: 15px;
+  color: #1f2124;
+  flex-shrink: 0;
+}
+.nested .content {
+  padding: 10px;
+  border: 1px solid #d5d8dc;
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7a7a7a;
+}

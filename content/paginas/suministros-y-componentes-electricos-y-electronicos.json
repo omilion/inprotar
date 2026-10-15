@@ -1,0 +1,138 @@
+{
+  "ruta": "/suministros-y-componentes-electricos-y-electronicos/",
+  "plantilla": "unidad",
+  "unidad": "suministros",
+  "marcas": [],
+  "protegida": true,
+  "seo": {
+    "titulo": "Suministros y Componentes Eléctricos y Electrónicos - INPROTAR",
+    "descripcion": "En Inprotar, ofrecemos una amplia gama de conductores eléctricos y componentes electrónicos para aplicaciones industriales y mineras. Nos especializamos en",
+    "publicado": "2024-07-26T19:51:23-04:00",
+    "modificado": "2024-07-26T20:57:21-04:00",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": [
+            "Organization",
+            "Person"
+          ],
+          "@id": "https://inprotar.cl/#person",
+          "name": "INPROTAR",
+          "url": "https://inprotar.cl",
+          "email": "etardones@inprotar.cl",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "CHAMISERO",
+            "addressLocality": "COLINA",
+            "addressRegion": "REGION METROPOLITANA",
+            "addressCountry": "CHILE"
+          },
+          "logo": {
+            "@type": "ImageObject",
+            "@id": "https://inprotar.cl/#logo",
+            "url": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro2.png",
+            "contentUrl": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro2.png",
+            "caption": "INPROTAR",
+            "inLanguage": "es",
+            "width": "360",
+            "height": "194"
+          },
+          "telephone": "+56 9 9089 4601",
+          "image": {
+            "@id": "https://inprotar.cl/#logo"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://inprotar.cl/#website",
+          "url": "https://inprotar.cl",
+          "name": "INPROTAR",
+          "alternateName": "INPROTAR",
+          "publisher": {
+            "@id": "https://inprotar.cl/#person"
+          },
+          "inLanguage": "es"
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro.png",
+          "url": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro.png",
+          "width": "360",
+          "height": "194",
+          "inLanguage": "es"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://inprotar.cl/suministros-y-componentes-electricos-y-electronicos/#webpage",
+          "url": "https://inprotar.cl/suministros-y-componentes-electricos-y-electronicos/",
+          "name": "Suministros y Componentes Eléctricos y Electrónicos - INPROTAR",
+          "datePublished": "2024-07-26T19:51:23-04:00",
+          "dateModified": "2024-07-26T20:57:21-04:00",
+          "isPartOf": {
+            "@id": "https://inprotar.cl/#website"
+          },
+          "primaryImageOfPage": {
+            "@id": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro.png"
+          },
+          "inLanguage": "es"
+        },
+        {
+          "@type": "Person",
+          "@id": "https://inprotar.cl/author/spadmin/",
+          "name": "spadmin",
+          "url": "https://inprotar.cl/author/spadmin/",
+          "image": {
+            "@type": "ImageObject",
+            "@id": "https://secure.gravatar.com/avatar/04cbec8d3415f60b740fe70001182044fe83baa9f72d24541dfc338db2692af6?s=96&d=mm&r=g",
+            "url": "https://secure.gravatar.com/avatar/04cbec8d3415f60b740fe70001182044fe83baa9f72d24541dfc338db2692af6?s=96&d=mm&r=g",
+            "caption": "spadmin",
+            "inLanguage": "es"
+          },
+          "sameAs": [
+            "https://sistemasdeiluminacion.cl"
+          ]
+        },
+        {
+          "@type": "Article",
+          "headline": "Suministros y Componentes Eléctricos y Electrónicos - INPROTAR",
+          "datePublished": "2024-07-26T19:51:23-04:00",
+          "dateModified": "2024-07-26T20:57:21-04:00",
+          "author": {
+            "@id": "https://inprotar.cl/author/spadmin/",
+            "name": "spadmin"
+          },
+          "publisher": {
+            "@id": "https://inprotar.cl/#person"
+          },
+          "description": "En Inprotar, ofrecemos una amplia gama de conductores eléctricos y componentes electrónicos para aplicaciones industriales y mineras. Nos especializamos en",
+          "name": "Suministros y Componentes Eléctricos y Electrónicos - INPROTAR",
+          "@id": "https://inprotar.cl/suministros-y-componentes-electricos-y-electronicos/#richSnippet",
+          "isPartOf": {
+            "@id": "https://inprotar.cl/suministros-y-componentes-electricos-y-electronicos/#webpage"
+          },
+          "image": {
+            "@id": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro.png"
+          },
+          "inLanguage": "es",
+          "mainEntityOfPage": {
+            "@id": "https://inprotar.cl/suministros-y-componentes-electricos-y-electronicos/#webpage"
+          }
+        }
+      ]
+    }
+  },
+  "bloques": [
+    {
+      "tipo": "hero",
+      "titulo": "Suministros y Componentes Eléctricos y Electrónicos",
+      "fondo": "/wp-content/uploads/2024/07/fondo1.jpg",
+      "oscurecer": 0.7,
+      "alto": 390
+    },
+    {
+      "tipo": "texto",
+      "texto_md": "En Inprotar, ofrecemos una amplia gama de conductores eléctricos y componentes electrónicos para aplicaciones industriales y mineras. Nos especializamos en soluciones como cables para bombas industriales y pozos profundos, y componentes de electrónica aplicada a la industria.\n\n**Elementos Visuales:**\n\n- **Catálogo Interactivo:** Imágenes y descripciones detalladas de productos.\n- **Videos de Aplicación:** Demostraciones de uso en entornos industriales.\n- **Casos de Estudio:** Implementaciones exitosas de nuestros productos.\n\n**Contenido Detallado:**\n\n- Venta y comercialización de conductores eléctricos para fuerza, control, instrumentación, comunicación y datos.\n- Cables mineros e industriales, normales y libres de halógeno.\n- Cables sumergibles para bombas industriales y pozos profundos.\n- Componentes de electrónica aplicada industrial.\n\nEn Inprotar, ofrecemos una amplia gama de conductores eléctricos y componentes electrónicos para aplicaciones industriales y mineras. Nos especializamos en soluciones como cables para bombas industriales y pozos profundos, y componentes de electrónica aplicada a la industria.\n\n**Contenido:**\n\n- **Productos Ofrecidos:**\n\n  - Venta y comercialización de conductores eléctricos para fuerza, control, instrumentación, comunicación y datos.\n  - Cables mineros e industriales, normales y libres de halógeno.\n  - Cables sumergibles para bombas industriales y pozos profundos.\n  - Componentes de electrónica aplicada industrial.\n- **Beneficios:**\n\n  - Alta durabilidad y resistencia en entornos industriales.\n  - Soluciones personalizadas para cada necesidad específica."
+    }
+  ]
+}

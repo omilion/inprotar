@@ -1,0 +1,223 @@
+/* Generado a partir del diseño Elementor original (escritorio + móvil). */
+.c_0a8479e {
+  display: flex;
+  flex-direction: column;
+  margin: -200px 0px 0px 0px;
+  min-height: 230px;
+  align-self: center;
+  background-color: rgb(22, 22, 22);
+  position: relative;
+}
+.c_0a8479e::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgb(24, 26, 24);
+  opacity: 0.7;
+}
+.c_0a8479e_in {
+  width: 100%;
+  max-width: min(100%, 1140px);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  z-index: 2;
+  flex-grow: 1;
+}
+.w_31d6031 {
+  width: 100%;
+  position: relative;
+  height: 112px;
+}
+.w_a50f253 {
+  max-width: 100%;
+  position: relative;
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 34px;
+  color: rgb(255, 255, 255);
+  margin-block: 0;
+}
+.c_bff4705 {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 10px;
+  min-height: 823px;
+  background-image: url("/wp-content/uploads/2024/08/High-Bay-Lights-8.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.c_bff4705_in {
+  width: 100%;
+  max-width: min(100%, 1140px);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 0px;
+  flex-grow: 1;
+}
+.c_2e7cca8 {
+  width: 50.0%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+  min-height: 561px;
+}
+.c_01aad80 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 10px;
+  min-height: 668px;
+  background-color: rgba(20, 20, 20, 0.57);
+}
+.c_01aad80_in {
+  width: 100%;
+  max-width: min(100%, 1140px);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 0px;
+  flex-grow: 1;
+}
+.w_a794cdc {
+  font-family: Arial, sans-serif;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 44px;
+  color: rgb(255, 255, 255);
+  margin-block: 0;
+}
+.w_1bd8c12 {
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(216, 216, 216);
+}
+.w_8b8db2c {
+  margin: 0px 0px -47px 0px;
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(216, 216, 216);
+}
+.w_7563390 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.w_7563390 a {
+  display: inline-flex;
+  padding: 15px;
+  margin: 0 10px;
+  color: #fff;
+}
+.w_7563390 svg {
+  width: 70px;
+  height: 70px;
+}
+.c_7210451 {
+  width: 50.0%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+}
+.c_711b568 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 20px 40px 20px;
+  background-color: rgba(22, 22, 22, 0.6);
+  box-shadow: rgba(0, 0, 0, 0.18) -1px -9px 28px -1px;
+}
+.w_0326e2a {
+  font-family: Arial, sans-serif;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 44px;
+  color: rgb(255, 255, 255);
+  margin-block: 0;
+}
+.c_0a8479e {
+  margin-top: -1.8px;
+}
+
+@media (max-width: 767px) {
+  .c_0a8479e {
+    margin-top: -189px;
+    min-height: 655px;
+  }
+  .c_0a8479e_in {
+    flex-wrap: wrap;
+    max-width: 73%;
+  }
+  .c_bff4705_in {
+    flex-wrap: wrap;
+    max-width: min(100%, 767px);
+  }
+  .c_2e7cca8 {
+    flex-wrap: wrap;
+  }
+  .c_2e7cca8 {
+    width: 100.0%;
+  }
+  .c_01aad80 {
+    width: 100.0%;
+  }
+  .c_01aad80_in {
+    flex-wrap: wrap;
+    max-width: min(100%, 767px);
+  }
+  .w_a794cdc {
+    font-size: 35px;
+    line-height: 35px;
+  }
+  .w_7563390 svg {
+    width: 40px;
+    height: 40px;
+  }
+  .c_7210451 {
+    flex-wrap: wrap;
+  }
+  .c_7210451 {
+    width: 100.0%;
+  }
+  .c_711b568 {
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    margin-top: 23px;
+  }
+  .c_711b568 {
+    flex-wrap: wrap;
+  }
+  .c_711b568 {
+    width: 100.0%;
+  }
+  .w_0326e2a {
+    font-size: 35px;
+    line-height: 35px;
+  }
+  .w_f2a0390 {
+    margin-bottom: -32px;
+  }
+  .c_0a8479e {
+    margin-top: 37.6px;
+  }
+}

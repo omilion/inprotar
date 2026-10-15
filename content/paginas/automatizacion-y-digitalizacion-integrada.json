@@ -1,0 +1,138 @@
+{
+  "ruta": "/automatizacion-y-digitalizacion-integrada/",
+  "plantilla": "unidad",
+  "unidad": "automatizacion",
+  "marcas": [],
+  "protegida": false,
+  "seo": {
+    "titulo": "Automatización y Digitalización Integrada - INPROTAR",
+    "descripcion": "Inprotar ofrece soluciones avanzadas en automatización y digitalización, incluyendo tableros eléctricos para control e instrumentación, especialmente",
+    "publicado": "2024-07-26T19:51:41-04:00",
+    "modificado": "2024-07-26T20:58:56-04:00",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": [
+            "Organization",
+            "Person"
+          ],
+          "@id": "https://inprotar.cl/#person",
+          "name": "INPROTAR",
+          "url": "https://inprotar.cl",
+          "email": "etardones@inprotar.cl",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "CHAMISERO",
+            "addressLocality": "COLINA",
+            "addressRegion": "REGION METROPOLITANA",
+            "addressCountry": "CHILE"
+          },
+          "logo": {
+            "@type": "ImageObject",
+            "@id": "https://inprotar.cl/#logo",
+            "url": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro2.png",
+            "contentUrl": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro2.png",
+            "caption": "INPROTAR",
+            "inLanguage": "es",
+            "width": "360",
+            "height": "194"
+          },
+          "telephone": "+56 9 9089 4601",
+          "image": {
+            "@id": "https://inprotar.cl/#logo"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://inprotar.cl/#website",
+          "url": "https://inprotar.cl",
+          "name": "INPROTAR",
+          "alternateName": "INPROTAR",
+          "publisher": {
+            "@id": "https://inprotar.cl/#person"
+          },
+          "inLanguage": "es"
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro.png",
+          "url": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro.png",
+          "width": "360",
+          "height": "194",
+          "inLanguage": "es"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://inprotar.cl/automatizacion-y-digitalizacion-integrada/#webpage",
+          "url": "https://inprotar.cl/automatizacion-y-digitalizacion-integrada/",
+          "name": "Automatización y Digitalización Integrada - INPROTAR",
+          "datePublished": "2024-07-26T19:51:41-04:00",
+          "dateModified": "2024-07-26T20:58:56-04:00",
+          "isPartOf": {
+            "@id": "https://inprotar.cl/#website"
+          },
+          "primaryImageOfPage": {
+            "@id": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro.png"
+          },
+          "inLanguage": "es"
+        },
+        {
+          "@type": "Person",
+          "@id": "https://inprotar.cl/author/spadmin/",
+          "name": "spadmin",
+          "url": "https://inprotar.cl/author/spadmin/",
+          "image": {
+            "@type": "ImageObject",
+            "@id": "https://secure.gravatar.com/avatar/04cbec8d3415f60b740fe70001182044fe83baa9f72d24541dfc338db2692af6?s=96&d=mm&r=g",
+            "url": "https://secure.gravatar.com/avatar/04cbec8d3415f60b740fe70001182044fe83baa9f72d24541dfc338db2692af6?s=96&d=mm&r=g",
+            "caption": "spadmin",
+            "inLanguage": "es"
+          },
+          "sameAs": [
+            "https://sistemasdeiluminacion.cl"
+          ]
+        },
+        {
+          "@type": "Article",
+          "headline": "Automatización y Digitalización Integrada - INPROTAR",
+          "datePublished": "2024-07-26T19:51:41-04:00",
+          "dateModified": "2024-07-26T20:58:56-04:00",
+          "author": {
+            "@id": "https://inprotar.cl/author/spadmin/",
+            "name": "spadmin"
+          },
+          "publisher": {
+            "@id": "https://inprotar.cl/#person"
+          },
+          "description": "Inprotar ofrece soluciones avanzadas en automatización y digitalización, incluyendo tableros eléctricos para control e instrumentación, especialmente",
+          "name": "Automatización y Digitalización Integrada - INPROTAR",
+          "@id": "https://inprotar.cl/automatizacion-y-digitalizacion-integrada/#richSnippet",
+          "isPartOf": {
+            "@id": "https://inprotar.cl/automatizacion-y-digitalizacion-integrada/#webpage"
+          },
+          "image": {
+            "@id": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro.png"
+          },
+          "inLanguage": "es",
+          "mainEntityOfPage": {
+            "@id": "https://inprotar.cl/automatizacion-y-digitalizacion-integrada/#webpage"
+          }
+        }
+      ]
+    }
+  },
+  "bloques": [
+    {
+      "tipo": "hero",
+      "titulo": "Automatización y Digitalización Integrada",
+      "fondo": "/wp-content/uploads/2024/07/fondo1.jpg",
+      "oscurecer": 0.7,
+      "alto": 390
+    },
+    {
+      "tipo": "texto",
+      "texto_md": "Inprotar ofrece soluciones avanzadas en automatización y digitalización, incluyendo tableros eléctricos para control e instrumentación, especialmente diseñados para atmósferas explosivas. También diseñamos y proporcionamos soluciones de redes WiFi para aplicaciones industriales y domésticas.\n\n**Elementos Visuales:**\n\n- **Infografías:** Visualización de procesos de automatización y digitalización.\n- **Videos Tutoriales:** Instalación y configuración de tableros eléctricos.\n- **Blog Técnico:** Artículos sobre tendencias en automatización y digitalización.\n\n**Contenido Detallado:**\n\n- Tableros eléctricos para fuerza, control e instrumentación.\n- Tableros eléctricos para atmósferas explosivas Clase 1 División 1 – Zona 0 – 21-22 bajo normas NEC/IEC.\n- Diseño de redes WiFi para soluciones de home-networking y telecomunicaciones.\n\nInprotar ofrece soluciones avanzadas en automatización y digitalización, incluyendo tableros eléctricos para control e instrumentación, especialmente diseñados para atmósferas explosivas. También diseñamos y proporcionamos soluciones de redes WiFi para aplicaciones industriales y domésticas.\n\n**Contenido:**\n\n- **Soluciones Ofrecidas:**\n\n  - Tableros eléctricos para fuerza, control e instrumentación.\n  - Tableros eléctricos para atmósferas explosivas Clase 1 División 1 – Zona 0 – 21-22 bajo normas NEC/IEC.\n  - Diseño de redes WiFi para soluciones de home-networking y telecomunicaciones.\n- **Beneficios:**\n\n  - Incremento en la eficiencia operativa a través de la digitalización.\n  - Mejora de la seguridad y reducción de tiempos en tareas repetitivas.\n\n**Elementos Visuales:**\n\n- **Infografías:** Visualización de procesos de automatización y digitalización.\n- **Videos Tutoriales:** Instalación y configuración de tableros eléctricos.\n- **Blog Técnico:** Artículos sobre tendencias en automatización y digitalización."
+    }
+  ]
+}

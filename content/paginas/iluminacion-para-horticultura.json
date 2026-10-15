@@ -1,0 +1,317 @@
+{
+  "ruta": "/iluminacion-para-horticultura/",
+  "plantilla": "lineaProducto",
+  "unidad": "iluminacion",
+  "marcas": [
+    "philips"
+  ],
+  "protegida": false,
+  "seo": {
+    "titulo": "Iluminación para Horticultura Chile - INPROTAR",
+    "descripcion": "Iluminación para horticultura para invernaderos están diseñadas para mejorar el rendimiento de frutas, verduras y flores en sistemas de cultivo diversos.",
+    "imagen": {
+      "src": "/wp-content/uploads/2024/07/1687262121456.jpeg",
+      "alt": "Iluminación para horticultura",
+      "ancho": 534,
+      "alto": 300
+    },
+    "publicado": "2024-08-01T14:51:18-04:00",
+    "modificado": "2024-09-01T12:31:59-04:00",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": [
+            "Organization",
+            "Person"
+          ],
+          "@id": "https://inprotar.cl/#person",
+          "name": "INPROTAR",
+          "url": "https://inprotar.cl",
+          "email": "etardones@inprotar.cl",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "CHAMISERO",
+            "addressLocality": "COLINA",
+            "addressRegion": "REGION METROPOLITANA",
+            "addressCountry": "CHILE"
+          },
+          "logo": {
+            "@type": "ImageObject",
+            "@id": "https://inprotar.cl/#logo",
+            "url": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro2.png",
+            "contentUrl": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro2.png",
+            "caption": "INPROTAR",
+            "inLanguage": "es",
+            "width": "360",
+            "height": "194"
+          },
+          "telephone": "+56 9 9089 4601",
+          "image": {
+            "@id": "https://inprotar.cl/#logo"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://inprotar.cl/#website",
+          "url": "https://inprotar.cl",
+          "name": "INPROTAR",
+          "alternateName": "INPROTAR",
+          "publisher": {
+            "@id": "https://inprotar.cl/#person"
+          },
+          "inLanguage": "es"
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://inprotar.cl/wp-content/uploads/2024/07/1687262121456.jpeg",
+          "url": "https://inprotar.cl/wp-content/uploads/2024/07/1687262121456.jpeg",
+          "width": "200",
+          "height": "200",
+          "inLanguage": "es"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://inprotar.cl/iluminacion-para-horticultura/#webpage",
+          "url": "https://inprotar.cl/iluminacion-para-horticultura/",
+          "name": "Iluminación para Horticultura Chile - INPROTAR",
+          "datePublished": "2024-08-01T14:51:18-04:00",
+          "dateModified": "2024-09-01T12:31:59-04:00",
+          "isPartOf": {
+            "@id": "https://inprotar.cl/#website"
+          },
+          "primaryImageOfPage": {
+            "@id": "https://inprotar.cl/wp-content/uploads/2024/07/1687262121456.jpeg"
+          },
+          "inLanguage": "es"
+        },
+        {
+          "@type": "Person",
+          "@id": "https://inprotar.cl/author/spadmin/",
+          "name": "spadmin",
+          "url": "https://inprotar.cl/author/spadmin/",
+          "image": {
+            "@type": "ImageObject",
+            "@id": "https://secure.gravatar.com/avatar/04cbec8d3415f60b740fe70001182044fe83baa9f72d24541dfc338db2692af6?s=96&d=mm&r=g",
+            "url": "https://secure.gravatar.com/avatar/04cbec8d3415f60b740fe70001182044fe83baa9f72d24541dfc338db2692af6?s=96&d=mm&r=g",
+            "caption": "spadmin",
+            "inLanguage": "es"
+          },
+          "sameAs": [
+            "https://sistemasdeiluminacion.cl"
+          ]
+        },
+        {
+          "@type": "Article",
+          "headline": "Iluminación para Horticultura Chile - INPROTAR",
+          "keywords": "Iluminación para horticultura,chile",
+          "datePublished": "2024-08-01T14:51:18-04:00",
+          "dateModified": "2024-09-01T12:31:59-04:00",
+          "author": {
+            "@id": "https://inprotar.cl/author/spadmin/",
+            "name": "spadmin"
+          },
+          "publisher": {
+            "@id": "https://inprotar.cl/#person"
+          },
+          "description": "Iluminación para horticultura para invernaderos están diseñadas para mejorar el rendimiento de frutas, verduras y flores en sistemas de cultivo diversos.",
+          "name": "Iluminación para Horticultura Chile - INPROTAR",
+          "@id": "https://inprotar.cl/iluminacion-para-horticultura/#richSnippet",
+          "isPartOf": {
+            "@id": "https://inprotar.cl/iluminacion-para-horticultura/#webpage"
+          },
+          "image": {
+            "@id": "https://inprotar.cl/wp-content/uploads/2024/07/1687262121456.jpeg"
+          },
+          "inLanguage": "es",
+          "mainEntityOfPage": {
+            "@id": "https://inprotar.cl/iluminacion-para-horticultura/#webpage"
+          }
+        }
+      ]
+    }
+  },
+  "bloques": [
+    {
+      "tipo": "hero",
+      "titulo": "Iluminación para Horticultura",
+      "fondo": "/wp-content/uploads/2024/07/1687265405045.jpeg",
+      "oscurecer": 0.29,
+      "alto": 390
+    },
+    {
+      "tipo": "titulo",
+      "titulo": {
+        "texto": "Iluminación de Horticultura para Maximizar la Producción",
+        "nivel": "h2"
+      }
+    },
+    {
+      "tipo": "fichas",
+      "fichas": [
+        {
+          "nombre": "Iluminación para Invernaderos",
+          "imagen": {
+            "src": "/wp-content/uploads/2024/07/1687262121456.jpeg",
+            "alt": "",
+            "ancho": 534,
+            "alto": 300,
+            "pie": "Iluminación para Horticultura"
+          },
+          "especificaciones_md": "Iluminación para horticultura para invernaderos están diseñadas para mejorar el rendimiento de frutas, verduras y flores en sistemas de cultivo diversos.\n\n- **Luces LED GreenPower**: Ofrecen un alto flujo luminoso con menos calor, optimizando el crecimiento y la reproducción de plantas jóvenes y la producción a gran escala.\n- **Control de Espectro y Intensidad**: Ajusta la luz para influir en características específicas del cultivo, como contenido en nitratos, vitamina C y tiempo de conservación."
+        },
+        {
+          "nombre": "Iluminación para Cultivos Verticales",
+          "imagen": {
+            "src": "/wp-content/uploads/2024/08/city-farming-philips.webp",
+            "alt": "",
+            "ancho": 700,
+            "alto": 410,
+            "pie": "Iluminación para Horticultura"
+          },
+          "especificaciones_md": "La agricultura vertical se beneficia enormemente de nuestras soluciones LED, que permiten un cultivo eficiente en espacios reducidos.\n\n- **Producción en Múltiples Capas**: Nuestras luces LED están diseñadas para cultivos multicapa, maximizando el uso del espacio y aumentando el rendimiento.\n- **Optimización de la Calidad del Cultivo**: Las luces LED de Philips mejoran el sabor, la textura y el valor nutricional de las verduras de hoja y otros cultivos verticales."
+        }
+      ]
+    },
+    {
+      "tipo": "bannerImagen",
+      "fondo": "/wp-content/uploads/2024/08/1687264847084.jpeg",
+      "oscurecer": 0.4,
+      "ladoTexto": "izquierda",
+      "titulo": "Iluminación LED para mejorar tus cultivos",
+      "botones": [
+        {
+          "texto": "whatssapp",
+          "url": "https://wa.me/56990894601",
+          "estilo": "contornoClaro"
+        },
+        {
+          "texto": "Necesito una Visita",
+          "url": "https://wa.me/56990894601?text=Quiero%20agendar%20una%20visita",
+          "estilo": "contornoClaro"
+        }
+      ],
+      "antetitulo": "Porcentajes más elevados de germinación, enraizamiento y multiplicación",
+      "colorTitulo": "#2fffec",
+      "texto_md": "[Iluminación para Horticultura](/iluminacion-para-horticultura/)pueden mejorar varios aspectos de tu empresa. Depende del cultivo, de las circunstancias ambientales y de la receta de luz, entre otros factores. Los productores consiguen los siguientes beneficios con las soluciones LED Philips GreenPower combinadas con recetas de luz:"
+    },
+    {
+      "tipo": "titulo",
+      "titulo": {
+        "texto": "Portafolio iluminación horticultura",
+        "nivel": "h2"
+      }
+    },
+    {
+      "tipo": "textoImagen",
+      "imagen": {
+        "src": "/wp-content/uploads/2024/08/greenpower-toplighting-gen2-e1722520968865.jpg",
+        "alt": "",
+        "ancho": 410,
+        "alto": 405,
+        "pie": "Iluminación para Horticultura"
+      },
+      "imagenAlLado": "derecha",
+      "texto_md": "Ofrece un alto flujo luminoso con menos irradiación de calor, ideal para invernaderos donde se busca maximizar el crecimiento de los cultivos mientras se reduce el consumo de energía.\n\n| Especificaciones |  |\n| --- | --- |\n| Tensión de entrada | 277-400 V |\n| Consumo de energía | 230-250 W |\n| Flujo luminoso | 630-800 μmol/s |\n| Eficiencia | 2,5-3,5 μmol/J |\n| Grado de protección de entrada | IP66, aprobado por UL/CSA |\n| Vida útil media nominal\\* | 36.000 horas L90B50 |\n\n| Especificaciones |  |\n| --- | --- |\n| Tensión de entrada | 400 V |\n| Consumo de energía | 285-325 W |\n| Flujo luminoso | 900-1000 μmol/s |\n| Eficiencia | 3,1-3,3 μmol/J |\n| Grado de protección de entrada | IP66 |\n| Vida útil media nominal\\* | 36.000 horas L90B50 |\n\nUna opción perfecta para sustituir las configuraciones HPS existentes o para nuevas instalaciones. Proporciona un elevado flujo luminoso y eficacia, permitiendo una regulación flexible para adaptarse a diferentes alturas de invernadero.\n\nDiseñada para mejorar el rendimiento de los cultivos durante la fase de floración, esta lámpara reduce significativamente el consumo de energía en comparación con las lámparas incandescentes, halógenas y CFL.\n\n| Especificaciones |  |\n| --- | --- |\n| Tensión de entrada | 120-230 V |\n| Consumo de energía | 13 W |\n| Flujo luminoso | 25 µmol/s |\n| Eficiencia | 1,9 µmol/J |\n| Grado de protección de entrada | IP44 (UL/CSA para lugares húmedos y mojados) |\n| Vida útil con mantenimiento de flujo de 90 % | 25.000 horas |\n\n| Especificaciones |  |\n| --- | --- |\n| Tensión de entrada | 120-230 V |\n| Consumo de energía | 11 W |\n| Flujo luminoso | 20 µmol/s |\n| Eficiencia | 1,8 µmol/J |\n| Grado de protección de entrada | IP44 (UL/CSA para lugares húmedos y mojados) |\n| Vida útil con mantenimiento de flujo de 90 % |",
+      "botones": [],
+      "titulo": {
+        "texto": "Iluminación LED para invernadeross",
+        "nivel": "h2"
+      }
+    },
+    {
+      "tipo": "textoImagen",
+      "imagen": {
+        "src": "/wp-content/uploads/2024/08/1687265407750.jpeg",
+        "alt": "",
+        "ancho": 534,
+        "alto": 663,
+        "pie": "Iluminación para Horticultura"
+      },
+      "imagenAlLado": "derecha",
+      "texto_md": "Especialmente diseñado para sistemas de crecimiento vertical, este módulo proporciona una solución óptima tanto para nuevas instalaciones como para las existentes, destacando por su alta eficiencia energética y larga vida útil. Ideal para el cultivo de lechugas y otras verduras de hoja, así como fresas y otras bayas en granjas urbanas o verticales.\n\n| Especificaciones |  |\n| --- | --- |\n| Tensión de entrada | 277-400 V |\n| Consumo de energía | 230-250 W |\n| Flujo luminoso | 630-800 μmol/s |\n| Eficiencia | 2,5-3,5 μmol/J |\n| Grado de protección de entrada | IP66, aprobado por UL/CSA |\n| Vida útil media nominal\\* | 36.000 horas L90B50 |\n\n| Especificaciones |  |\n| --- | --- |\n| Tensión de entrada | 400 V |\n| Consumo de energía | 285-325 W |\n| Flujo luminoso | 900-1000 μmol/s |\n| Eficiencia | 3,1-3,3 μmol/J |\n| Grado de protección de entrada | IP66 |\n| Vida útil media nominal\\* | 36.000 horas L90B50 |",
+      "botones": [],
+      "titulo": {
+        "texto": "Iluminación LED para Cultivos Verticales",
+        "nivel": "h2"
+      }
+    },
+    {
+      "tipo": "texto",
+      "texto_md": "Nuestro sistema de iluminación se ha desarrollado en estrecha colaboración con importantes universidades e institutos, asegurando soluciones basadas en la investigación y la innovación. Nuestras luces incorporan los chips y controles LED más avanzados, utilizando los mejores materiales de calidad naval para garantizar su durabilidad en las condiciones más extremas. Con Inprotar, su producción acuícola estará respaldada por tecnología de vanguardia y una fiabilidad inigualable.",
+      "titulo": {
+        "texto": "¡Transforma tu vivero con nuestras luminarias marca Philips GreenPower hoy! Luces LED para cultivos de floricultura",
+        "nivel": "h2"
+      }
+    },
+    {
+      "tipo": "textoImagen",
+      "imagen": {
+        "src": "/wp-content/uploads/2024/08/growwise-control-system-16-9-1024x576.webp",
+        "alt": "",
+        "ancho": 800,
+        "alto": 450
+      },
+      "imagenAlLado": "derecha",
+      "texto_md": "Descubre cómo el sistema de control GrowWise de Philips puede transformar tu horticultura, permitiéndote personalizar y optimizar las condiciones de iluminación para tus cultivos. En Inprotar, ofrecemos esta avanzada tecnología que te da el control total para crear «recetas de luz» específicas que se ajustan a tus necesidades exactas.\n\n**Beneficios del Sistema de Control GrowWise:**\n\n- **Recetas de Luz Personalizables**: Ajusta el espectro de luz, la intensidad y la duración para adaptarse específicamente a los requisitos de tus cultivos, maximizando su crecimiento y salud.\n- **Flexibilidad Total**: El sistema permite mezclar colores de luz como rojo profundo, azul, verde y rojo lejano, optimizando así el desarrollo específico de las plantas.\n- **Control desde Dispositivos Móviles**: Gestiona tu iluminación desde cualquier lugar mediante un dispositivo móvil o un ordenador de clima, facilitando un control continuo y ajustable.\n- **Eficiencia Mejorada**: Diseñado para ser utilizado con módulos LED dinámicos GreenPower, el sistema mejora la calidad y productividad de los cultivos mientras reduce el consumo de energía.",
+      "botones": [
+        {
+          "texto": "Necesito una Visita",
+          "url": "https://wa.me/56990894601?text=Quiero%20agendar%20una%20visita",
+          "estilo": "contorno"
+        }
+      ],
+      "titulo": {
+        "texto": "Maximiza el Crecimiento con el Sistema de Control GrowWise de Philips",
+        "nivel": "h2"
+      }
+    },
+    {
+      "tipo": "textoImagen",
+      "imagen": {
+        "src": "/wp-content/uploads/2024/08/1688409413161.jpeg",
+        "alt": "",
+        "ancho": 534,
+        "alto": 389,
+        "pie": "Iluminación para Horticultura"
+      },
+      "imagenAlLado": "derecha",
+      "texto_md": "- **Control Total del Crecimiento**: Con nuestras luces LED, puedes controlar el espectro y la intensidad de la luz para optimizar cada fase del crecimiento de tus plantas.\n- **Ahorro Energético**: Las soluciones LED son altamente eficientes, reduciendo significativamente el consumo de energía en comparación con las tecnologías tradicionales.\n- **Mejora de la Calidad del Cultivo**: Las luces LED de Philips están diseñadas para mejorar el sabor, el valor nutricional y el tiempo de conservación de tus cultivos.\n- **Cultivos Durante Todo el Año**: Nuestras soluciones permiten la producción continua, independiente de las condiciones climáticas externas.",
+      "botones": [],
+      "titulo": {
+        "texto": "Beneficios de Nuestra Iluminación para Horticultura",
+        "nivel": "h2"
+      }
+    },
+    {
+      "tipo": "faq",
+      "titulo": "Preguntas Frecuentes sobre Iluminación para Horticultura",
+      "preguntas": [
+        {
+          "pregunta": "1: ¿Cómo puede ayudar la iluminación LED de Inprotar a mejorar la calidad de mis cultivos?",
+          "respuesta_md": "La iluminación LED de Inprotar, especialmente diseñada con la tecnología Philips GreenPower, proporciona un espectro de luz optimizado que mejora tanto la calidad como la velocidad de crecimiento de los cultivos. Estos sistemas permiten un control preciso sobre la intensidad y el espectro de luz, asegurando que tus plantas reciban exactamente lo que necesitan para un desarrollo óptimo."
+        },
+        {
+          "pregunta": "2: ¿Qué ahorros puedo esperar al cambiar a iluminación LED en mi invernadero?",
+          "respuesta_md": "Al cambiar a la iluminación LED de Inprotar, puedes esperar reducciones significativas en el consumo de energía, a menudo hasta un 60% menos en comparación con las tecnologías de iluminación tradicionales. Además, los LED tienen una vida útil más larga, reduciendo la necesidad de reemplazos frecuentes y disminuyendo los costos de mantenimiento."
+        },
+        {
+          "pregunta": "3: ¿Ofrece Inprotar soluciones personalizadas para diferentes tipos de cultivos?",
+          "respuesta_md": "Sí, en Inprotar entendemos que cada tipo de cultivo tiene sus propias necesidades específicas. Ofrecemos soluciones personalizadas a través del sistema de control GrowWise de Philips, que permite ajustar y programar el espectro de luz para adaptarse a las necesidades específicas de tus cultivos, desde vegetales de hoja hasta flores."
+        },
+        {
+          "pregunta": "¿Cómo puedo asegurarme de que la instalación de estos sistemas de iluminación sea exitosa en mi operación?",
+          "respuesta_md": "Inprotar proporciona una asistencia completa durante todo el proceso de instalación, desde la planificación inicial y el diseño hasta la ejecución y el mantenimiento post-instalación. Nuestro equipo de expertos trabajará de cerca contigo para asegurar que la instalación sea exitosa y que el sistema esté configurado para maximizar los beneficios para tus cultivos."
+        },
+        {
+          "pregunta": "5 ¿Có¿Qué apoyo post-venta ofrece Inprotar?mo contribuye la colaboración con universidades e institutos a la efectividad de los sistemas de Inprotar?",
+          "respuesta_md": "Nuestro compromiso con los clientes no termina con la instalación. Ofrecemos soporte técnico continuo, mantenimiento y actualizaciones de software para asegurar que tu sistema de iluminación funcione de manera óptima y continúe cumpliendo con tus expectativas de rendimiento y eficiencia."
+        }
+      ]
+    },
+    {
+      "tipo": "cierre",
+      "texto": "Para más información sobre cómo Inprotar puede optimizar su operación en Horticultura con iluminación LED avanzada, ¡contáctenos hoy mismo!"
+    }
+  ]
+}

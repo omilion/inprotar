@@ -1,0 +1,143 @@
+{
+  "ruta": "/2025/03/25/iluminacion-solar-industrial-eficiencia-energetica-al-mas-alto-nivel-con-sunstay/",
+  "titulo": "Iluminación Solar Industrial: Eficiencia Energética al Más Alto Nivel con SunStay",
+  "fecha": "2025-03-25T07:20:35-04:00",
+  "imagen": {
+    "src": "/wp-content/uploads/2024/07/iluminacion-eficiente-y-sostenible.webp",
+    "alt": "Iluminación solar",
+    "ancho": 858,
+    "alto": 473
+  },
+  "unidad": "iluminacion",
+  "marcas": [
+    "philips"
+  ],
+  "cuerpo_md": "La iluminación solar industrial representa una solución sustentable que aprovecha la energía renovable del sol para iluminar espacios públicos, áreas industriales y urbanas. La tecnología solar fotovoltaica aplicada a luminarias industriales ha alcanzado niveles de eficiencia y confiabilidad antes impensados, especialmente con productos avanzados como SunStay.\n\n**¿Qué es SunStay y por qué elegirlo?**\n\nSunStay es una luminaria solar todo-en-uno diseñada para aplicaciones industriales, urbanas y residenciales exigentes. Su propuesta innovadora radica en la integración completa del panel solar, la batería, el controlador inteligente y la iluminación LED en un único dispositivo robusto y de calidad industrial. Esto garantiza iluminación continua, segura y eficiente, incluso en condiciones climáticas adversas.\n\n**Tendencias y contexto de la iluminación solar**\n\nSegún la International Renewable Energy Agency (IRENA), la capacidad instalada mundial de energía solar fotovoltaica superó los 1.200 GW en 2023. En Chile, la energía solar es la principal fuente de generación renovable, alcanzando más del 20% de la matriz energética nacional, según la Comisión Nacional de Energía (CNE). Este contexto favorece enormemente la adopción de soluciones como SunStay, especialmente en sectores industriales que buscan eficiencia energética, reducción de costos operativos y sostenibilidad ambiental.\n\n**Ventajas técnicas y económicas del sistema SunStay**\n\nSunStay reduce considerablemente los costos operativos, eliminando el consumo eléctrico tradicional. Ofrece hasta 24 horas de autonomía energética gracias a su batería integrada de litio de alta eficiencia, lo que asegura iluminación continua incluso en días nublados. Su construcción resistente con clasificación IP66 y IK08 garantiza protección frente al polvo, la humedad y los impactos, siendo ideal para ambientes exigentes como zonas industriales, minería, espacios urbanos o rurales aislados.\n\nAdicionalmente, la implementación de luminarias solares SunStay permite acceder a diversos beneficios tributarios y apoyos económicos en el marco de políticas nacionales e internacionales de transición energética y reducción de emisiones de carbono.\n\n**Impacto ambiental positivo y sustentable**\n\nLa utilización de SunStay ayuda a reducir significativamente la huella de carbono de las operaciones industriales y urbanas, al eliminar por completo las emisiones asociadas al uso de energía eléctrica convencional. Estudios recientes indican que el uso generalizado de iluminación solar puede reducir hasta un 50% el consumo energético en ciudades y parques industriales.\n\n**Inprotar y SunStay: Combinación de calidad y sustentabilidad**\n\nEn Inprotar brindamos soluciones completas y eficientes con luminarias solares SunStay, acompañando a empresas e instituciones en la implementación de iluminación industrial sustentable. Ofrecemos asesoría personalizada, instalación profesional y servicio postventa especializado, asegurando que cada proyecto alcance máximos niveles de rendimiento, ahorro energético y sustentabilidad.\n\n**Descubre cómo iluminar de forma eficiente, inteligente y sustentable con SunStay.** Contáctanos en [www.inprotar.cl](/landing-sunstay-120225/) o al correo ventas@inprotar.cl.",
+  "seo": {
+    "titulo": "Iluminación Solar Industrial: Eficiencia Energética al Más Alto Nivel con SunStay - INPROTAR",
+    "descripcion": "La iluminación solar industrial representa una solución sustentable que aprovecha la energía renovable del sol para iluminar espacios públicos, áreas",
+    "imagen": {
+      "src": "/wp-content/uploads/2024/07/iluminacion-eficiente-y-sostenible.webp",
+      "alt": "Iluminación solar",
+      "ancho": 858,
+      "alto": 473
+    },
+    "publicado": "2025-03-25T07:20:35-04:00",
+    "modificado": "2025-03-25T19:56:47-04:00",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": [
+            "Organization",
+            "Person"
+          ],
+          "@id": "https://inprotar.cl/#person",
+          "name": "INPROTAR",
+          "url": "https://inprotar.cl",
+          "email": "etardones@inprotar.cl",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "CHAMISERO",
+            "addressLocality": "COLINA",
+            "addressRegion": "REGION METROPOLITANA",
+            "addressCountry": "CHILE"
+          },
+          "logo": {
+            "@type": "ImageObject",
+            "@id": "https://inprotar.cl/#logo",
+            "url": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro2.png",
+            "contentUrl": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro2.png",
+            "caption": "INPROTAR",
+            "inLanguage": "es",
+            "width": "360",
+            "height": "194"
+          },
+          "telephone": "+56 9 9089 4601",
+          "image": {
+            "@id": "https://inprotar.cl/#logo"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://inprotar.cl/#website",
+          "url": "https://inprotar.cl",
+          "name": "INPROTAR",
+          "alternateName": "INPROTAR",
+          "publisher": {
+            "@id": "https://inprotar.cl/#person"
+          },
+          "inLanguage": "es"
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://inprotar.cl/wp-content/uploads/2024/07/iluminacion-eficiente-y-sostenible.webp",
+          "url": "https://inprotar.cl/wp-content/uploads/2024/07/iluminacion-eficiente-y-sostenible.webp",
+          "width": "858",
+          "height": "473",
+          "caption": "Iluminación solar",
+          "inLanguage": "es"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://inprotar.cl/2025/03/25/iluminacion-solar-industrial-eficiencia-energetica-al-mas-alto-nivel-con-sunstay/#webpage",
+          "url": "https://inprotar.cl/2025/03/25/iluminacion-solar-industrial-eficiencia-energetica-al-mas-alto-nivel-con-sunstay/",
+          "name": "Iluminación Solar Industrial: Eficiencia Energética al Más Alto Nivel con SunStay - INPROTAR",
+          "datePublished": "2025-03-25T07:20:35-04:00",
+          "dateModified": "2025-03-25T19:56:47-04:00",
+          "isPartOf": {
+            "@id": "https://inprotar.cl/#website"
+          },
+          "primaryImageOfPage": {
+            "@id": "https://inprotar.cl/wp-content/uploads/2024/07/iluminacion-eficiente-y-sostenible.webp"
+          },
+          "inLanguage": "es"
+        },
+        {
+          "@type": "Person",
+          "@id": "https://inprotar.cl/author/spadmin/",
+          "name": "spadmin",
+          "url": "https://inprotar.cl/author/spadmin/",
+          "image": {
+            "@type": "ImageObject",
+            "@id": "https://secure.gravatar.com/avatar/04cbec8d3415f60b740fe70001182044fe83baa9f72d24541dfc338db2692af6?s=96&d=mm&r=g",
+            "url": "https://secure.gravatar.com/avatar/04cbec8d3415f60b740fe70001182044fe83baa9f72d24541dfc338db2692af6?s=96&d=mm&r=g",
+            "caption": "spadmin",
+            "inLanguage": "es"
+          },
+          "sameAs": [
+            "https://sistemasdeiluminacion.cl"
+          ]
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Iluminación Solar Industrial: Eficiencia Energética al Más Alto Nivel con SunStay - INPROTAR",
+          "keywords": "iluminacion solar",
+          "datePublished": "2025-03-25T07:20:35-04:00",
+          "dateModified": "2025-03-25T19:56:47-04:00",
+          "articleSection": "Iluminación",
+          "author": {
+            "@id": "https://inprotar.cl/author/spadmin/",
+            "name": "spadmin"
+          },
+          "publisher": {
+            "@id": "https://inprotar.cl/#person"
+          },
+          "description": "La iluminación solar industrial representa una solución sustentable que aprovecha la energía renovable del sol para iluminar espacios públicos, áreas",
+          "name": "Iluminación Solar Industrial: Eficiencia Energética al Más Alto Nivel con SunStay - INPROTAR",
+          "@id": "https://inprotar.cl/2025/03/25/iluminacion-solar-industrial-eficiencia-energetica-al-mas-alto-nivel-con-sunstay/#richSnippet",
+          "isPartOf": {
+            "@id": "https://inprotar.cl/2025/03/25/iluminacion-solar-industrial-eficiencia-energetica-al-mas-alto-nivel-con-sunstay/#webpage"
+          },
+          "image": {
+            "@id": "https://inprotar.cl/wp-content/uploads/2024/07/iluminacion-eficiente-y-sostenible.webp"
+          },
+          "inLanguage": "es",
+          "mainEntityOfPage": {
+            "@id": "https://inprotar.cl/2025/03/25/iluminacion-solar-industrial-eficiencia-energetica-al-mas-alto-nivel-con-sunstay/#webpage"
+          }
+        }
+      ]
+    }
+  }
+}

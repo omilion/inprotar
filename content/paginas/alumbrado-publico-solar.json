@@ -1,0 +1,405 @@
+{
+  "ruta": "/alumbrado-publico-solar/",
+  "plantilla": "lineaProducto",
+  "unidad": "iluminacion",
+  "marcas": [
+    "philips"
+  ],
+  "protegida": true,
+  "seo": {
+    "titulo": "Alumbrado público solar - sunstay pro philips",
+    "descripcion": "Ofrecemos soluciones de alumbrado público solar con las avanzadas luminarias sunstay pro philips. Ideales para aplicaciones industriales y viales.",
+    "imagen": {
+      "src": "/wp-content/uploads/2024/07/foto-1-e1721180218847.png",
+      "alt": "alumbrado público solar",
+      "ancho": 456,
+      "alto": 395
+    },
+    "publicado": "2024-06-11T18:43:30-04:00",
+    "modificado": "2024-09-26T09:19:21-04:00",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": [
+            "Organization",
+            "Person"
+          ],
+          "@id": "https://inprotar.cl/#person",
+          "name": "INPROTAR",
+          "url": "https://inprotar.cl",
+          "email": "etardones@inprotar.cl",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "CHAMISERO",
+            "addressLocality": "COLINA",
+            "addressRegion": "REGION METROPOLITANA",
+            "addressCountry": "CHILE"
+          },
+          "logo": {
+            "@type": "ImageObject",
+            "@id": "https://inprotar.cl/#logo",
+            "url": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro2.png",
+            "contentUrl": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro2.png",
+            "caption": "INPROTAR",
+            "inLanguage": "es",
+            "width": "360",
+            "height": "194"
+          },
+          "telephone": "+56 9 9089 4601",
+          "image": {
+            "@id": "https://inprotar.cl/#logo"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://inprotar.cl/#website",
+          "url": "https://inprotar.cl",
+          "name": "INPROTAR",
+          "alternateName": "INPROTAR",
+          "publisher": {
+            "@id": "https://inprotar.cl/#person"
+          },
+          "inLanguage": "es"
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://inprotar.cl/wp-content/uploads/2024/07/foto-1-e1721180218847.png",
+          "url": "https://inprotar.cl/wp-content/uploads/2024/07/foto-1-e1721180218847.png",
+          "width": "200",
+          "height": "200",
+          "inLanguage": "es"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://inprotar.cl/alumbrado-publico-solar/#webpage",
+          "url": "https://inprotar.cl/alumbrado-publico-solar/",
+          "name": "Alumbrado público solar - sunstay pro philips",
+          "datePublished": "2024-06-11T18:43:30-04:00",
+          "dateModified": "2024-09-26T09:19:21-04:00",
+          "isPartOf": {
+            "@id": "https://inprotar.cl/#website"
+          },
+          "primaryImageOfPage": {
+            "@id": "https://inprotar.cl/wp-content/uploads/2024/07/foto-1-e1721180218847.png"
+          },
+          "inLanguage": "es"
+        },
+        {
+          "@type": "Person",
+          "@id": "https://inprotar.cl/author/spadmin/",
+          "name": "spadmin",
+          "url": "https://inprotar.cl/author/spadmin/",
+          "image": {
+            "@type": "ImageObject",
+            "@id": "https://secure.gravatar.com/avatar/04cbec8d3415f60b740fe70001182044fe83baa9f72d24541dfc338db2692af6?s=96&d=mm&r=g",
+            "url": "https://secure.gravatar.com/avatar/04cbec8d3415f60b740fe70001182044fe83baa9f72d24541dfc338db2692af6?s=96&d=mm&r=g",
+            "caption": "spadmin",
+            "inLanguage": "es"
+          },
+          "sameAs": [
+            "https://sistemasdeiluminacion.cl"
+          ]
+        },
+        {
+          "@type": "Article",
+          "headline": "Alumbrado público solar - sunstay pro philips",
+          "keywords": "alumbrado público solar,led,sunstay pro philips",
+          "datePublished": "2024-06-11T18:43:30-04:00",
+          "dateModified": "2024-09-26T09:19:21-04:00",
+          "author": {
+            "@id": "https://inprotar.cl/author/spadmin/",
+            "name": "spadmin"
+          },
+          "publisher": {
+            "@id": "https://inprotar.cl/#person"
+          },
+          "description": "Ofrecemos soluciones de alumbrado público solar con las avanzadas luminarias sunstay pro philips. Ideales para aplicaciones industriales y viales.",
+          "name": "Alumbrado público solar - sunstay pro philips",
+          "@id": "https://inprotar.cl/alumbrado-publico-solar/#richSnippet",
+          "isPartOf": {
+            "@id": "https://inprotar.cl/alumbrado-publico-solar/#webpage"
+          },
+          "image": {
+            "@id": "https://inprotar.cl/wp-content/uploads/2024/07/foto-1-e1721180218847.png"
+          },
+          "inLanguage": "es",
+          "mainEntityOfPage": {
+            "@id": "https://inprotar.cl/alumbrado-publico-solar/#webpage"
+          }
+        }
+      ]
+    }
+  },
+  "bloques": [
+    {
+      "tipo": "hero",
+      "titulo": "Alumbrado Público Solar sunstay pro philips",
+      "fondo": "/wp-content/uploads/2024/07/Solar-Street-Lights-1184x789-1.jpg",
+      "oscurecer": 0.55,
+      "alto": 430
+    },
+    {
+      "tipo": "titulo",
+      "titulo": {
+        "texto": "Soluciones Sostenibles y Eficientes para un Futuro Brillante",
+        "nivel": "h2"
+      }
+    },
+    {
+      "tipo": "textoImagen",
+      "imagen": {
+        "src": "/wp-content/uploads/2024/07/foto-1-e1721180218847.png",
+        "alt": "alumbrado público solar",
+        "ancho": 456,
+        "alto": 395,
+        "pie": "sunstay pro philips"
+      },
+      "imagenAlLado": "izquierda",
+      "texto_md": "En Inprotar, ofrecemos soluciones de alumbrado público solar con las avanzadas luminarias SunStay de Philips. Ideales para aplicaciones industriales y viales, nuestros sistemas de iluminación garantizan eficiencia, sostenibilidad y durabilidad."
+    },
+    {
+      "tipo": "columnas",
+      "titulo": {
+        "texto": "Beneficios Clave:",
+        "nivel": "h2"
+      },
+      "columnas": [
+        {
+          "imagen": {
+            "src": "/media/icons/eficiencia-energetica.svg",
+            "alt": ""
+          },
+          "titulo": "Eficiencia Energética",
+          "texto_md": "Con una alta eficacia lumínica de 175 lm/Watt, nuestras luminarias maximizan el rendimiento de la batería y ahorran energía."
+        },
+        {
+          "imagen": {
+            "src": "/media/icons/sostenibilidad.svg",
+            "alt": ""
+          },
+          "titulo": "Sostenibilidad",
+          "texto_md": "Al utilizar energía solar, nuestros sistemas de iluminación conservan el paisaje y reducen la huella de carbono."
+        },
+        {
+          "imagen": {
+            "src": "/media/icons/durabilidad.svg",
+            "alt": ""
+          },
+          "titulo": "Durabilidad y Confiabilidad",
+          "texto_md": "Construidos con carcasa de aluminio fundido y baterías reemplazables, nuestras luminarias están diseñadas para una larga vida útil."
+        }
+      ]
+    },
+    {
+      "tipo": "textoImagen",
+      "titulo": {
+        "texto": "Luminaria led Solar Todo en uno - sunstay pro philips",
+        "nivel": "h2"
+      },
+      "imagen": {
+        "src": "/wp-content/uploads/2024/07/SunStay-Exploded-view1.jpeg",
+        "alt": "",
+        "ancho": 407,
+        "alto": 504,
+        "pie": "sunstay pro philips"
+      },
+      "imagenAlLado": "derecha",
+      "texto_md": "**SunStay de Philips** se destaca como una solución avanzada en este ámbito. Estas luminarias led solares todo en uno integran paneles solares, baterías de fosfato de hierro y litio y controladores MPPT en un único dispositivo compacto. Esta solución todo en uno ofrece varios beneficios clave:\n\n- **Instalación Sencilla:** Al combinar todos los componentes en una sola unidad, se simplifica la instalación y el mantenimiento, reduciendo costos y tiempos de implementación.\n- **Versatilidad:** Son aptas para una amplia gama de aplicaciones, desde caminos y áreas rurales hasta parques y espacios industriales.",
+      "botones": [
+        {
+          "texto": "¿Es lo que buscas? contáctanos",
+          "url": "https://wa.me/56990894601",
+          "estilo": "oscuro"
+        }
+      ]
+    },
+    {
+      "tipo": "bandaCta",
+      "titulo": "¿Quieres reducir costos y contribuir al medio ambiente? sunstay pro philips",
+      "texto_md": "**Descubre cómo puedes iluminar de manera eficiente y ecológica mientras proteges el medio ambiente. Contacta a nuestros expertos ahora para una consulta gratuita.**",
+      "boton": {
+        "texto": "Contáctanos",
+        "url": "https://wa.me/56990894601",
+        "estilo": "primario"
+      },
+      "tema": "oscuro"
+    },
+    {
+      "tipo": "fichas",
+      "titulo": {
+        "texto": "Dos versiones para tus proyectos",
+        "nivel": "h2"
+      },
+      "fichas": [
+        {
+          "nombre": "SunStay BRP710",
+          "imagen": {
+            "src": "/wp-content/uploads/2024/07/standard_shot_sunstay-e1721224131143.jpg",
+            "alt": "standard_shot_sunstay"
+          },
+          "especificaciones_md": "**Especificaciones Técnicas:**\n\n**Opciones de Salida de Luz:** Disponible en 3000 lm, 4500 lm y 6000 lm.\n\n**Eficacia lumínica:** 175 lm/Watt\n\n**Tipo de Batería:** Litio ferrofosfato (LiFePO4), con un voltaje de 12.8 V y ciclos de carga y descarga de 2000.\n\n**Material:** Carcasa de aluminio fundido a presión, color RAL 7011, con protección IP65.\n\n**Montaje:** Información no especificada en el PDF.\n\n**Temperatura de Operación:**\n\n- Rango de temperatura ambiente para descarga (con la luz encendida): -20 °C a +35 °C.\n- Rango de temperatura ambiente para carga: 0 °C a +45 °C.\n\n**Consumo Eléctrico (Potencia):** Variaciones de potencia según el modelo:\n\n- 17 W para modelos de 3000 lm.\n- 25 W para modelos de 4500 lm.\n- 35 W para modelos de 6000 lm.\n\n**Controles y Regulación:** Regulable con controlador de carga MPPT. Configurable de fábrica.\n\n**Protección y Durabilidad:** Clasificación IP65, asegurando protección contra el polvo y el agua, ideal para entornos exteriores.\n\n**Características Adicionales:**\n\n- Controlador de carga MPPT para una eficiencia máxima de carga de la batería.\n- Indicadores LED de autodiagnóstico, carga de la batería, descarga y corte.\n- Tipo de panel: Monocristalino.",
+          "boton": {
+            "texto": "Descargar ficha técnica SUNSTAY BRP710",
+            "url": "https://sistemasdeiluminacion.cl/wp-content/uploads/2024/07/INPROTAR-SUNSTAY-BRP710.pdf",
+            "estilo": "contornoClaro"
+          }
+        },
+        {
+          "nombre": "sunstay pro philips VGP725",
+          "imagen": {
+            "src": "/wp-content/uploads/2024/07/SunStay_Pro_Spigot_PT-DPP-1.webp",
+            "alt": "SunStay_Pro_Spigot_PT-DPP"
+          },
+          "especificaciones_md": "**Especificaciones Técnicas:**\n\n**Opciones de Salida de Luz:** Disponible en 3000 lm, 4000 lm, 6000 lm y 8000 lm.\n\n**Eficacia lumínica:** 180 lm/Watt\n\n**Tipo de Batería:** Fosfato de Hierro y Litio (LiFePO4), reemplazable para una larga vida útil y funcionamiento sin complicaciones.\n\n**Material:** Carcasa de aluminio fundido a presión, robusta y resistente, con protección IK08 e IP66.\n\n**Montaje:** Espigot especialmente diseñado con ángulos de inclinación ajustables de 0° a 15°, en saltos de 2,5°, para montaje lateral y post-top.\n\n**Temperatura de Operación:** Rango de temperatura ambiente para descarga: -20 °C a +35 °C. Rango de temperatura ambiente para carga: 0 °C a +45 °C.\n\n**Eficacia Lumínica:** Alta eficacia lumínica de 175 lm/Watt para maximizar el rendimiento de la batería.\n\n**Consumo Eléctrico (Potencia):** Variaciones de potencia según el modelo:\n\n- 30 W para modelos de 3000 lm.\n- 40 W para modelos de 4000 lm.\n- 60 W para modelos de 6000 lm.\n- 80 W para modelos de 8000 lm.\n\n**Controles y Regulación:** Regulable con ajuste del perfil de regulación y posibilidad de incluir sensor de presencia radar para maximizar la autonomía. Preparado para el futuro con conector SR, conectividad Interact City y compatible con el sensor de presencia Multisensor de Philips.\n\n**Protección y Durabilidad:** Clasificación IP66, asegurando protección contra el polvo y el agua, ideal para entornos exteriores. Índice de protección frente a choque mecánico IK09.\n\n**Características Adicionales:** Controlador de carga MPPT para una eficiencia máxima de carga de la batería (sin conexión a la red e híbrido). Indicadores LED de autodiagnóstico, carga de la batería, descarga y corte. Más de 40 distribuciones fotométricas, con opción de paralumen interno.",
+          "boton": {
+            "texto": "Descargar ficha técnica SUNSTAY VGP725",
+            "url": "https://sistemasdeiluminacion.cl/wp-content/uploads/2024/07/INPROTAR-SUNSTAY-VGP725.pdf",
+            "estilo": "contornoClaro"
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "textoImagen",
+      "titulo": {
+        "texto": "Aplicaciones sunstay pro philips:",
+        "nivel": "h2"
+      },
+      "imagen": {
+        "src": "/wp-content/uploads/2024/07/LED-Street-Lighting.jpg",
+        "alt": ""
+      },
+      "imagenAlLado": "izquierda",
+      "texto_md": "- Caminos clase A y B\n- Áreas rurales\n- Parques\n- Vías peatonales\n- Ciclovías\n- Patios comerciales\n\n### El Futuro del Alumbrado Público Solar\n\nLa visón de Improtar sobre el porvenir del alumbrado público solar es brillante y lleno de potencial. A medida que las tecnologías solares y de almacenamiento de energía continúan evolucionando, y la conciencia sobre la sostenibilidad sigue en aumento, es previsible que estas soluciones se adopten con mayor frecuencia en todo el mundo. Las ciudades inteligentes del futuro integrarán progresivamente el alumbrado público solar en sus infraestructuras sostenibles, mejorando la calidad de vida y disminuyendo el impacto ambiental."
+    },
+    {
+      "tipo": "bannerImagen",
+      "fondo": "/wp-content/uploads/2024/07/beautiful-shot-starry-night-sky-scaled.jpg",
+      "oscurecer": 0.5,
+      "ladoTexto": "izquierda",
+      "antetitulo": "Contaminacion lumínica",
+      "titulo": "¿Cumples con el Decreto Supremo 1?",
+      "texto_md": "Las luminarias SunStay de Inprotar están diseñadas para cumplir con los requisitos del DS-1, asegurando que tanto las nuevas instalaciones como las actualizaciones de sistemas de alumbrado existentes se adhieran a las regulaciones dentro de los plazos establecidos.",
+      "botones": [
+        {
+          "texto": "Quiero que me llamen",
+          "url": "https://wa.me/56990894601",
+          "estilo": "contornoClaro"
+        },
+        {
+          "texto": "Cotiza ahora con Inprotar",
+          "url": "https://wa.me/56990894601",
+          "estilo": "contornoClaro"
+        },
+        {
+          "texto": "Aprende más del decreto supremo 1",
+          "url": "/decreto-supremo-uno-contaminacion-luminica-2024/",
+          "estilo": "contornoClaro"
+        }
+      ]
+    },
+    {
+      "tipo": "columnas",
+      "columnas": [
+        {
+          "subtitulo": "Control y Monitoreo Eficiente",
+          "titulo": "Tecnología de Gestión Inteligente",
+          "imagen": {
+            "src": "/wp-content/uploads/2024/07/grid-solar-hybrid-solar-street-light-1024x412-2.png",
+            "alt": ""
+          },
+          "texto_md": "Las luminarias **SunStay Pro** de Philips están diseñadas y fabricadas en Europa, garantizando los más altos estándares de calidad y durabilidad. Este origen europeo asegura que cada componente cumpla con rigurosas normativas de fabricación, ofreciendo soluciones de iluminación fiables y de larga duración. El diseño robusto y eficiente de SunStay Pro es ideal para diversas aplicaciones, proporcionando una iluminación sostenible y duradera."
+        },
+        {
+          "subtitulo": "Soluciones de Iluminación Todo el Año",
+          "titulo": "Versiones No Conectadas a Red e Híbridas",
+          "imagen": {
+            "src": "/wp-content/uploads/2024/07/grid-solar-hybrid-solar-street-light-1024x412-1.png",
+            "alt": ""
+          },
+          "texto_md": "Las luminarias **SunStay Pro** de Philips están disponibles en versiones no conectadas a red y versiones híbridas, asegurando luz constante durante todo el año. Estas luminarias todo en uno combinan paneles solares, baterías de fosfato de hierro y litio, y controladores MPPT (seguimiento del punto de máxima potencia), ofreciendo una alta eficacia lumínica de 175 lm/Watt. Esta integración permite maximizar la eficiencia y los ahorros energéticos desde el primer momento, ideal para aplicaciones tanto urbanas como rurales."
+        },
+        {
+          "subtitulo": "Diseño y Producción de Vanguardia",
+          "titulo": "Calidad y Confiabilidad Europea",
+          "imagen": {
+            "src": "/wp-content/uploads/2024/07/Foto-SunStay-Pro-1024x543.jpeg",
+            "alt": ""
+          },
+          "texto_md": "Las luminarias **SunStay Pro** de Philips están diseñadas y fabricadas en Europa, garantizando los más altos estándares de calidad y durabilidad. Este origen europeo asegura que cada componente cumpla con rigurosas normativas de fabricación, ofreciendo soluciones de iluminación fiables y de larga duración. El diseño robusto y eficiente de SunStay Pro es ideal para diversas aplicaciones, proporcionando una iluminación sostenible y duradera"
+        }
+      ]
+    },
+    {
+      "tipo": "cierre",
+      "texto": "Chile alberga algunos de los cielos más claros y oscuros del mundo, lo que lo convierte en un centro global para la astronomía."
+    },
+    {
+      "tipo": "bandaCta",
+      "titulo": "Las luminarias sunstay pro philips cumplen con el Decreto Supremo 1 y ayudan a proteger nuestros cielos.",
+      "texto_md": "¿Quieres saber cómo puedes reducir la contaminación lumínica y contribuir a un futuro más sostenible?",
+      "boton": {
+        "texto": "Contáctanos",
+        "url": "https://wa.me/56990894601",
+        "estilo": "contornoClaro"
+      },
+      "tema": "oscuro"
+    },
+    {
+      "tipo": "tarjetas",
+      "columnas": 2,
+      "tarjetas": [
+        {
+          "titulo": "Eficiencia y Sostenibilidad",
+          "imagen": "/wp-content/uploads/2024/07/iluminacion-eficiente-y-sostenible.webp"
+        },
+        {
+          "titulo": "Durabilidad y Bajo Mantenimiento",
+          "imagen": "/wp-content/uploads/2024/06/noticia1-signify-luces-cei-1.jpg"
+        }
+      ]
+    },
+    {
+      "tipo": "faq",
+      "titulo": "Preguntas frecuentes sobre sunstay pro philips",
+      "preguntas": [
+        {
+          "pregunta": "¿Qué es la iluminación solar sunstay pro philips?",
+          "respuesta_md": "La iluminación solar SunStay es una luminaria todo en uno que combina panel solar, batería y luz LED. Es ideal para iluminar calles, áreas residenciales, parques y espacios comerciales de manera eficiente y sostenible.\n\n**¿Cuáles son los beneficios de utilizar la iluminación solar SunStay?**\n\n- **Eficiencia Energética:** Reduce costos de electricidad y huella de carbono al utilizar energía solar.\n- **Fácil Instalación:** Sin necesidad de cableado extenso, facilita el montaje.\n- **Bajo Mantenimiento:** Materiales duraderos y tecnología avanzada reducen la necesidad de mantenimiento frecuente.\n- **Seguridad Mejorada:** Mejora la visibilidad y la seguridad en las calles.\n- **Durabilidad:** Vida útil prolongada gracias a su batería de fosfato de hierro y litio y a su construcción en aluminio fundido a presión."
+        },
+        {
+          "pregunta": "¿Cómo se instala la iluminación solar sunstay pro philips?",
+          "respuesta_md": "La luminaria solar SunStay se instala fácilmente gracias a su diseño flexible. Puede montarse en la parte superior del poste o lateralmente, con ángulos de inclinación ajustables para adaptarse a diversas necesidades de iluminación.\n\n**¿En qué aplicaciones se puede usar la iluminación solar SunStay?**\n\nLa iluminación solar SunStay es versátil y puede utilizarse en:\n\n- Calles urbanas\n- Áreas residenciales\n- Espacios comerciales\n- Parques públicos"
+        },
+        {
+          "pregunta": "¿Qué especificaciones técnicas tiene la iluminación solar sunstay pro philips?",
+          "respuesta_md": "- **Salidas de Luz Disponibles:** 2000lm, 3000lm, 4500lm y 6000lm.\n- **Tipo de Batería:** Fosfato de hierro y litio.\n- **Material:** Aluminio fundido a presión.\n- **Montaje:** Superior del poste y lateral con ángulos ajustables.\n- **Temperatura de Operación:** Adecuada para diversas condiciones climáticas."
+        },
+        {
+          "pregunta": "¿Cómo contribuye la iluminación solar SunStay a la sostenibilidad?",
+          "respuesta_md": "Al utilizar energía solar, la luminaria SunStay reduce significativamente el consumo de electricidad y la emisión de gases de efecto invernadero, apoyando el desarrollo urbano sostenible y reduciendo la dependencia de fuentes de energía no renovables."
+        },
+        {
+          "pregunta": "¿Cuánto dura la iluminación solar sunstay pro philips?",
+          "respuesta_md": "La tecnología LED utilizada en la luminaria SunStay tiene una vida útil de hasta 100,000 horas, ofreciendo una solución duradera y confiable para la iluminación vial."
+        }
+      ]
+    },
+    {
+      "tipo": "bandaCta",
+      "titulo": "¡Descubre como puedes ahorrar dinero a largo plazo! sunstay pro philips",
+      "texto_md": "**Contáctenos Hoy Mismo para Obtener Más Información sobre Nuestras Soluciones Innovadoras para alumbrado público sunstay pro philips.**",
+      "boton": {
+        "texto": "Contáctanos",
+        "url": "https://wa.me/56990894601",
+        "estilo": "contornoClaro"
+      },
+      "tema": "oscuro"
+    },
+    {
+      "tipo": "cierre",
+      "texto": "El 70% de la infraestructura astronómica mundial proyectada para estar en Chile, es crucial que tomemos medidas para proteger estos cielos."
+    }
+  ]
+}

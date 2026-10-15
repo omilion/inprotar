@@ -1,0 +1,6 @@
+[
+  { "id": "iluminacion", "nombre": "Iluminación Profesional Conectada", "pagina": "/iluminacion-profesional-conectada/" },
+  { "id": "suministros", "nombre": "Suministros y Componentes Eléctricos y Electrónicos", "pagina": "/suministros-y-componentes-electricos-y-electronicos/" },
+  { "id": "automatizacion", "nombre": "Automatización y Digitalización Integrada", "pagina": "/automatizacion-y-digitalizacion-integrada/" },
+  { "id": "institucional", "nombre": "Institucional", "pagina": "/" }
+]

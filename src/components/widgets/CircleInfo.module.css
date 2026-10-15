@@ -1,0 +1,77 @@
+.wrap {
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+}
+.ring {
+  position: relative;
+  width: 400px;
+  max-width: 100%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 1px solid #dfe3ea;
+}
+.bubble {
+  position: absolute;
+  z-index: 9;
+  width: 60px;
+  height: 60px;
+  margin: -30px 0 0 -30px;
+  border: 0;
+  border-radius: 50%;
+  background: #fff;
+  color: #a3adb5;
+  box-shadow: 0 5px 15px rgba(151, 163, 184, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.bubble :global(svg) {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}
+.bubbleActive {
+  background: #1a1818;
+  color: #fff;
+  box-shadow: 0 6px 13px rgba(30, 135, 240, 0.3);
+}
+.content {
+  position: absolute;
+  inset: 40px;
+  border-radius: 50%;
+  border: 1px solid #0044aa;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item {
+  padding: 0 30px;
+  text-align: center;
+}
+.title {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: 900;
+  color: #5f6671;
+}
+.desc {
+  font-size: 14px;
+  line-height: 26.32px;
+  color: #a3adb5;
+}
+.desc p {
+  margin: 0;
+}
+@media (max-width: 767px) {
+  .item {
+    padding: 0 15px;
+  }
+  .desc {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

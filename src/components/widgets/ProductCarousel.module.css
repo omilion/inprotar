@@ -1,0 +1,84 @@
+.wrap {
+  position: relative;
+  padding-bottom: 16px;
+}
+.viewport {
+  overflow: hidden;
+}
+.track {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  transition: transform 0.5s ease;
+}
+.card {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+  border: 1px solid #f1f1f1;
+  border-radius: 14px;
+  text-align: center;
+  color: inherit;
+}
+.title {
+  margin: 0;
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #000;
+  overflow-wrap: anywhere;
+}
+.card img {
+  width: 100%;
+}
+.arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 2;
+  transform: translateY(-50%);
+  border: 0;
+  background: none;
+  font-size: 34px;
+  line-height: 1;
+  color: #d5d5d5;
+  cursor: pointer;
+}
+.prev {
+  left: -30px;
+}
+.next {
+  right: -30px;
+}
+.dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -6px;
+  display: flex;
+  justify-content: center;
+}
+.dot {
+  width: 6px;
+  height: 6px;
+  margin: 0 6px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: #000;
+  opacity: 0.2;
+  cursor: pointer;
+}
+.dotActive {
+  opacity: 1;
+}
+@media (max-width: 1024px) {
+  .prev {
+    left: 0;
+  }
+  .next {
+    right: 0;
+  }
+}
