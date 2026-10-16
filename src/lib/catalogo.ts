@@ -1,19 +1,9 @@
 import fs from "node:fs";
 import path from "node:path";
 import { z } from "zod";
+import { categoria, producto, type Producto } from "@/lib/content/schema";
 
-const categoria = z.object({
-  ruta: z.string().regex(/^\/categoria-producto\/[a-z0-9/-]+\/$/),
-  nombre: z.string().min(1), descripcion_md: z.string(),
-});
-const producto = z.object({
-  ruta: z.string().regex(/^\/producto\/[a-z0-9-]+\/$/),
-  nombre: z.string().min(1), sku: z.string(), resumen_md: z.string(), descripcion_md: z.string(),
-  imagenes: z.array(z.object({ src: z.string(), alt: z.string() })).min(1),
-  categorias: z.array(z.string()),
-  atributos: z.array(z.object({ nombre: z.string(), valores: z.array(z.string()) })),
-});
-export type Producto = z.infer<typeof producto>;
+export type { Producto } from "@/lib/content/schema";
 const read = (name: string) => JSON.parse(fs.readFileSync(path.join(process.cwd(), "content/catalogo", `${name}.json`), "utf8"));
 export const getProductos = () => z.array(producto).parse(read("productos"));
 export const getCategorias = () => z.array(categoria).parse(read("categorias"));

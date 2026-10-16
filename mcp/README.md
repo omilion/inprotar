@@ -30,6 +30,7 @@ Cliente ── Claude ── HTTPS /mcp (Cloudflare Worker) ── GitHub ──
 | `listar_marcas` / `crear_marca` / `borrar_marca` | Gestionar marcas; borrar elimina en cascada su contenido |
 | `listar_articulos` / `ver_articulo` / `guardar_articulo` / `borrar_articulo` | Blog |
 | `subir_imagen` | Sube imágenes (URL o base64) y devuelve la ruta |
+| `listar_productos` / `ver_producto` / `guardar_producto` / `borrar_producto` | Catálogo de productos (valida categorías, unidad y marcas; borrar redirige a la categoría) |
 | `historial_cambios` | Últimos cambios publicados |
 
 ## Artículos individuales (single post)

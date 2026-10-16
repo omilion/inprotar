@@ -8,7 +8,7 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { z } from "zod";
 import { zodToJsonSchema } from "zod-to-json-schema";
-import { articulo, bloque, marca, pagina, redireccion, unidad } from "../src/lib/content/schema";
+import { articulo, bloque, categoria, marca, pagina, producto, redireccion, unidad } from "../src/lib/content/schema";
 import type { Store, Cambio } from "./github-store";
 
 export function crearServidor(store: Store) {
@@ -56,6 +56,9 @@ async function todosLosArticulos() {
 
 const leerUnidades = async () => z.array(unidad).parse(await leerJson("content/unidades.json"));
 const leerMarcas = async () => z.array(marca).parse((await leerJson("content/marcas.json")) ?? []);
+const ARCH_PRODUCTOS = "content/catalogo/productos.json";
+const leerProductos = async () => z.array(producto).parse((await leerJson(ARCH_PRODUCTOS)) ?? []);
+const leerCategorias = async () => z.array(categoria).parse((await leerJson("content/catalogo/categorias.json")) ?? []);
 const leerRedirecciones = async () => z.array(redireccion).parse((await leerJson("content/redirecciones.json")) ?? []);
 
 function validar<T>(schema: z.ZodType<T>, data: unknown): { ok: true; data: T } | { ok: false; error: string } {
@@ -95,6 +98,9 @@ server.registerTool(
         "",
         "## Marcas",
         ...(await leerMarcas()).map((m) => `- ${m.id}: ${m.nombre} [unidad: ${m.unidad}]`),
+        "",
+        "## Catálogo",
+        "Productos en /producto/slug/ agrupados en categorías /categoria-producto/.... Cada producto tiene unidad y marcas: al borrar una marca se borran sus productos (con redirección 301). Usa listar_productos, ver_producto, guardar_producto y borrar_producto.",
         "",
         "## Plantillas",
         "- unidad: página principal de una unidad de negocio.",
@@ -325,7 +331,7 @@ server.registerTool(
   {
     title: "Borrar marca",
     description:
-      "Elimina TODO lo de una marca: borra las páginas y artículos dedicados solo a ella (con redirección 301 a la página de su unidad) y la quita de los que comparte con otras marcas. Las páginas protegidas nunca se borran: se informan para revisión manual. Primero llama sin confirmar para mostrar el detalle al usuario.",
+      "Elimina TODO lo de una marca: borra las páginas, artículos y productos del catálogo dedicados solo a ella (con redirección 301 a la página de su unidad) y la quita de los que comparte con otras marcas. Las páginas protegidas nunca se borran: se informan para revisión manual. Primero llama sin confirmar para mostrar el detalle al usuario.",
     inputSchema: { id: z.string(), confirmar: z.boolean().default(false) },
     annotations: { destructiveHint: true },
   },
@@ -343,11 +349,20 @@ server.registerTool(
     const compartidas = ps.filter((p) => (p.marcas.length > 1 || paginasUnidad.has(p.ruta)) && !p.protegida);
     const artBorrar = as.filter((a) => a.marcas.length === 1);
     const artCompartidos = as.filter((a) => a.marcas.length > 1);
+    const productos = await leerProductos();
+    const prodBorrar = productos.filter((x) => x.marcas.length === 1 && x.marcas[0] === id);
+    const prodCompartidos = productos.filter((x) => x.marcas.length > 1 && x.marcas.includes(id));
+    const quedan = productos.filter((x) => !prodBorrar.includes(x));
+    const categoriasVacias = (await leerCategorias()).filter(
+      (c) => prodBorrar.some((x) => x.categorias.includes(c.ruta)) && !quedan.some((x) => x.categorias.some((k) => k === c.ruta || k.startsWith(c.ruta)))
+    );
     const resumen = [
       `Marca: ${m.nombre}`,
       `Páginas a BORRAR (${borrar.length}): ${borrar.map((p) => p.ruta).join(", ") || "—"}`,
       `Artículos a BORRAR (${artBorrar.length}): ${artBorrar.map((a) => a.ruta).join(", ") || "—"}`,
-      `Se quitará la marca de (${compartidas.length + artCompartidos.length}): ${[...compartidas, ...artCompartidos].map((p) => p.ruta).join(", ") || "—"}`,
+      `Productos a BORRAR (${prodBorrar.length}): ${prodBorrar.map((x) => x.nombre).join("; ") || "—"}`,
+      `Categorías que quedarán sin productos (no se borran; revisar el menú): ${categoriasVacias.map((c) => c.nombre).join(", ") || "—"}`,
+      `Se quitará la marca de (${compartidas.length + artCompartidos.length + prodCompartidos.length}): ${[...compartidas, ...artCompartidos, ...prodCompartidos].map((p) => p.ruta).join(", ") || "—"}`,
       `Protegidas, NO se tocan (revisar a mano el contenido de la marca): ${protegidas.map((p) => p.ruta).join(", ") || "—"}`,
     ].join("\n");
     if (!confirmar) return ok(`${resumen}\n\nTodas las URLs borradas redirigirán (301) a la página de su unidad de negocio. Muestra este detalle al usuario y, si confirma, repite con confirmar: true.`);
@@ -359,12 +374,115 @@ server.registerTool(
       red = red.filter((r) => r.desde !== x.ruta).map((r) => (r.hacia === x.ruta ? { ...r, hacia: destino } : r));
       red.push({ desde: x.ruta, hacia: destino, motivo: `Marca ${id} eliminada` });
     }
+    for (const x of prodBorrar) {
+      const destino = [...x.categorias].reverse().find((c) => !categoriasVacias.some((v) => v.ruta === c)) ?? destinoDe(x.unidad);
+      red = red.filter((r) => r.desde !== x.ruta).map((r) => (r.hacia === x.ruta ? { ...r, hacia: destino } : r));
+      red.push({ desde: x.ruta, hacia: destino, motivo: `Marca ${id} eliminada` });
+    }
+    if (prodBorrar.length || prodCompartidos.length) {
+      const nuevos = quedan.map((x) => (x.marcas.includes(id) ? { ...x, marcas: x.marcas.filter((k) => k !== id) } : x));
+      cambios.push({ ruta: ARCH_PRODUCTOS, contenido: json(nuevos) });
+    }
     for (const p of compartidas) cambios.push({ ruta: archivoPagina(p.ruta), contenido: json({ ...p, marcas: p.marcas.filter((x) => x !== id) }) });
     for (const a of artCompartidos) cambios.push({ ruta: archivoArticulo(a.ruta), contenido: json({ ...a, marcas: a.marcas.filter((x) => x !== id) }) });
     cambios.push({ ruta: "content/redirecciones.json", contenido: json(red) });
     cambios.push({ ruta: "content/marcas.json", contenido: json(ms.filter((x) => x.id !== id)) });
     const sha = await store.commit(cambios, `Eliminar marca ${id}`);
     return ok(`🗑️ Marca ${m.nombre} eliminada en un solo cambio (${sha}).\n${resumen}`);
+  }
+);
+
+// ---------------------------------------------------------------- Catálogo
+server.registerTool(
+  "listar_productos",
+  {
+    title: "Listar productos",
+    description: "Lista los productos del catálogo (/producto/...) y las categorías disponibles. Se puede filtrar por marca, unidad o ruta de categoría.",
+    inputSchema: { marca: z.string().optional(), unidad: z.string().optional(), categoria: z.string().optional() },
+    annotations: { readOnlyHint: true },
+  },
+  async ({ marca: m, unidad: u, categoria: c }) => {
+    const ps = (await leerProductos()).filter(
+      (x) => (!m || x.marcas.includes(m)) && (!u || x.unidad === u) && (!c || x.categorias.some((k) => k === c || k.startsWith(c)))
+    );
+    const cats = await leerCategorias();
+    const nombreCat = (k: string) => cats.find((y) => y.ruta === k)?.nombre ?? k;
+    return ok(
+      `${ps.length} productos:\n` +
+        ps.map((x) => `- ${x.ruta} | ${x.nombre} | marcas: ${x.marcas.join(", ") || "—"} | ${x.categorias.map(nombreCat).join(", ")}`).join("\n") +
+        `\n\nCategorías disponibles:\n${cats.map((y) => `- ${y.ruta} | ${y.nombre}`).join("\n")}`
+    );
+  }
+);
+
+server.registerTool(
+  "ver_producto",
+  {
+    title: "Ver producto",
+    description: "Devuelve la ficha completa de un producto del catálogo.",
+    inputSchema: { ruta: z.string().describe("Ej: /producto/luminaria-solar-inprotar-sun-stay/") },
+    annotations: { readOnlyHint: true },
+  },
+  async ({ ruta }) => {
+    const x = (await leerProductos()).find((p) => p.ruta === ruta);
+    return x ? ok(json(x)) : err(`No existe el producto ${ruta}. Usa listar_productos.`);
+  }
+);
+
+server.registerTool(
+  "guardar_producto",
+  {
+    title: "Crear o editar producto",
+    description:
+      "Crea un producto nuevo o actualiza uno existente (envía la ruta y los campos a cambiar; el resto se conserva). Campos: nombre, sku, unidad, marcas, resumen_md, descripcion_md (Markdown), imagenes [{src, alt}] (subirlas antes con subir_imagen), categorias (rutas existentes) y atributos [{nombre, valores}]. La ruta de un producto nuevo es /producto/slug-descriptivo/ y no se cambia después.",
+    inputSchema: { producto: z.record(z.any()) },
+  },
+  async ({ producto: datos }) => {
+    const ps = await leerProductos();
+    const i = ps.findIndex((x) => x.ruta === datos.ruta);
+    const v = validar(producto, { ...(i >= 0 ? ps[i] : {}), ...datos });
+    if (!v.ok) return err(`El producto no es válido:\n${v.error}`);
+    const cats = await leerCategorias();
+    const faltan = v.data.categorias.filter((c) => !cats.some((y) => y.ruta === c));
+    if (faltan.length) return err(`No existen estas categorías: ${faltan.join(", ")}. Usa listar_productos para ver las disponibles.`);
+    if (!(await leerUnidades()).some((u) => u.id === v.data.unidad)) return err(`No existe la unidad ${v.data.unidad}.`);
+    const ms = await leerMarcas();
+    const sinMarca = (v.data.marcas ?? []).filter((k) => !ms.some((m) => m.id === k));
+    if (sinMarca.length) return err(`No existen estas marcas: ${sinMarca.join(", ")}. Créalas antes con crear_marca.`);
+    if (i < 0 && (await leerRedirecciones()).some((r) => r.desde === v.data.ruta))
+      return err(`La URL ${v.data.ruta} fue usada por contenido borrado y hoy redirige; usa otro slug.`);
+    const nuevos = i >= 0 ? ps.map((x, k) => (k === i ? v.data : x)) : [...ps, v.data];
+    const sha = await store.commit([{ ruta: ARCH_PRODUCTOS, contenido: json(nuevos) }], `${i >= 0 ? "Editar" : "Crear"} producto ${v.data.ruta}`);
+    return ok(`✅ Producto guardado (${sha}). Estará en https://inprotar.cl${v.data.ruta} cuando termine el despliegue.`);
+  }
+);
+
+server.registerTool(
+  "borrar_producto",
+  {
+    title: "Borrar producto",
+    description: "Borra un producto del catálogo y redirige su URL (301) a su categoría. Primero llama sin confirmar; solo con confirmar: true tras confirmación del usuario.",
+    inputSchema: { ruta: z.string(), confirmar: z.boolean().default(false) },
+    annotations: { destructiveHint: true },
+  },
+  async ({ ruta, confirmar }) => {
+    const ps = await leerProductos();
+    const x = ps.find((p) => p.ruta === ruta);
+    if (!x) return err(`No existe el producto ${ruta}.`);
+    const destino = x.categorias[x.categorias.length - 1] ?? "/tienda/";
+    if (!confirmar) return ok(`Se borrará "${x.nombre}" (${ruta}) y se redirigirá a ${destino}. Confirma con el usuario y repite con confirmar: true.`);
+    const red = [
+      ...(await leerRedirecciones()).filter((r) => r.desde !== ruta).map((r) => (r.hacia === ruta ? { ...r, hacia: destino } : r)),
+      { desde: ruta, hacia: destino, motivo: "Producto borrado" },
+    ];
+    const sha = await store.commit(
+      [
+        { ruta: ARCH_PRODUCTOS, contenido: json(ps.filter((p) => p.ruta !== ruta)) },
+        { ruta: "content/redirecciones.json", contenido: json(red) },
+      ],
+      `Borrar producto ${ruta}`
+    );
+    return ok(`🗑️ Producto borrado (${sha}). ${ruta} redirige a ${destino}.`);
   }
 );
 

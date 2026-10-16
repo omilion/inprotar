@@ -109,3 +109,65 @@ test("cliente MCP real inicializa, lista herramientas y lee contenido sin sesió
     await client.close();
   }
 });
+
+test("catálogo: guardar producto valida y borrar_marca elimina sus productos con redirección", async () => {
+  const prod = (ruta: string, marcas: string[], cat: string) => ({
+    ruta, nombre: ruta, sku: "", unidad: "iluminacion", marcas, resumen_md: "", descripcion_md: "",
+    imagenes: [{ src: "/a.jpg", alt: "" }], categorias: [cat], atributos: [],
+  });
+  const files = new Map<string, string>([
+    ["content/unidades.json", JSON.stringify([{ id: "iluminacion", nombre: "Iluminación", pagina: "/iluminacion/" }])],
+    ["content/marcas.json", JSON.stringify([{ id: "philips", nombre: "Philips", unidad: "iluminacion" }, { id: "otra", nombre: "Otra", unidad: "iluminacion" }])],
+    ["content/catalogo/categorias.json", JSON.stringify([
+      { ruta: "/categoria-producto/campanas/", nombre: "Campanas", descripcion_md: "" },
+      { ruta: "/categoria-producto/mixta/", nombre: "Mixta", descripcion_md: "" },
+    ])],
+    ["content/catalogo/productos.json", JSON.stringify([
+      prod("/producto/a/", ["philips"], "/categoria-producto/campanas/"),
+      prod("/producto/b/", ["philips", "otra"], "/categoria-producto/mixta/"),
+      prod("/producto/c/", ["otra"], "/categoria-producto/mixta/"),
+    ])],
+  ]);
+  const memory: Store = {
+    leer: async (ruta) => files.get(ruta) ?? null,
+    listar: async (dir) => [...files.keys()].filter((ruta) => ruta.startsWith(`${dir}/`)),
+    commit: async (cambios) => {
+      for (const c of cambios) {
+        if (c.contenido === null) files.delete(c.ruta);
+        else files.set(c.ruta, c.contenido);
+      }
+      return "test-commit";
+    },
+  };
+  const client = new Client({ name: "catalogo-test", version: "1" });
+  const transport = new StreamableHTTPClientTransport(new URL("https://example.com/mcp"), {
+    requestInit: { headers: { Authorization: `Bearer ${env.MCP_ACCESS_TOKEN}` } },
+    fetch: async (input, init) => atenderMcp(new Request(input, init), env, memory),
+  });
+  try {
+    await client.connect(transport);
+    const call = (name: string, args: Record<string, unknown>) => client.callTool({ name, arguments: args });
+    assert.equal((await call("guardar_producto", { producto: { ...prod("/producto/d/", ["philips"], "/categoria-producto/no-existe/") } })).isError, true);
+    assert.equal((await call("guardar_producto", { producto: { ...prod("/producto/d/", ["fantasma"], "/categoria-producto/campanas/") } })).isError, true);
+    assert.ok(!(await call("guardar_producto", { producto: { ruta: "/producto/c/", nombre: "C renombrado" } })).isError);
+
+    const preview = await call("borrar_marca", { id: "philips" });
+    assert.match((preview.content as { text: string }[])[0].text, /Productos a BORRAR \(1\)/);
+    assert.ok(files.get("content/catalogo/productos.json")!.includes("/producto/a/"), "la vista previa no debe borrar");
+
+    assert.ok(!(await call("borrar_marca", { id: "philips", confirmar: true })).isError);
+    const productos = JSON.parse(files.get("content/catalogo/productos.json")!) as { ruta: string; nombre: string; marcas: string[] }[];
+    assert.deepEqual(productos.map((p) => p.ruta), ["/producto/b/", "/producto/c/"]);
+    assert.deepEqual(productos[0].marcas, ["otra"]);
+    assert.equal(productos[1].nombre, "C renombrado");
+    const red = JSON.parse(files.get("content/redirecciones.json")!) as { desde: string; hacia: string }[];
+    assert.deepEqual(red.find((r) => r.desde === "/producto/a/")?.hacia, "/iluminacion/");
+
+    assert.ok(!(await call("borrar_producto", { ruta: "/producto/c/", confirmar: true })).isError);
+    const red2 = JSON.parse(files.get("content/redirecciones.json")!) as { desde: string; hacia: string }[];
+    assert.equal(red2.find((r) => r.desde === "/producto/c/")?.hacia, "/categoria-producto/mixta/");
+    assert.equal((await call("guardar_producto", { producto: prod("/producto/c/", ["otra"], "/categoria-producto/mixta/") })).isError, true);
+  } finally {
+    await client.close();
+  }
+});

@@ -247,7 +247,30 @@ export const redireccion = z.object({
   motivo: z.string().optional(),
 });
 
+// ---------------- Catálogo ----------------
+
+export const categoria = z.object({
+  ruta: z.string().regex(/^\/categoria-producto\/[a-z0-9/-]+\/$/, "Formato: /categoria-producto/slug/"),
+  nombre: z.string().min(1),
+  descripcion_md: z.string(),
+});
+
+export const producto = z.object({
+  ruta: z.string().regex(/^\/producto\/[a-z0-9-]+\/$/, "Formato: /producto/slug/"),
+  nombre: z.string().min(1),
+  sku: z.string().default(""),
+  unidad: z.string().describe("Id de la unidad de negocio"),
+  marcas: z.array(z.string()).default([]).describe("Ids de marcas (borrar una marca borra sus productos)"),
+  resumen_md: z.string().default(""),
+  descripcion_md: z.string().default(""),
+  imagenes: z.array(z.object({ src: z.string(), alt: z.string() })).min(1),
+  categorias: z.array(z.string()).min(1).describe("Rutas de categorías existentes"),
+  atributos: z.array(z.object({ nombre: z.string(), valores: z.array(z.string()) })).default([]),
+});
+
 export type Bloque = z.infer<typeof bloque>;
+export type Categoria = z.infer<typeof categoria>;
+export type Producto = z.infer<typeof producto>;
 export type Pagina = z.infer<typeof pagina>;
 export type Articulo = z.infer<typeof articulo>;
 export type Unidad = z.infer<typeof unidad>;
