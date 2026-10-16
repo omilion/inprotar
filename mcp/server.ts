@@ -6,13 +6,12 @@
  * (src/lib/content/schema.ts) y se guarda como un commit (Vercel publica automáticamente).
  */
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
-import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
 import { zodToJsonSchema } from "zod-to-json-schema";
 import { articulo, bloque, marca, pagina, redireccion, unidad } from "../src/lib/content/schema";
-import { crearStore, type Cambio } from "./store";
+import type { Store, Cambio } from "./github-store";
 
-const store = crearStore();
+export function crearServidor(store: Store) {
 
 // Páginas con diseño a medida (código), de solo lectura para el MCP.
 const PAGINAS_CODIGO: Record<string, string> = {
@@ -101,6 +100,9 @@ server.registerTool(
         "- unidad: página principal de una unidad de negocio.",
         "- lineaProducto: landing de una línea de productos (hero, intro, fichas técnicas, banners, FAQ).",
         "- institucional: Quiénes somos, políticas, etc.",
+        "- articulo (single post): content/blog/*.json, URL /AAAA/MM/DD/slug/. Usar guardar_articulo, no crear_pagina. El contenido aparece en Noticias y los cinco más recientes en portada después del despliegue.",
+        "## Esquema del artículo",
+        JSON.stringify(zodToJsonSchema(articulo, { $refStrategy: "none" }), null, 1),
         "",
         "## Reglas",
         "1. Textos en español de Chile, tono profesional. Los campos terminados en _md aceptan Markdown.",
@@ -378,7 +380,7 @@ server.registerTool(
   { title: "Ver artículo", description: "Devuelve un artículo completo.", inputSchema: { ruta: z.string() }, annotations: { readOnlyHint: true } },
   async ({ ruta }) => {
     const a = await leerJson(archivoArticulo(ruta));
-    return a ? ok(json(a)) : err(`No existe el artículo ${ruta}.`);
+    return a && (a as { ruta: string }).ruta === ruta ? ok(json(a)) : err(`No existe el artículo ${ruta}.`);
   }
 );
 
@@ -387,17 +389,25 @@ server.registerTool(
   {
     title: "Crear o editar artículo",
     description:
-      "Crea un artículo nuevo o reemplaza uno existente. La ruta de un artículo nuevo debe ser /AAAA/MM/DD/slug/ con la fecha de hoy. El cuerpo va en Markdown (cuerpo_md); usa subtítulos ##, listas y enlaces internos a las páginas de producto relacionadas.",
+      "Crea o actualiza un single post. Consulta guia_del_sitio para el esquema. Para editar, envía ruta y los campos a cambiar; conserva los demás. La URL es /AAAA/MM/DD/slug/ y no se cambia al editar. Campos: titulo, fecha ISO, resumen opcional, imagen, unidad, marcas, cuerpo_md y seo. Usa subtítulos ##. Aparece en Noticias y, si está entre los cinco más recientes, en portada tras el despliegue.",
     inputSchema: { articulo: z.record(z.any()) },
   },
   async ({ articulo: datos }) => {
+    if (!articulo.shape.ruta.safeParse(datos.ruta).success) return err("Indica una ruta válida /AAAA/MM/DD/slug/.");
     const previo = await leerJson<z.infer<typeof articulo>>(archivoArticulo(String(datos.ruta)));
+    if (previo && previo.ruta !== datos.ruta) return err("Ese slug ya pertenece a otro artículo. Conserva su URL original o elige otro slug.");
     const v = validar(articulo, { ...(previo ?? {}), ...datos, seo: { ...(previo?.seo ?? {}), ...((datos.seo as object) ?? {}) } });
     if (!v.ok) return err(`El artículo no es válido:\n${v.error}`);
+    if (!previo && v.data.ruta.slice(1, 11) !== v.data.fecha.slice(0, 10).replace(/-/g, "/")) return err("La fecha de la URL debe coincidir con la fecha de publicación.");
+    if (!(await leerUnidades()).some((u) => u.id === v.data.unidad)) return err(`No existe la unidad ${v.data.unidad}.`);
+    const marcas = await leerMarcas();
+    if (v.data.marcas?.some((id) => !marcas.some((m) => m.id === id))) return err("Hay marcas que no existen; consulta listar_marcas.");
+    if ((await leerRedirecciones()).some((r) => r.desde === v.data.ruta)) return err("Esa URL tiene una redirección activa. Usa otra URL o revisa la redirección antes de publicar.");
+    if (await leerJson(archivoPagina(v.data.ruta))) return err("Esa URL ya pertenece a una página.");
     if (previo?.seo.jsonld) v.data.seo.jsonld = previo.seo.jsonld;
     v.data.seo.modificado = new Date().toISOString();
     const sha = await store.commit([{ ruta: archivoArticulo(v.data.ruta), contenido: json(v.data) }], `${previo ? "Editar" : "Crear"} artículo ${v.data.ruta}`);
-    return ok(`✅ Artículo guardado (${sha}). Estará en https://inprotar.cl${v.data.ruta} en 1-2 minutos.`);
+    return ok(`✅ Artículo guardado (${sha}). URL: https://inprotar.cl${v.data.ruta}. La ficha y los listados se actualizarán cuando termine el despliegue del sitio.`);
   }
 );
 
@@ -411,7 +421,7 @@ server.registerTool(
   },
   async ({ ruta, confirmar }) => {
     const a = await leerJson<z.infer<typeof articulo>>(archivoArticulo(ruta));
-    if (!a) return err(`No existe ${ruta}.`);
+    if (!a || a.ruta !== ruta) return err(`No existe ${ruta}.`);
     const destino = (await leerUnidades()).find((u) => u.id === a.unidad)?.pagina ?? "/noticias/";
     if (!confirmar) return ok(`Se borrará "${a.titulo}" y se redirigirá a ${destino}. Confirma con el usuario y repite con confirmar: true.`);
     const red = [...(await leerRedirecciones()).filter((r) => r.desde !== ruta), { desde: ruta, hacia: destino, motivo: "Artículo borrado" }];
@@ -471,4 +481,5 @@ server.registerTool(
   }
 );
 
-await server.connect(new StdioServerTransport());
+return server;
+}

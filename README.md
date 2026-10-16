@@ -30,7 +30,7 @@ Copia del sitio WordPress/Elementor de inprotar.cl en React, con exportación es
 - /2025/03/25/iluminacion-solar-industrial-eficiencia-energetica-al-mas-alto-nivel-con-sunstay/
 
 ## Agregar una entrada de blog
-Añadirla en `src/data/posts.tsx` y sus metadatos en `src/data/seo.ts`.
+Usar `guardar_articulo` del MCP (ver `mcp/README.md`) o crear un JSON válido en `content/blog/`. La ficha individual, Noticias, los cinco artículos más recientes de la portada y el sitemap usan estos archivos. Los cambios aparecen al reconstruir y desplegar el sitio. `src/data/posts.tsx` es contenido antiguo y ya no alimenta el blog.
 
 ## Herramientas de migración (`scripts/migracion/`)
 Scripts usados para copiar páginas desde WordPress (requieren Chrome, Node y Python con beautifulsoup4):

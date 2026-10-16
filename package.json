@@ -7,7 +7,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "mcp": "tsx mcp/server.ts"
+    "mcp": "tsx mcp/stdio.ts",
+    "mcp:dev": "wrangler dev --config mcp/wrangler.jsonc",
+    "mcp:deploy": "wrangler deploy --config mcp/wrangler.jsonc",
+    "mcp:test": "tsx --test mcp/http.test.ts",
+    "check:navigation": "node scripts/check-navigation.mjs"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.32.1",
@@ -22,6 +26,7 @@
     "@types/node": "^26.6.5",
     "@types/react": "^19.3.0",
     "tsx": "^4.23.15",
-    "typescript": "5.9"
+    "typescript": "5.9",
+    "wrangler": "^4.151.0"
   }
 }

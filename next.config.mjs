@@ -1,4 +1,5 @@
 import fs from "node:fs";
+import { PHASE_DEVELOPMENT_SERVER } from "next/constants.js";
 
 /** Redirecciones 301 administradas desde content/redirecciones.json (las crea el MCP al borrar páginas). */
 function redirecciones() {
@@ -19,4 +20,8 @@ const nextConfig = {
   },
 };
 
-export default nextConfig;
+// Evita que next dev sobrescriba los manifiestos usados por next build/start.
+export default (phase) => ({
+  ...nextConfig,
+  distDir: phase === PHASE_DEVELOPMENT_SERVER ? ".next-dev" : ".next",
+});

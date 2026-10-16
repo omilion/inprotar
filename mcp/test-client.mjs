@@ -2,7 +2,8 @@
 import { Client } from "@modelcontextprotocol/sdk/client/index.js";
 import { StdioClientTransport } from "@modelcontextprotocol/sdk/client/stdio.js";
 const root = process.argv[2];
-const t = new StdioClientTransport({ command: "npx", args: ["tsx", "mcp/server.ts"], env: { ...process.env, INPROTAR_ROOT: root } });
+if (!root) throw new Error("Indica una carpeta desechable con una copia de content.");
+const t = new StdioClientTransport({ command: "npx", args: ["tsx", "mcp/stdio.ts"], env: { ...process.env, GITHUB_TOKEN: "", GITHUB_REPO: "", INPROTAR_ROOT: root } });
 const c = new Client({ name: "test", version: "1" });
 await c.connect(t);
 const show = async (name, args = {}) => { const r = await c.callTool({ name, arguments: args }); console.log(`\n### ${name} ${JSON.stringify(args).slice(0, 80)}\n` + r.content[0].text.slice(0, 700)); return r; };
@@ -12,7 +13,7 @@ await show("listar_marcas");
 await show("editar_bloque", { ruta: "/conductores-electricos-chile/", accion: "quitar", indice: 4, resumen: "prueba" });
 const p = JSON.parse((await c.callTool({ name: "ver_pagina", arguments: { ruta: "/campanas-led-industriales/" } })).content[0].text);
 p.bloques[1].titulo.texto = "Campanas LED industriales de alto rendimiento";
-await show("editar_bloque", { ruta: "/campanas-led-industriales/", accion: "reemplazar", indice: 1, bloque: p.bloques[1], resumen: "nuevo subtítulo" });
+await show("editar_bloque", { ruta: "/campanas-led-industriales/", accion: "reemplazar", indice: 1, bloque: p.bloques[1], resumen: "nuevo subtÃ­tulo" });
 await show("editar_bloque", { ruta: "/campanas-led-industriales/", accion: "agregar", bloque: { tipo: "hero", titulo: "x", fondo: "/a.jpg" }, resumen: "segundo h1" });
 await show("crear_pagina", { ruta: "/luminarias-viales-led/", copiar_desde: "/campanas-led-industriales/", pagina: { seo: { titulo: "Luminarias viales LED - INPROTAR", descripcion: "Luminarias viales LED para caminos y ciudades." } } });
 await show("borrar_marca", { id: "philips" });

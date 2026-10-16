@@ -209,6 +209,9 @@ export default function Header() {
                 Catálogo
               </Link>
             </li>
+            {CATALOG_LINKS.map((l) => <li key={l.href}>
+              <Link href={l.href} onClick={() => setMobileOpen(false)}>{l.label}</Link>
+            </li>)}
             <li>
               <Link href="/quienes-somos/" onClick={() => setMobileOpen(false)}>
                 Quienes somos

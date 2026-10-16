@@ -1,3 +1,4 @@
+import { getProductos, productoParaTarjeta } from "@/lib/catalogo";
 import ProductGrid from "@/components/widgets/ProductGrid";
 import JsonLd from "@/components/JsonLd";
 import { buildMetadata } from "@/lib/seo";
@@ -20,22 +21,7 @@ export default function TiendaPage2() {
         <div className={s.c_db7fbd4_in}>
           <div className={s.w_1482f46} />
           <div className={s.w_ce5949e}>
-            <ProductGrid
-              total={21}
-              page={2}
-              items={[
-                {
-                  title: "Cable Apantallado Instrumentación/Comunicaciones",
-                  href: "/producto/cable-apantallado-instrumentacion-comunicaciones/",
-                  img: "/wp-content/uploads/2025/03/Cable-instrumentacion.png",
-                  alt: "Cable instrumentación",
-                  category: {
-                    name: "Cables de Instrumentación",
-                    href: "/categoria-producto/conductores-electricos/cables-de-instrumentacion/",
-                  },
-                },
-              ]}
-            />
+            <ProductGrid total={getProductos().length} page={2} items={getProductos().slice(20, 40).map(productoParaTarjeta)} />
           </div>
         </div>
       </section>

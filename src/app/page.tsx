@@ -1,3 +1,5 @@
+import { getArticulos } from "@/lib/content";
+import { articuloParaTarjeta } from "@/lib/content/blog";
 import Ds1Popup from "@/components/widgets/Ds1Popup";
 import Particles from "@/components/widgets/Particles";
 import Accordion from "@/components/Accordion";
@@ -290,7 +292,7 @@ export default function HomePage() {
       <section className={s.c_27fbfc3}>
         <div className={s.c_27fbfc3_in}>
           <div className={s.w_ba0ca79}>
-            <PostGrid items={[{"title": "Guía Técnica de Conductores Eléctricos Industriales Inprotar", "href": "/2025/05/06/guia-tecnica-de-conductores-electricos-industriales-inprotar/", "img": "/wp-content/uploads/2025/05/ChatGPT-Image-6-may-2025-11_18_22.png", "date": "mayo 6, 2025", "categories": [{"name": "Conductores Electricos", "href": "/category/conductores-electricos/"}, {"name": "Guías Experto", "href": "/category/guias-experto/"}]}, {"title": "Conductores Eléctricos Inprotar: Conectando Eficiencia Energética y Durabilidad Industrial", "href": "/2025/03/26/conductores-electricos-inprotar-conectando-eficiencia-energetica-y-durabilidad-industrial/", "img": "/wp-content/uploads/2025/03/conductores-electricos-chile-e1742929730332.jpg", "date": "marzo 26, 2025", "categories": [{"name": "Uncategorized", "href": "/category/uncategorized/"}]}, {"title": "Kit Solar: Sistema Fotovoltaico Híbrido", "href": "/2025/03/25/kit-solar-sistema-fotovoltaico-hibrido/", "img": "/wp-content/uploads/2025/03/kit-solar-chile-300x300.png", "date": "marzo 25, 2025", "categories": [{"name": "Iluminación", "href": "/category/iluminacion/"}]}, {"title": "Iluminación Solar Industrial: Eficiencia Energética al Más Alto Nivel con SunStay", "href": "/2025/03/25/iluminacion-solar-industrial-eficiencia-energetica-al-mas-alto-nivel-con-sunstay/", "img": "/wp-content/uploads/2024/07/iluminacion-eficiente-y-sostenible-300x165.webp", "date": "marzo 25, 2025", "categories": [{"name": "Iluminación", "href": "/category/iluminacion/"}]}, {"title": "¿Qué es Iluminación como Servicio o LaaS (Lighting as a Service)?", "href": "/2025/03/24/lighting-as-a-service-laas-iluminacion-inteligente-y-sustentable-al-alcance-de-todos/", "img": "/wp-content/uploads/2025/03/Screenshot-2024-01-30-at-15.35.11-1-300x203.png", "date": "marzo 24, 2025", "categories": [{"name": "Iluminación", "href": "/category/iluminacion/"}]}]} />
+            <PostGrid items={getArticulos().slice(0, 5).map(articuloParaTarjeta)} />
           </div>
         </div>
       </section>

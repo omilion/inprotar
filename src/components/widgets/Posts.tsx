@@ -24,11 +24,7 @@ export function PostGrid({ items }: { items: PostItem[] }) {
             </h2>
             {i < 2 && (
               <div className={styles.gMeta}>
-                <span>
-                  <a href="/author/spadmin/">spadmin</a>
-                </span>
                 <span>{p.date}</span>
-                <span>0</span>
               </div>
             )}
           </div>
@@ -66,12 +62,11 @@ export function PostCards({ items }: { items: PostItem[] }) {
               </div>
             )}
             <a href={p.href} className={styles.more}>
-              Read More »
+              Leer artículo »
             </a>
           </div>
           <div className={styles.meta}>
             <span>{p.date}</span>
-            <span className={styles.sep}>No hay comentarios</span>
           </div>
         </article>
       ))}

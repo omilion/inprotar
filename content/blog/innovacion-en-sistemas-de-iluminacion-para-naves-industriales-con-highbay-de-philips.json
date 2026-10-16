@@ -1,0 +1,141 @@
+{
+  "ruta": "/2024/06/11/innovacion-en-sistemas-de-iluminacion-para-naves-industriales-con-highbay-de-philips/",
+  "titulo": "Innovación en Sistemas de Iluminación para naves industriales",
+  "fecha": "2024-06-11T21:27:05-04:00",
+  "imagen": {
+    "src": "/wp-content/uploads/2024/06/GreenPerform_highbay_G5_BY698P_G5_LED300_IA-SPP.jpg",
+    "alt": "",
+    "ancho": 2400,
+    "alto": 1600
+  },
+  "unidad": "iluminacion",
+  "marcas": [
+    "philips"
+  ],
+  "cuerpo_md": "![](/wp-content/uploads/2024/06/warehouse-header-image2_3000x-scaled.webp)\n\n## Innovación en Sistemas de Iluminación Highbay de Philips\n\n**Inprotar** presenta el modelo **BY718P de Philips** de su gama GreenPerform Highbay Elite, diseñado para aplicaciones industriales y techos altos. Este modelo ofrece características técnicas avanzadas, como:\n\n- **Flujo luminoso inicial:** 20,000 lm\n- **Eficacia lumínica:** 137 lm/W\n- **Potencia inicial:** 145 W\n- **Temperatura de color:** 6500K\n- **Índice de reproducción cromática (IRC):** 80\n- **Vida útil:** 75,000 horas (L70B50)\n- **Protección:** IP65\n- **Conectividad avanzada:** Compatible con sistemas IoT y aplicaciones como Interact Pro\n\nIdeal para almacenes, fábricas y grandes áreas comerciales, esta luminaria proporciona una iluminación uniforme y de alta calidad, reduciendo costos operativos y de mantenimiento\n\n![](/wp-content/uploads/2024/06/GreenPerform_highbay_G5_BY698P_G5_LED300_IA-SPP-1024x683.jpg)[Contacta a un Ejecutivo](/contacto/)\n\n## ¡Optimiza tu Iluminación Industrial Hoy!\n\nDescubre cómo las luminarias Highbay BY718P de Philips pueden transformar tus instalaciones con eficiencia y durabilidad. **Contáctanos para una cotización personalizada**",
+  "seo": {
+    "titulo": "Innovación en Sistemas de Iluminación para naves industriales - INPROTAR",
+    "descripcion": "Inprotar presenta el modelo BY718P de Philips de su gama GreenPerform Highbay Elite, diseñado para aplicaciones industriales y techos altos. Este modelo",
+    "imagen": {
+      "src": "/wp-content/uploads/2024/06/GreenPerform_highbay_G5_BY698P_G5_LED300_IA-SPP-1024x683.jpg",
+      "alt": "",
+      "ancho": 2400,
+      "alto": 1600
+    },
+    "publicado": "2024-06-11T21:27:05-04:00",
+    "modificado": "2025-03-25T19:56:53-04:00",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": [
+            "Organization",
+            "Person"
+          ],
+          "@id": "https://inprotar.cl/#person",
+          "name": "INPROTAR",
+          "url": "https://inprotar.cl",
+          "email": "etardones@inprotar.cl",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "CHAMISERO",
+            "addressLocality": "COLINA",
+            "addressRegion": "REGION METROPOLITANA",
+            "addressCountry": "CHILE"
+          },
+          "logo": {
+            "@type": "ImageObject",
+            "@id": "https://inprotar.cl/#logo",
+            "url": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro2.png",
+            "contentUrl": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro2.png",
+            "caption": "INPROTAR",
+            "inLanguage": "es",
+            "width": "360",
+            "height": "194"
+          },
+          "telephone": "+56 9 9089 4601",
+          "image": {
+            "@id": "https://inprotar.cl/#logo"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://inprotar.cl/#website",
+          "url": "https://inprotar.cl",
+          "name": "INPROTAR",
+          "alternateName": "INPROTAR",
+          "publisher": {
+            "@id": "https://inprotar.cl/#person"
+          },
+          "inLanguage": "es"
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://inprotar.cl/wp-content/uploads/2024/06/GreenPerform_highbay_G5_BY698P_G5_LED300_IA-SPP.jpg",
+          "url": "https://inprotar.cl/wp-content/uploads/2024/06/GreenPerform_highbay_G5_BY698P_G5_LED300_IA-SPP.jpg",
+          "width": "2400",
+          "height": "1600",
+          "inLanguage": "es"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://inprotar.cl/2024/06/11/innovacion-en-sistemas-de-iluminacion-para-naves-industriales-con-highbay-de-philips/#webpage",
+          "url": "https://inprotar.cl/2024/06/11/innovacion-en-sistemas-de-iluminacion-para-naves-industriales-con-highbay-de-philips/",
+          "name": "Innovación en Sistemas de Iluminación para naves industriales - INPROTAR",
+          "datePublished": "2024-06-11T21:27:05-04:00",
+          "dateModified": "2025-03-25T19:56:53-04:00",
+          "isPartOf": {
+            "@id": "https://inprotar.cl/#website"
+          },
+          "primaryImageOfPage": {
+            "@id": "https://inprotar.cl/wp-content/uploads/2024/06/GreenPerform_highbay_G5_BY698P_G5_LED300_IA-SPP.jpg"
+          },
+          "inLanguage": "es"
+        },
+        {
+          "@type": "Person",
+          "@id": "https://inprotar.cl/author/spadmin/",
+          "name": "spadmin",
+          "url": "https://inprotar.cl/author/spadmin/",
+          "image": {
+            "@type": "ImageObject",
+            "@id": "https://secure.gravatar.com/avatar/04cbec8d3415f60b740fe70001182044fe83baa9f72d24541dfc338db2692af6?s=96&amp;d=mm&amp;r=g",
+            "url": "https://secure.gravatar.com/avatar/04cbec8d3415f60b740fe70001182044fe83baa9f72d24541dfc338db2692af6?s=96&amp;d=mm&amp;r=g",
+            "caption": "spadmin",
+            "inLanguage": "es"
+          },
+          "sameAs": [
+            "https://sistemasdeiluminacion.cl"
+          ]
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Innovación en Sistemas de Iluminación para naves industriales - INPROTAR",
+          "datePublished": "2024-06-11T21:27:05-04:00",
+          "dateModified": "2025-03-25T19:56:53-04:00",
+          "articleSection": "Iluminación",
+          "author": {
+            "@id": "https://inprotar.cl/author/spadmin/",
+            "name": "spadmin"
+          },
+          "publisher": {
+            "@id": "https://inprotar.cl/#person"
+          },
+          "description": "Inprotar presenta el modelo BY718P de Philips de su gama GreenPerform Highbay Elite, diseñado para aplicaciones industriales y techos altos. Este modelo",
+          "name": "Innovación en Sistemas de Iluminación para naves industriales - INPROTAR",
+          "@id": "https://inprotar.cl/2024/06/11/innovacion-en-sistemas-de-iluminacion-para-naves-industriales-con-highbay-de-philips/#richSnippet",
+          "isPartOf": {
+            "@id": "https://inprotar.cl/2024/06/11/innovacion-en-sistemas-de-iluminacion-para-naves-industriales-con-highbay-de-philips/#webpage"
+          },
+          "image": {
+            "@id": "https://inprotar.cl/wp-content/uploads/2024/06/GreenPerform_highbay_G5_BY698P_G5_LED300_IA-SPP.jpg"
+          },
+          "inLanguage": "es",
+          "mainEntityOfPage": {
+            "@id": "https://inprotar.cl/2024/06/11/innovacion-en-sistemas-de-iluminacion-para-naves-industriales-con-highbay-de-philips/#webpage"
+          }
+        }
+      ]
+    }
+  }
+}

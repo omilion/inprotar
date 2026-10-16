@@ -218,7 +218,10 @@ export const pagina = z.object({
 export const articulo = z.object({
   ruta: z.string().regex(/^\/\d{4}\/\d{2}\/\d{2}\/[a-z0-9-]+\/$/, "Formato de ruta: /AAAA/MM/DD/slug/"),
   titulo: z.string().describe("H1 del artículo"),
-  fecha: z.string().describe("Fecha de publicación ISO"),
+  fecha: z.string().refine((s) => /^\d{4}-\d{2}-\d{2}(T.*)?$/.test(s) &&
+    Number.isFinite(Date.parse(s)) && new Date(`${s.slice(0, 10)}T12:00:00Z`).toISOString().slice(0, 10) === s.slice(0, 10),
+    "Usa una fecha ISO válida").describe("Fecha de publicación ISO"),
+  resumen: z.string().max(400).optional().describe("Resumen para Noticias, portada y cabecera del artículo; si falta, las tarjetas usan seo.descripcion"),
   imagen: imagen.describe("Imagen destacada"),
   unidad: z.string(),
   marcas: z.array(z.string()).default([]),

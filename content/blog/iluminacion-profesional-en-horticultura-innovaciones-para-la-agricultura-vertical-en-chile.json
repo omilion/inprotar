@@ -1,0 +1,140 @@
+{
+  "ruta": "/2024/08/27/iluminacion-profesional-en-horticultura-innovaciones-para-la-agricultura-vertical-en-chile/",
+  "titulo": "Agricultura Vertical en Chile: Iluminación para Horticultura",
+  "fecha": "2024-08-27T00:46:06-04:00",
+  "imagen": {
+    "src": "/wp-content/uploads/2024/08/philips-led-toplighting-force-1920x1080-1-e1722527595838.jpg",
+    "alt": "",
+    "ancho": 1920,
+    "alto": 579
+  },
+  "unidad": "iluminacion",
+  "marcas": [],
+  "cuerpo_md": "Agricultura vertical está revolucionando la producción de alimentos en Chile, especialmente en zonas urbanas y áreas con limitación de tierra. Este método permite cultivar plantas en estructuras verticales bajo condiciones controladas, utilizando iluminación artificial para mantener un crecimiento constante durante todo el año. La implementación de luminarias LED de alta eficiencia, como las que ofrece Inprotar, resulta esencial para maximizar la productividad y minimizar el uso de recursos, como el agua y los fertilizantes.\n\n## **[Horticultura Vertical](https://inprotar.cl/iluminacion-para-hor):** **Soluciones de Inprotar**\n\n1. **Luminarias LED para crecimiento controlado:** Las luminarias de Inprotar permiten un control preciso del espectro de luz, adaptándose a las necesidades de cada cultivo. Esto es fundamental en la agricultura vertical, donde la luz artificial es la principal fuente de energía para las plantas.\n2. **Sistemas de control inteligente:** Inprotar ofrece soluciones que integran sensores para monitorizar parámetros críticos como la temperatura, la humedad y la concentración de CO2. Estos sistemas aseguran un entorno óptimo para el crecimiento de las plantas, incluso en condiciones adversas.\n3. **Eficiencia energética:** Las luminarias de Inprotar están diseñadas para ser altamente eficientes, reduciendo los costos operativos y el impacto ambiental. Esto es crucial en la agricultura vertical, donde el consumo energético puede ser elevado.\n![](/wp-content/uploads/2024/08/1688409413161.jpeg)![](/wp-content/uploads/2024/08/1687265410015.jpeg)\n\n**Beneficios de la Iluminación en la Agricultura Vertical:**\n\n- **Producción continua:** Al controlar el ciclo de luz, se pueden cultivar plantas todo el año, independientemente de las condiciones climáticas.\n- **Aumento de la densidad de cultivo:** Con la agricultura vertical, es posible cultivar más plantas por metro cuadrado, lo que mejora la eficiencia de la producción.\n- **Reducción de plagas y enfermedades:** Las condiciones controladas de la agricultura vertical, junto con la iluminación adecuada, reducen la necesidad de pesticidas químicos.\n\nEn resumen, las soluciones de iluminación de Inprotar son una pieza clave en el desarrollo de la agricultura vertical en Chile, permitiendo a los productores maximizar su rendimiento y contribuir a una agricultura más sostenible y eficiente.\n\nPara más información sobre cómo las soluciones de Inprotar pueden beneficiar tu operación hortícola, visita [Inprotar – Iluminación Profesional Conectada](/iluminacion-profesional-conectada/).",
+  "seo": {
+    "titulo": "Agricultura Vertical en Chile: Iluminación para Horticultura - INPROTAR",
+    "descripcion": "Agricultura vertical está revolucionando la producción de alimentos en Chile, especialmente en zonas urbanas y áreas con limitación de tierra. Este método",
+    "imagen": {
+      "src": "/wp-content/uploads/2024/08/philips-led-toplighting-force-1920x1080-1-e1722527595838.jpg",
+      "alt": "",
+      "ancho": 1920,
+      "alto": 579
+    },
+    "publicado": "2024-08-27T00:46:06-04:00",
+    "modificado": "2025-03-25T19:56:49-04:00",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": [
+            "Organization",
+            "Person"
+          ],
+          "@id": "https://inprotar.cl/#person",
+          "name": "INPROTAR",
+          "url": "https://inprotar.cl",
+          "email": "etardones@inprotar.cl",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "CHAMISERO",
+            "addressLocality": "COLINA",
+            "addressRegion": "REGION METROPOLITANA",
+            "addressCountry": "CHILE"
+          },
+          "logo": {
+            "@type": "ImageObject",
+            "@id": "https://inprotar.cl/#logo",
+            "url": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro2.png",
+            "contentUrl": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro2.png",
+            "caption": "INPROTAR",
+            "inLanguage": "es",
+            "width": "360",
+            "height": "194"
+          },
+          "telephone": "+56 9 9089 4601",
+          "image": {
+            "@id": "https://inprotar.cl/#logo"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://inprotar.cl/#website",
+          "url": "https://inprotar.cl",
+          "name": "INPROTAR",
+          "alternateName": "INPROTAR",
+          "publisher": {
+            "@id": "https://inprotar.cl/#person"
+          },
+          "inLanguage": "es"
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://inprotar.cl/wp-content/uploads/2024/08/philips-led-toplighting-force-1920x1080-1-e1722527595838.jpg",
+          "url": "https://inprotar.cl/wp-content/uploads/2024/08/philips-led-toplighting-force-1920x1080-1-e1722527595838.jpg",
+          "width": "1920",
+          "height": "579",
+          "inLanguage": "es"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://inprotar.cl/2024/08/27/iluminacion-profesional-en-horticultura-innovaciones-para-la-agricultura-vertical-en-chile/#webpage",
+          "url": "https://inprotar.cl/2024/08/27/iluminacion-profesional-en-horticultura-innovaciones-para-la-agricultura-vertical-en-chile/",
+          "name": "Agricultura Vertical en Chile: Iluminación para Horticultura - INPROTAR",
+          "datePublished": "2024-08-27T00:46:06-04:00",
+          "dateModified": "2025-03-25T19:56:49-04:00",
+          "isPartOf": {
+            "@id": "https://inprotar.cl/#website"
+          },
+          "primaryImageOfPage": {
+            "@id": "https://inprotar.cl/wp-content/uploads/2024/08/philips-led-toplighting-force-1920x1080-1-e1722527595838.jpg"
+          },
+          "inLanguage": "es"
+        },
+        {
+          "@type": "Person",
+          "@id": "https://inprotar.cl/author/spadmin/",
+          "name": "spadmin",
+          "url": "https://inprotar.cl/author/spadmin/",
+          "image": {
+            "@type": "ImageObject",
+            "@id": "https://secure.gravatar.com/avatar/04cbec8d3415f60b740fe70001182044fe83baa9f72d24541dfc338db2692af6?s=96&amp;d=mm&amp;r=g",
+            "url": "https://secure.gravatar.com/avatar/04cbec8d3415f60b740fe70001182044fe83baa9f72d24541dfc338db2692af6?s=96&amp;d=mm&amp;r=g",
+            "caption": "spadmin",
+            "inLanguage": "es"
+          },
+          "sameAs": [
+            "https://sistemasdeiluminacion.cl"
+          ]
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Agricultura Vertical en Chile: Iluminación para Horticultura - INPROTAR",
+          "keywords": "Agricultura vertical,horticultura,iluminacion par horticultura",
+          "datePublished": "2024-08-27T00:46:06-04:00",
+          "dateModified": "2025-03-25T19:56:49-04:00",
+          "articleSection": "Iluminación",
+          "author": {
+            "@id": "https://inprotar.cl/author/spadmin/",
+            "name": "spadmin"
+          },
+          "publisher": {
+            "@id": "https://inprotar.cl/#person"
+          },
+          "description": "Agricultura vertical está revolucionando la producción de alimentos en Chile, especialmente en zonas urbanas y áreas con limitación de tierra. Este método",
+          "name": "Agricultura Vertical en Chile: Iluminación para Horticultura - INPROTAR",
+          "@id": "https://inprotar.cl/2024/08/27/iluminacion-profesional-en-horticultura-innovaciones-para-la-agricultura-vertical-en-chile/#richSnippet",
+          "isPartOf": {
+            "@id": "https://inprotar.cl/2024/08/27/iluminacion-profesional-en-horticultura-innovaciones-para-la-agricultura-vertical-en-chile/#webpage"
+          },
+          "image": {
+            "@id": "https://inprotar.cl/wp-content/uploads/2024/08/philips-led-toplighting-force-1920x1080-1-e1722527595838.jpg"
+          },
+          "inLanguage": "es",
+          "mainEntityOfPage": {
+            "@id": "https://inprotar.cl/2024/08/27/iluminacion-profesional-en-horticultura-innovaciones-para-la-agricultura-vertical-en-chile/#webpage"
+          }
+        }
+      ]
+    }
+  }
+}

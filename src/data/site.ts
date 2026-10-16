@@ -30,7 +30,6 @@ export const LIGHTING_LINKS: NavLink[] = [
   { label: "Iluminación Interior LED", href: "/iluminacion-interior-led/" },
   { label: "Iluminación para Horticultura", href: "/iluminacion-para-horticultura/" },
   { label: "Iluminación para Acuicultura", href: "/iluminacion-para-acuicultura/" },
-  { label: "Proyectores de area LED", href: "/proyectores-de-area-led/" },
 ];
 
 export const CATALOG_LINKS: NavLink[] = [

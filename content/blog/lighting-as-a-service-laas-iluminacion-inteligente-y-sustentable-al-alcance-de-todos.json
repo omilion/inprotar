@@ -1,0 +1,141 @@
+{
+  "ruta": "/2025/03/24/lighting-as-a-service-laas-iluminacion-inteligente-y-sustentable-al-alcance-de-todos/",
+  "titulo": "¿Qué es Iluminación como Servicio o LaaS (Lighting as a Service)?",
+  "fecha": "2025-03-24T15:16:14-04:00",
+  "imagen": {
+    "src": "/wp-content/uploads/2025/03/Screenshot-2024-01-30-at-15.35.11-1.png",
+    "alt": "Lighting as a Service",
+    "ancho": 938,
+    "alto": 636
+  },
+  "unidad": "iluminacion",
+  "marcas": [],
+  "cuerpo_md": "## **¿Por qué adoptar el modelo LaaS?**\n\nLighting as a Service, o LaaS, es un innovador modelo de negocio que permite a empresas y organizaciones implementar sistemas de iluminación modernos sin realizar grandes inversiones iniciales. En lugar de comprar lámparas, luminarias o sistemas completos, el cliente paga por un servicio integral que incluye diseño, instalación, mantenimiento, reemplazo y actualización tecnológica constante, todo por una tarifa mensual fija.\n\n## **¿Por qué adoptar el modelo LaaS?**\n\nSegún reportes recientes de MarketsandMarkets, se espera que el mercado mundial de Lighting as a Service crezca de USD 1.200 millones en 2022 a USD 3.700 millones para 2027, impulsado por la creciente demanda de soluciones energéticas sustentables y eficientes. Esto refleja una tasa de crecimiento anual compuesto (CAGR) de un 25,3%.\n\nLa razón principal de este crecimiento está en los beneficios directos para los usuarios finales: reducción inmediata de costos, cero inversión inicial, disminución significativa del gasto energético, reducción de huella de carbono y acceso continuo a las tecnologías más avanzadas en iluminación inteligente.\n\n## **Tecnologías implicadas en LaaS**\n\nEl modelo LaaS se apoya principalmente en tecnologías LED avanzadas, sistemas de gestión inteligente de iluminación como el IoT (Internet of Things), sensores inteligentes, plataformas de control centralizado y software de gestión de energía que permiten el monitoreo y ajuste automático de la iluminación según las condiciones ambientales o las necesidades operativas.\n\nAdemás, los sistemas LaaS suelen integrar soluciones basadas en inteligencia artificial para predecir y optimizar el consumo energético, permitiendo un ahorro de hasta un 70% en comparación con sistemas tradicionales.\n\n## **Impacto económico y ambiental**\n\nDiversos estudios han demostrado que la iluminación representa cerca del 20% del consumo eléctrico global, según cifras de la Agencia Internacional de Energía (IEA). Adoptando un modelo LaaS, empresas de sectores industriales, comerciales e institucionales pueden reducir significativamente su consumo energético, generando impactos positivos tanto económicos como ambientales.\n\nEn Chile, empresas que han adoptado este modelo han logrado reducir hasta un 65% su consumo energético anual solo en iluminación, optimizando no solo sus costos operativos sino también alineándose con objetivos de sustentabilidad y responsabilidad medioambiental.\n\n## **Inprotar: Líder en soluciones LaaS en Chile**\n\nEn Inprotar ofrecemos soluciones completas y personalizadas de Lighting as a Service. Nuestro equipo técnico especializado analiza cada proyecto individualmente para diseñar, implementar y mantener sistemas de iluminación eficientes y sustentables, ajustados perfectamente a tus necesidades operativas y económicas.\n\nDescubre cómo podemos transformar tu iluminación tradicional en una solución inteligente y rentable, con tecnología líder y un servicio integral.\n\n**¿Listo para innovar con LaaS?** Contáctanos en <https://inprotar.cl/iluminacion-como-servicio-laas/> o escríbenos directamente a ventas@inprotar.cl.",
+  "seo": {
+    "titulo": "¿Qué es Iluminación como Servicio o LaaS (Lighting as a Service)? - INPROTAR",
+    "descripcion": "Lighting as a Service, o LaaS, es un innovador modelo de negocio que permite a empresas y organizaciones implementar sistemas de iluminación modernos sin",
+    "imagen": {
+      "src": "/wp-content/uploads/2025/03/Screenshot-2024-01-30-at-15.35.11-1.png",
+      "alt": "Lighting as a Service",
+      "ancho": 938,
+      "alto": 636
+    },
+    "publicado": "2025-03-24T15:16:14-04:00",
+    "modificado": "2025-03-25T19:56:48-04:00",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": [
+            "Organization",
+            "Person"
+          ],
+          "@id": "https://inprotar.cl/#person",
+          "name": "INPROTAR",
+          "url": "https://inprotar.cl",
+          "email": "etardones@inprotar.cl",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "CHAMISERO",
+            "addressLocality": "COLINA",
+            "addressRegion": "REGION METROPOLITANA",
+            "addressCountry": "CHILE"
+          },
+          "logo": {
+            "@type": "ImageObject",
+            "@id": "https://inprotar.cl/#logo",
+            "url": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro2.png",
+            "contentUrl": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro2.png",
+            "caption": "INPROTAR",
+            "inLanguage": "es",
+            "width": "360",
+            "height": "194"
+          },
+          "telephone": "+56 9 9089 4601",
+          "image": {
+            "@id": "https://inprotar.cl/#logo"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://inprotar.cl/#website",
+          "url": "https://inprotar.cl",
+          "name": "INPROTAR",
+          "alternateName": "INPROTAR",
+          "publisher": {
+            "@id": "https://inprotar.cl/#person"
+          },
+          "inLanguage": "es"
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://inprotar.cl/wp-content/uploads/2025/03/Screenshot-2024-01-30-at-15.35.11-1.png",
+          "url": "https://inprotar.cl/wp-content/uploads/2025/03/Screenshot-2024-01-30-at-15.35.11-1.png",
+          "width": "938",
+          "height": "636",
+          "caption": "Lighting as a Service",
+          "inLanguage": "es"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://inprotar.cl/2025/03/24/lighting-as-a-service-laas-iluminacion-inteligente-y-sustentable-al-alcance-de-todos/#webpage",
+          "url": "https://inprotar.cl/2025/03/24/lighting-as-a-service-laas-iluminacion-inteligente-y-sustentable-al-alcance-de-todos/",
+          "name": "¿Qué es Iluminación como Servicio o LaaS (Lighting as a Service)? - INPROTAR",
+          "datePublished": "2025-03-24T15:16:14-04:00",
+          "dateModified": "2025-03-25T19:56:48-04:00",
+          "isPartOf": {
+            "@id": "https://inprotar.cl/#website"
+          },
+          "primaryImageOfPage": {
+            "@id": "https://inprotar.cl/wp-content/uploads/2025/03/Screenshot-2024-01-30-at-15.35.11-1.png"
+          },
+          "inLanguage": "es"
+        },
+        {
+          "@type": "Person",
+          "@id": "https://inprotar.cl/author/spadmin/",
+          "name": "spadmin",
+          "url": "https://inprotar.cl/author/spadmin/",
+          "image": {
+            "@type": "ImageObject",
+            "@id": "https://secure.gravatar.com/avatar/04cbec8d3415f60b740fe70001182044fe83baa9f72d24541dfc338db2692af6?s=96&amp;d=mm&amp;r=g",
+            "url": "https://secure.gravatar.com/avatar/04cbec8d3415f60b740fe70001182044fe83baa9f72d24541dfc338db2692af6?s=96&amp;d=mm&amp;r=g",
+            "caption": "spadmin",
+            "inLanguage": "es"
+          },
+          "sameAs": [
+            "https://sistemasdeiluminacion.cl"
+          ]
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "¿Qué es Iluminación como Servicio o LaaS (Lighting as a Service)? - INPROTAR",
+          "keywords": "Lighting as a Service",
+          "datePublished": "2025-03-24T15:16:14-04:00",
+          "dateModified": "2025-03-25T19:56:48-04:00",
+          "articleSection": "Iluminación",
+          "author": {
+            "@id": "https://inprotar.cl/author/spadmin/",
+            "name": "spadmin"
+          },
+          "publisher": {
+            "@id": "https://inprotar.cl/#person"
+          },
+          "description": "Lighting as a Service, o LaaS, es un innovador modelo de negocio que permite a empresas y organizaciones implementar sistemas de iluminación modernos sin",
+          "name": "¿Qué es Iluminación como Servicio o LaaS (Lighting as a Service)? - INPROTAR",
+          "@id": "https://inprotar.cl/2025/03/24/lighting-as-a-service-laas-iluminacion-inteligente-y-sustentable-al-alcance-de-todos/#richSnippet",
+          "isPartOf": {
+            "@id": "https://inprotar.cl/2025/03/24/lighting-as-a-service-laas-iluminacion-inteligente-y-sustentable-al-alcance-de-todos/#webpage"
+          },
+          "image": {
+            "@id": "https://inprotar.cl/wp-content/uploads/2025/03/Screenshot-2024-01-30-at-15.35.11-1.png"
+          },
+          "inLanguage": "es",
+          "mainEntityOfPage": {
+            "@id": "https://inprotar.cl/2025/03/24/lighting-as-a-service-laas-iluminacion-inteligente-y-sustentable-al-alcance-de-todos/#webpage"
+          }
+        }
+      ]
+    }
+  }
+}

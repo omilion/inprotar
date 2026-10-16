@@ -1,0 +1,102 @@
+[
+  {
+    "ruta": "/categoria-producto/alumbrado-publico-led/",
+    "nombre": "Alumbrado público led",
+    "descripcion_md": ""
+  },
+  {
+    "ruta": "/categoria-producto/conductores-electricos/cable-de-control/",
+    "nombre": "cable de control",
+    "descripcion_md": ""
+  },
+  {
+    "ruta": "/categoria-producto/conductores-electricos/cable-minero/",
+    "nombre": "Cable Minero",
+    "descripcion_md": ""
+  },
+  {
+    "ruta": "/categoria-producto/conductores-electricos/cable-sumergible/",
+    "nombre": "Cable sumergible",
+    "descripcion_md": ""
+  },
+  {
+    "ruta": "/categoria-producto/cables/",
+    "nombre": "Cables",
+    "descripcion_md": ""
+  },
+  {
+    "ruta": "/categoria-producto/conductores-electricos/cables-de-instrumentacion/",
+    "nombre": "Cables de Instrumentación",
+    "descripcion_md": ""
+  },
+  {
+    "ruta": "/categoria-producto/conductores-electricos/cables-submarinos-conductores-electricos/",
+    "nombre": "Cables Submarinos",
+    "descripcion_md": ""
+  },
+  {
+    "ruta": "/categoria-producto/cables-submarinos/",
+    "nombre": "Cables submarinos",
+    "descripcion_md": ""
+  },
+  {
+    "ruta": "/categoria-producto/campanas-led-industriales/",
+    "nombre": "Campanas Led industriales",
+    "descripcion_md": ""
+  },
+  {
+    "ruta": "/categoria-producto/conductores-electricos/",
+    "nombre": "Conductores Eléctricos",
+    "descripcion_md": ""
+  },
+  {
+    "ruta": "/categoria-producto/conductores-electricos/cordones-industriales/",
+    "nombre": "Cordones Industriales",
+    "descripcion_md": ""
+  },
+  {
+    "ruta": "/categoria-producto/iluminacion-antiexplosiva-led/",
+    "nombre": "Iluminación antiexplosiva led",
+    "descripcion_md": ""
+  },
+  {
+    "ruta": "/categoria-producto/iluminacion-exterior/",
+    "nombre": "Iluminación exterior",
+    "descripcion_md": ""
+  },
+  {
+    "ruta": "/categoria-producto/iluminacion-interior-led/",
+    "nombre": "Iluminación interior led",
+    "descripcion_md": ""
+  },
+  {
+    "ruta": "/categoria-producto/iluminacion-para-acuicultura/",
+    "nombre": "Iluminación para acuicultura",
+    "descripcion_md": ""
+  },
+  {
+    "ruta": "/categoria-producto/iluminacion-para-desinfeccion-uvc/",
+    "nombre": "Iluminación para desinfección UVC",
+    "descripcion_md": ""
+  },
+  {
+    "ruta": "/categoria-producto/iluminacion-para-horticultura/",
+    "nombre": "Iluminación para horticultura",
+    "descripcion_md": ""
+  },
+  {
+    "ruta": "/categoria-producto/iluminacion-solar-led/",
+    "nombre": "Iluminación solar led",
+    "descripcion_md": ""
+  },
+  {
+    "ruta": "/categoria-producto/proyectores-de-area-led/",
+    "nombre": "Proyectores de area led",
+    "descripcion_md": ""
+  },
+  {
+    "ruta": "/categoria-producto/sin-categorizar/",
+    "nombre": "Sin categorizar",
+    "descripcion_md": ""
+  }
+]

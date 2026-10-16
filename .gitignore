@@ -1,8 +1,11 @@
 node_modules
 .next
+.next-dev
 out
 *.tsbuildinfo
 next-env.d.ts
 legacy
 scripts/migracion/*.json
 .env*
+.dev.vars*
+.wrangler/

@@ -1,0 +1,141 @@
+{
+  "ruta": "/2024/06/12/interact-de-signify-el-futuro-del-control-de-iluminacion/",
+  "titulo": "Interact de Signify: El Futuro del Control de Iluminación",
+  "fecha": "2024-06-12T00:57:03-04:00",
+  "imagen": {
+    "src": "/wp-content/uploads/2024/06/1676905217329-e1718154609179.jpg",
+    "alt": "",
+    "ancho": 1280,
+    "alto": 471
+  },
+  "unidad": "iluminacion",
+  "marcas": [
+    "philips"
+  ],
+  "cuerpo_md": "![](/wp-content/uploads/2024/06/1676905217329-e1718154609179.jpg)\n\n## Interact de Signify: El Futuro del Control de Iluminación​\n\nSignify ha lanzado **Interact**, una plataforma de control de iluminación inteligente que está revolucionando la gestión de sistemas de iluminación. Con Interact, las empresas pueden:\n\n- **Monitoreo y Control Remoto:** Ajustar la iluminación de forma remota para optimizar el consumo de energía.\n- **Integración de Datos en Tiempo Real:** Recopilar y analizar datos para mejorar la eficiencia operativa.\n- **Ejemplo de Aplicación:** En un almacén, Interact permite ajustar la intensidad de la luz según la ocupación y las necesidades específicas, reduciendo costos y mejorando la seguridad.\n\nInteract es compatible con una amplia gama de productos de iluminación, que estan disponibles en la [tienda de improtar](https://sistemasdeiluminacion.cl/tienda/), proporcionando una solución integral y eficiente para cualquier proyecto\n\n[Ver video original](https://youtu.be/4L2KSdEf0t8)\n\n[Contacta a un Ejecutivo](/contacto/)\n\n## ¡Transforma tu Gestión de Iluminación con Inprotar e Interact!\n\nIntegra el control inteligente de iluminación en tu empresa con Interact de Signify. **Solicita una demostración** y descubre cómo mejorar la eficiencia operativa y reducir costos con esta innovadora plataforma.\n\n**Contáctanos para más detalles y asesoría personalizada.**",
+  "seo": {
+    "titulo": "Interact de Signify: El Futuro del Control de Iluminación - INPROTAR",
+    "descripcion": "Signify ha lanzado Interact, una plataforma de control de iluminación inteligente que está revolucionando la gestión de sistemas de iluminación. Con Interact,",
+    "imagen": {
+      "src": "/wp-content/uploads/2024/06/1676905217329-e1718154609179.jpg",
+      "alt": "",
+      "ancho": 1280,
+      "alto": 471
+    },
+    "publicado": "2024-06-12T00:57:03-04:00",
+    "modificado": "2025-03-25T19:56:52-04:00",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": [
+            "Organization",
+            "Person"
+          ],
+          "@id": "https://inprotar.cl/#person",
+          "name": "INPROTAR",
+          "url": "https://inprotar.cl",
+          "email": "etardones@inprotar.cl",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "CHAMISERO",
+            "addressLocality": "COLINA",
+            "addressRegion": "REGION METROPOLITANA",
+            "addressCountry": "CHILE"
+          },
+          "logo": {
+            "@type": "ImageObject",
+            "@id": "https://inprotar.cl/#logo",
+            "url": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro2.png",
+            "contentUrl": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro2.png",
+            "caption": "INPROTAR",
+            "inLanguage": "es",
+            "width": "360",
+            "height": "194"
+          },
+          "telephone": "+56 9 9089 4601",
+          "image": {
+            "@id": "https://inprotar.cl/#logo"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://inprotar.cl/#website",
+          "url": "https://inprotar.cl",
+          "name": "INPROTAR",
+          "alternateName": "INPROTAR",
+          "publisher": {
+            "@id": "https://inprotar.cl/#person"
+          },
+          "inLanguage": "es"
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://inprotar.cl/wp-content/uploads/2024/06/1676905217329-e1718154609179.jpg",
+          "url": "https://inprotar.cl/wp-content/uploads/2024/06/1676905217329-e1718154609179.jpg",
+          "width": "1280",
+          "height": "471",
+          "inLanguage": "es"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://inprotar.cl/2024/06/12/interact-de-signify-el-futuro-del-control-de-iluminacion/#webpage",
+          "url": "https://inprotar.cl/2024/06/12/interact-de-signify-el-futuro-del-control-de-iluminacion/",
+          "name": "Interact de Signify: El Futuro del Control de Iluminación - INPROTAR",
+          "datePublished": "2024-06-12T00:57:03-04:00",
+          "dateModified": "2025-03-25T19:56:52-04:00",
+          "isPartOf": {
+            "@id": "https://inprotar.cl/#website"
+          },
+          "primaryImageOfPage": {
+            "@id": "https://inprotar.cl/wp-content/uploads/2024/06/1676905217329-e1718154609179.jpg"
+          },
+          "inLanguage": "es"
+        },
+        {
+          "@type": "Person",
+          "@id": "https://inprotar.cl/author/spadmin/",
+          "name": "spadmin",
+          "url": "https://inprotar.cl/author/spadmin/",
+          "image": {
+            "@type": "ImageObject",
+            "@id": "https://secure.gravatar.com/avatar/04cbec8d3415f60b740fe70001182044fe83baa9f72d24541dfc338db2692af6?s=96&amp;d=mm&amp;r=g",
+            "url": "https://secure.gravatar.com/avatar/04cbec8d3415f60b740fe70001182044fe83baa9f72d24541dfc338db2692af6?s=96&amp;d=mm&amp;r=g",
+            "caption": "spadmin",
+            "inLanguage": "es"
+          },
+          "sameAs": [
+            "https://sistemasdeiluminacion.cl"
+          ]
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Interact de Signify: El Futuro del Control de Iluminación - INPROTAR",
+          "datePublished": "2024-06-12T00:57:03-04:00",
+          "dateModified": "2025-03-25T19:56:52-04:00",
+          "articleSection": "Iluminación",
+          "author": {
+            "@id": "https://inprotar.cl/author/spadmin/",
+            "name": "spadmin"
+          },
+          "publisher": {
+            "@id": "https://inprotar.cl/#person"
+          },
+          "description": "Signify ha lanzado Interact, una plataforma de control de iluminación inteligente que está revolucionando la gestión de sistemas de iluminación. Con Interact,",
+          "name": "Interact de Signify: El Futuro del Control de Iluminación - INPROTAR",
+          "@id": "https://inprotar.cl/2024/06/12/interact-de-signify-el-futuro-del-control-de-iluminacion/#richSnippet",
+          "isPartOf": {
+            "@id": "https://inprotar.cl/2024/06/12/interact-de-signify-el-futuro-del-control-de-iluminacion/#webpage"
+          },
+          "image": {
+            "@id": "https://inprotar.cl/wp-content/uploads/2024/06/1676905217329-e1718154609179.jpg"
+          },
+          "inLanguage": "es",
+          "mainEntityOfPage": {
+            "@id": "https://inprotar.cl/2024/06/12/interact-de-signify-el-futuro-del-control-de-iluminacion/#webpage"
+          }
+        }
+      ]
+    }
+  }
+}

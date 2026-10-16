@@ -1,0 +1,142 @@
+{
+  "ruta": "/2024/07/24/alumbrado-publico-solar-la-revolucion-en-la-iluminacion-vial-industrial-y-minera/",
+  "titulo": "Alumbrado Público Solar: La Revolución en la Iluminación Vial Industrial y Minera",
+  "fecha": "2024-07-24T01:20:06-04:00",
+  "imagen": {
+    "src": "/wp-content/uploads/2024/07/SunStay_Pro_Beautyshot_on-BSP.jpg",
+    "alt": "",
+    "ancho": 607,
+    "alto": 504
+  },
+  "unidad": "iluminacion",
+  "marcas": [
+    "philips"
+  ],
+  "cuerpo_md": "El alumbrado público solar se ha convertido en una solución eficiente y sostenible para la iluminación vial industrial y minera. La luminaria SunStay, sin mencionar directamente la marca, destaca por sus innovadoras características y beneficios que la hacen ideal para diversos entornos, desde carreteras hasta zonas industriales y mineras.\n\n### Ventajas del Alumbrado Público Solar\n\n1. **Sostenibilidad Ambiental**: La luminaria SunStay utiliza energía solar, reduciendo la dependencia de combustibles fósiles y disminuyendo las emisiones de carbono. Esto no solo contribuye a la protección del medio ambiente, sino que también apoya las iniciativas globales para combatir el cambio climático.\n2. **Eficiencia Energética**: Gracias a la tecnología avanzada de paneles solares y baterías de alta capacidad, esta luminaria ofrece un rendimiento superior. Los paneles solares capturan la energía durante el día, almacenándola en baterías de larga duración que proporcionan luz durante toda la noche.\n3. **Reducción de Costos**: Al eliminar la necesidad de infraestructura eléctrica tradicional y reducir los costos de mantenimiento, el alumbrado público solar presenta una opción económica a largo plazo. La instalación es rápida y sencilla, y los costos operativos son significativamente menores comparados con las luminarias tradicionales.\n4. **Iluminación de Alta Calidad**: Con tecnología LED de última generación, la luminaria SunStay proporciona una luz clara y brillante, mejorando la visibilidad y la seguridad en áreas industriales y mineras. La calidad de la iluminación asegura un entorno de trabajo más seguro y eficiente.\n5. **Durabilidad y Resistencia**: Diseñada para resistir condiciones climáticas extremas y ambientes exigentes, esta luminaria cuenta con materiales robustos y una construcción sólida. Es ideal para su uso en áreas remotas donde el mantenimiento regular puede ser un desafío.\n\n### Aplicaciones del Alumbrado Público Solar\n\nEl alumbrado público solar es perfecto para una variedad de aplicaciones, incluyendo:\n\n- **Vías Urbanas y Rurales**: Proporciona iluminación eficiente y confiable en calles y carreteras, mejorando la seguridad vial.\n- **Zonas Industriales**: Ilumina grandes áreas con un bajo costo operativo, ideal para parques industriales y zonas de manufactura.\n- **Áreas Mineras**: Ofrece una solución robusta y confiable para entornos mineros, donde las condiciones son extremas y el mantenimiento es complicado.\n- **Espacios Públicos**: Ideal para parques, plazas y áreas recreativas, proporcionando iluminación sostenible y eficiente.\n\nPara más información sobre soluciones de alumbrado público solar y sus aplicaciones, puedes visitar [este enlace](https://sistemasdeiluminacion.cl/alumbrado-publico-solar/) y conocer más sobre las innovadoras opciones disponibles.\n\n### Conclusión\n\nLa luminaria SunStay representa un avance significativo en el campo del alumbrado público solar, ofreciendo una combinación perfecta de sostenibilidad, eficiencia y calidad. Su implementación en sectores industriales y mineros no solo mejora la iluminación, sino que también contribuye a un futuro más verde y sostenible. Aprovecha todas las ventajas que esta tecnología puede ofrecer y transforma tus espacios con soluciones de iluminación de vanguardia.\n\nPara explorar más sobre las opciones disponibles, visita [nuestro sitio web](https://sistemasdeiluminacion.cl/).",
+  "seo": {
+    "titulo": "Alumbrado Público Solar: La Revolución en la Iluminación Vial Industrial y Minera - INPROTAR",
+    "descripcion": "El alumbrado público solar se ha convertido en una solución eficiente y sostenible para la iluminación vial industrial y minera. La luminaria SunStay, sin",
+    "imagen": {
+      "src": "/wp-content/uploads/2024/07/SunStay_Pro_Beautyshot_on-BSP.jpg",
+      "alt": "",
+      "ancho": 607,
+      "alto": 504
+    },
+    "publicado": "2024-07-24T01:20:06-04:00",
+    "modificado": "2025-03-25T19:56:51-04:00",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": [
+            "Organization",
+            "Person"
+          ],
+          "@id": "https://inprotar.cl/#person",
+          "name": "INPROTAR",
+          "url": "https://inprotar.cl",
+          "email": "etardones@inprotar.cl",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "CHAMISERO",
+            "addressLocality": "COLINA",
+            "addressRegion": "REGION METROPOLITANA",
+            "addressCountry": "CHILE"
+          },
+          "logo": {
+            "@type": "ImageObject",
+            "@id": "https://inprotar.cl/#logo",
+            "url": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro2.png",
+            "contentUrl": "https://inprotar.cl/wp-content/uploads/2024/06/LOGO-fondo-oscuro2.png",
+            "caption": "INPROTAR",
+            "inLanguage": "es",
+            "width": "360",
+            "height": "194"
+          },
+          "telephone": "+56 9 9089 4601",
+          "image": {
+            "@id": "https://inprotar.cl/#logo"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://inprotar.cl/#website",
+          "url": "https://inprotar.cl",
+          "name": "INPROTAR",
+          "alternateName": "INPROTAR",
+          "publisher": {
+            "@id": "https://inprotar.cl/#person"
+          },
+          "inLanguage": "es"
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://inprotar.cl/wp-content/uploads/2024/07/SunStay_Pro_Beautyshot_on-BSP.jpg",
+          "url": "https://inprotar.cl/wp-content/uploads/2024/07/SunStay_Pro_Beautyshot_on-BSP.jpg",
+          "width": "607",
+          "height": "504",
+          "inLanguage": "es"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://inprotar.cl/2024/07/24/alumbrado-publico-solar-la-revolucion-en-la-iluminacion-vial-industrial-y-minera/#webpage",
+          "url": "https://inprotar.cl/2024/07/24/alumbrado-publico-solar-la-revolucion-en-la-iluminacion-vial-industrial-y-minera/",
+          "name": "Alumbrado Público Solar: La Revolución en la Iluminación Vial Industrial y Minera - INPROTAR",
+          "datePublished": "2024-07-24T01:20:06-04:00",
+          "dateModified": "2025-03-25T19:56:51-04:00",
+          "isPartOf": {
+            "@id": "https://inprotar.cl/#website"
+          },
+          "primaryImageOfPage": {
+            "@id": "https://inprotar.cl/wp-content/uploads/2024/07/SunStay_Pro_Beautyshot_on-BSP.jpg"
+          },
+          "inLanguage": "es"
+        },
+        {
+          "@type": "Person",
+          "@id": "https://inprotar.cl/author/spadmin/",
+          "name": "spadmin",
+          "url": "https://inprotar.cl/author/spadmin/",
+          "image": {
+            "@type": "ImageObject",
+            "@id": "https://secure.gravatar.com/avatar/04cbec8d3415f60b740fe70001182044fe83baa9f72d24541dfc338db2692af6?s=96&amp;d=mm&amp;r=g",
+            "url": "https://secure.gravatar.com/avatar/04cbec8d3415f60b740fe70001182044fe83baa9f72d24541dfc338db2692af6?s=96&amp;d=mm&amp;r=g",
+            "caption": "spadmin",
+            "inLanguage": "es"
+          },
+          "sameAs": [
+            "https://sistemasdeiluminacion.cl"
+          ]
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Alumbrado Público Solar: La Revolución en la Iluminación Vial Industrial y Minera - INPROTAR",
+          "keywords": "Alumbrado público solar",
+          "datePublished": "2024-07-24T01:20:06-04:00",
+          "dateModified": "2025-03-25T19:56:51-04:00",
+          "articleSection": "Iluminación",
+          "author": {
+            "@id": "https://inprotar.cl/author/spadmin/",
+            "name": "spadmin"
+          },
+          "publisher": {
+            "@id": "https://inprotar.cl/#person"
+          },
+          "description": "El alumbrado público solar se ha convertido en una solución eficiente y sostenible para la iluminación vial industrial y minera. La luminaria SunStay, sin",
+          "name": "Alumbrado Público Solar: La Revolución en la Iluminación Vial Industrial y Minera - INPROTAR",
+          "@id": "https://inprotar.cl/2024/07/24/alumbrado-publico-solar-la-revolucion-en-la-iluminacion-vial-industrial-y-minera/#richSnippet",
+          "isPartOf": {
+            "@id": "https://inprotar.cl/2024/07/24/alumbrado-publico-solar-la-revolucion-en-la-iluminacion-vial-industrial-y-minera/#webpage"
+          },
+          "image": {
+            "@id": "https://inprotar.cl/wp-content/uploads/2024/07/SunStay_Pro_Beautyshot_on-BSP.jpg"
+          },
+          "inLanguage": "es",
+          "mainEntityOfPage": {
+            "@id": "https://inprotar.cl/2024/07/24/alumbrado-publico-solar-la-revolucion-en-la-iluminacion-vial-industrial-y-minera/#webpage"
+          }
+        }
+      ]
+    }
+  }
+}
