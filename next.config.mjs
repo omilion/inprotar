@@ -12,6 +12,8 @@ function redirecciones() {
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Servidor autónomo para Docker (copia mínima de node_modules)
+  output: "standalone",
   // Mantiene las URLs con barra final, igual que WordPress
   trailingSlash: true,
   images: { unoptimized: true },

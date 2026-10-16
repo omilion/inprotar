@@ -1,0 +1,8 @@
+node_modules
+.next
+out
+legacy
+.git
+scripts/migracion
+mcp/.dev.vars
+*.log
