@@ -24,7 +24,7 @@ if ! docker build -q --label inprotar.commit="$NUEVO" -t inprotar-web:"$V" -t in
   exit 1
 fi
 docker rm -f inprotar-web >/dev/null 2>&1 || true
-docker run -d --name inprotar-web --restart unless-stopped --network web -p "$PUERTO":3000 --memory 768m \
+docker run -d --name inprotar-web --restart unless-stopped --network web -p 127.0.0.1:"$PUERTO":3000 --memory 768m \
   --label inprotar.commit="$NUEVO" inprotar-web:"$V" >/dev/null
 sleep 5
 CODIGO="$(curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:"$PUERTO"/ || true)"

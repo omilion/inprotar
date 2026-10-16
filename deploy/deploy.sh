@@ -18,7 +18,7 @@ tar -xzf /tmp/inprotar-release.tgz -C /opt/inprotar/src
 docker build -t inprotar-web:"$VERSION" -t inprotar-web:latest /opt/inprotar/src
 docker rm -f inprotar-web 2>/dev/null || true
 docker run -d --name inprotar-web --restart unless-stopped \
-  --network web -p "$PUERTO":3000 --memory 768m inprotar-web:"$VERSION"
+  --network web -p 127.0.0.1:"$PUERTO":3000 --memory 768m inprotar-web:"$VERSION"
 sleep 4
 curl -fsS -o /dev/null -w "inprotar-web $VERSION -> HTTP %{http_code}\n" http://127.0.0.1:"$PUERTO"/
 docker image prune -f --filter "label!=keep" >/dev/null
