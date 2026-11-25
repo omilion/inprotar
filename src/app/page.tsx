@@ -1,4 +1,4 @@
-import { getArticulos } from "@/lib/content";
+import { getArticulos, getPortada } from "@/lib/content";
 import { articuloParaTarjeta } from "@/lib/content/blog";
 import Ds1Popup from "@/components/widgets/Ds1Popup";
 import Particles from "@/components/widgets/Particles";
@@ -13,20 +13,21 @@ const PATH = "/";
 export const metadata = buildMetadata(PATH);
 
 export default function HomePage() {
+  const { hero } = getPortada();
   return (
     <>
       <JsonLd path={PATH} />
       <Ds1Popup />
-      <section className={s.c_69def15e}>
+      <section className={s.c_69def15e} style={{ backgroundImage: `url("${hero.fondo}")` }}>
         <Particles />
         <div className={s.c_69def15e_shape0} aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none"> <path d="M0,6V0h1000v100L0,6z"></path> </svg></div>
         <div className={s.c_69def15e_in}>
           <div className={s.w_3b9b991} />
           <div className={s.w_b5f8e94}>
-            <a href="https://wa.me/56990894601?text=Necesito%20más%20información">
+            <a href={hero.botonUrl}>
               <div className={s.slideContent}>
-                <h1 className={s.slideHeading}>Soluciones en Iluminación LED, Electricidad y Conectividad Digital, Innovación y eficiencia para tus proyectos</h1>
-                <div className={s.slideButton}>Solicita una Consulta Gratuita</div>
+                <h1 className={s.slideHeading}>{hero.titulo}</h1>
+                <div className={s.slideButton}>{hero.botonTexto}</div>
               </div>
             </a>
           </div>

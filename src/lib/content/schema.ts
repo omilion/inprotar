@@ -268,7 +268,17 @@ export const producto = z.object({
   atributos: z.array(z.object({ nombre: z.string(), valores: z.array(z.string()) })).default([]),
 });
 
+export const portada = z.object({
+  hero: z.object({
+    titulo: z.string().min(1).describe("Título H1 del hero de la portada"),
+    botonTexto: z.string().min(1).describe("Texto del botón principal del hero"),
+    botonUrl: z.string().min(1).describe("URL del botón principal del hero"),
+    fondo: z.string().min(1).describe("Ruta de la imagen de fondo del hero"),
+  }),
+});
+
 export type Bloque = z.infer<typeof bloque>;
+export type Portada = z.infer<typeof portada>;
 export type Categoria = z.infer<typeof categoria>;
 export type Producto = z.infer<typeof producto>;
 export type Pagina = z.infer<typeof pagina>;

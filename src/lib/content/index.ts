@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import { articulo, marca, pagina, redireccion, unidad, type Articulo, type Marca, type Pagina, type Redireccion, type Unidad } from "./schema";
+import { articulo, marca, pagina, portada, redireccion, unidad, type Articulo, type Marca, type Pagina, type Portada, type Redireccion, type Unidad } from "./schema";
 import { z } from "zod";
 
 /** Lectura y validación del contenido en /content (solo en tiempo de build/servidor). */
@@ -66,4 +66,19 @@ ${r.error.message}`);
 
 export function getArticulo(ruta: string): Articulo | undefined {
   return getArticulos().find((a) => a.ruta === ruta);
+}
+
+const PORTADA_DEFAULT: Portada = {
+  hero: {
+    titulo: "Soluciones en Iluminación LED, Electricidad y Conectividad Digital, Innovación y eficiencia para tus proyectos",
+    botonTexto: "Solicita una Consulta Gratuita",
+    botonUrl: "https://wa.me/56990894601?text=Necesito%20más%20información",
+    fondo: "/wp-content/uploads/2024/07/fondo1.jpg",
+  },
+};
+
+export function getPortada(): Portada {
+  const f = path.join(ROOT, "home.json");
+  if (!fs.existsSync(f)) return PORTADA_DEFAULT;
+  return portada.parse(readJson(f));
 }

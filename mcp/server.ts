@@ -8,7 +8,7 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { z } from "zod";
 import { zodToJsonSchema } from "zod-to-json-schema";
-import { articulo, bloque, categoria, marca, pagina, producto, redireccion, unidad } from "../src/lib/content/schema";
+import { articulo, bloque, categoria, marca, pagina, portada, producto, redireccion, unidad } from "../src/lib/content/schema";
 import type { Store, Cambio } from "./github-store";
 
 export function crearServidor(store: Store) {
@@ -17,7 +17,7 @@ export function crearServidor(store: Store) {
 const PAGINAS_CODIGO: Record<string, string> = {
   "/decreto-supremo-uno-contaminacion-luminica-2024/": "Decreto Supremo 1 (página mejor posicionada, diseño a medida)",
   "/que-es-el-decreto-supremo-1/": "¿Qué es el Decreto Supremo 1? (diseño a medida)",
-  "/": "Portada",
+  "/": "Portada (el resto de la portada es diseño a medida, pero su hero se edita con ver_portada y editar_portada)",
   "/noticias/": "Listado de noticias",
   "/tienda/": "Catálogo",
   "/contacto/": "Contacto",
@@ -98,6 +98,9 @@ server.registerTool(
         "",
         "## Marcas",
         ...(await leerMarcas()).map((m) => `- ${m.id}: ${m.nombre} [unidad: ${m.unidad}]`),
+        "",
+        "## Portada (Home /)",
+        "El hero principal de la portada (/) —título H1, texto del botón, URL del botón e imagen de fondo— se consulta con ver_portada y se modifica con editar_portada.",
         "",
         "## Catálogo",
         "Productos en /producto/slug/ agrupados en categorías /categoria-producto/.... Cada producto tiene unidad y marcas: al borrar una marca se borran sus productos (con redirección 301). Usa listar_productos, ver_producto, guardar_producto y borrar_producto.",
@@ -551,6 +554,50 @@ server.registerTool(
       `Borrar artículo ${ruta}`
     );
     return ok(`🗑️ Artículo borrado (${sha}).`);
+  }
+);
+
+// ---------------------------------------------------------------- Portada (Home)
+const ARCH_PORTADA = "content/home.json";
+const leerPortada = async () => portada.parse(await leerJson(ARCH_PORTADA));
+
+server.registerTool(
+  "ver_portada",
+  {
+    title: "Ver portada (Home)",
+    description: "Devuelve los campos editables del hero de la portada (/): título H1, texto del botón, URL del botón e imagen de fondo.",
+    inputSchema: {},
+    annotations: { readOnlyHint: true },
+  },
+  async () => ok(json(await leerPortada()))
+);
+
+server.registerTool(
+  "editar_portada",
+  {
+    title: "Editar portada (Home)",
+    description: "Actualiza el hero de la portada (/): título H1, texto del botón, URL del botón y/o imagen de fondo. Envía solo los campos a modificar.",
+    inputSchema: {
+      titulo: z.string().min(1).optional().describe("Nuevo título H1 del hero de la portada"),
+      botonTexto: z.string().min(1).optional().describe("Nuevo texto del botón principal"),
+      botonUrl: z.string().min(1).optional().describe("Nueva URL del botón principal"),
+      fondo: z.string().min(1).optional().describe("Nueva ruta de imagen de fondo (subida previamente con subir_imagen)"),
+    },
+  },
+  async ({ titulo, botonTexto, botonUrl, fondo }) => {
+    const actual = await leerPortada();
+    const nuevo = {
+      hero: {
+        titulo: titulo ?? actual.hero.titulo,
+        botonTexto: botonTexto ?? actual.hero.botonTexto,
+        botonUrl: botonUrl ?? actual.hero.botonUrl,
+        fondo: fondo ?? actual.hero.fondo,
+      },
+    };
+    const v = validar(portada, nuevo);
+    if (!v.ok) return err(`Portada inválida:\n${v.error}`);
+    const sha = await store.commit([{ ruta: ARCH_PORTADA, contenido: json(v.data) }], "Editar hero de portada");
+    return ok(`✅ Portada actualizada (${sha}). Los cambios se publicarán en la web en ~2-3 minutos.\n\n${json(v.data)}`);
   }
 );
 
