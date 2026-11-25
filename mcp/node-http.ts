@@ -68,6 +68,16 @@ async function manejar(req: IncomingMessage, res: ServerResponse) {
   };
 
   const webRes = await atenderMcp(new Request(url, { method, headers, body }), env);
+  console.log(
+    JSON.stringify({
+      method,
+      path: url.pathname,
+      status: webRes.status,
+      hasAuth: Boolean(req.headers.authorization),
+      accept: req.headers.accept || null,
+      ua: req.headers["user-agent"] || null,
+    })
+  );
   const outHeaders: Record<string, string> = {};
   webRes.headers.forEach((v, k) => {
     outHeaders[k] = v;
