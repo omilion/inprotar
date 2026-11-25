@@ -24,9 +24,9 @@ export default function HomePage() {
           <div className={s.w_3b9b991} />
           <div className={s.w_b5f8e94}>
             <a href="https://wa.me/56990894601?text=Necesito%20más%20información">
-              <div className="slideContent">
-                <div className="slideHeading">Soluciones en Iluminación LED, Electricidad y Conectividad Digital, Innovación y eficiencia para tus proyectos</div>
-                <div className="slideButton">Solicita una Consulta Gratuita</div>
+              <div className={s.slideContent}>
+                <h1 className={s.slideHeading}>Soluciones en Iluminación LED, Electricidad y Conectividad Digital, Innovación y eficiencia para tus proyectos</h1>
+                <div className={s.slideButton}>Solicita una Consulta Gratuita</div>
               </div>
             </a>
           </div>
