@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # Despliega la web en el VPS: empaqueta el commit actual, lo sube, construye la imagen y reinicia el contenedor.
-# Uso: bash deploy/deploy.sh [root@169.58.111.162] [~/.ssh/chezz_contabo] [puerto]
+# Uso: bash deploy/deploy.sh [root@13.140.224.53] [~/.ssh/chezz_contabo] [puerto]
 set -euo pipefail
-DESTINO="${1:-root@169.58.111.162}"
+DESTINO="${1:-root@13.140.224.53}"
 LLAVE="${2:-$HOME/.ssh/chezz_contabo}"
 PUERTO="${3:-3100}"
 VERSION="$(git rev-parse --short HEAD)"
