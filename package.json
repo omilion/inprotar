@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "mcp": "tsx mcp/stdio.ts",
+    "mcp:http": "tsx mcp/node-http.ts",
     "mcp:dev": "wrangler dev --config mcp/wrangler.jsonc",
     "mcp:deploy": "wrangler deploy --config mcp/wrangler.jsonc",
     "mcp:test": "tsx --test mcp/http.test.ts",
