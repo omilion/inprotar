@@ -14,7 +14,7 @@ import a from "./articulo.module.css";
  */
 
 type Params = { slug: string[] };
-export const dynamicParams = false;
+export const dynamicParams = true;
 
 const toRuta = (slug: string[]) => `/${slug.join("/")}/`;
 

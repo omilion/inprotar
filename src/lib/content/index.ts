@@ -11,13 +11,10 @@ function readJson(file: string): unknown {
   return JSON.parse(fs.readFileSync(file, "utf8"));
 }
 
-let cache: Pagina[] | null = null;
-
 export function getPaginas(): Pagina[] {
-  if (cache) return cache;
   const dir = path.join(ROOT, "paginas");
-  if (!fs.existsSync(dir)) return (cache = []);
-  cache = fs
+  if (!fs.existsSync(dir)) return [];
+  return fs
     .readdirSync(dir)
     .filter((f) => f.endsWith(".json"))
     .map((f) => {
@@ -25,7 +22,6 @@ export function getPaginas(): Pagina[] {
       if (!r.success) throw new Error(`Contenido inválido en content/paginas/${f}:\n${r.error.message}`);
       return r.data;
     });
-  return cache;
 }
 
 export function getPagina(ruta: string): Pagina | undefined {
@@ -45,13 +41,10 @@ export function getRedirecciones(): Redireccion[] {
   return fs.existsSync(f) ? z.array(redireccion).parse(readJson(f)) : [];
 }
 
-let cacheArt: Articulo[] | null = null;
-
 export function getArticulos(): Articulo[] {
-  if (cacheArt) return cacheArt;
   const dir = path.join(ROOT, "blog");
-  if (!fs.existsSync(dir)) return (cacheArt = []);
-  cacheArt = fs
+  if (!fs.existsSync(dir)) return [];
+  return fs
     .readdirSync(dir)
     .filter((f) => f.endsWith(".json"))
     .map((f) => {
@@ -61,7 +54,6 @@ ${r.error.message}`);
       return r.data;
     })
     .sort((a, b) => b.fecha.localeCompare(a.fecha));
-  return cacheArt;
 }
 
 export function getArticulo(ruta: string): Articulo | undefined {

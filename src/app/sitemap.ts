@@ -7,6 +7,8 @@ import { getCategorias, getProductos } from "@/lib/catalogo";
 // Páginas con diseño a medida (código). El resto sale de /content.
 const PAGINAS_CODIGO = ["/", "/decreto-supremo-uno-contaminacion-luminica-2024/", "/que-es-el-decreto-supremo-1/", "/noticias/", "/tienda/", "/tienda/page/2/", "/contacto/"];
 
+export const dynamic = "force-dynamic";
+
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     ...PAGINAS_CODIGO.map((p) => ({ url: `${SITE_URL}${p}`, lastModified: seo[p]?.modifiedTime ?? undefined })),

@@ -7,7 +7,7 @@ import { CONTACT } from "@/data/site";
 import s from "@/components/CatalogoLayout.module.css";
 
 type Params = { slug: string };
-export const dynamicParams = false;
+export const dynamicParams = true;
 export const generateStaticParams = () => getProductos().map((p) => ({ slug: p.ruta.split("/")[2] }));
 export async function generateMetadata({ params }: { params: Promise<Params> }) {
   const { slug } = await params;

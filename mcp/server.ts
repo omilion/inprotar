@@ -597,7 +597,7 @@ server.registerTool(
     const v = validar(portada, nuevo);
     if (!v.ok) return err(`Portada inválida:\n${v.error}`);
     const sha = await store.commit([{ ruta: ARCH_PORTADA, contenido: json(v.data) }], "Editar hero de portada");
-    return ok(`✅ Portada actualizada (${sha}). Los cambios se publicarán en la web en ~2-3 minutos.\n\n${json(v.data)}`);
+    return ok(`✅ Portada actualizada (${sha}). Los cambios se verán en la web en ~10 segundos.\n\n${json(v.data)}`);
   }
 );
 

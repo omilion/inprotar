@@ -7,7 +7,7 @@ import { metadataFromContent } from "@/lib/seo";
 import s from "@/components/CatalogoLayout.module.css";
 
 type Params = { slug: string[] };
-export const dynamicParams = false;
+export const dynamicParams = true;
 const ruta = (slug: string[]) => `/categoria-producto/${slug.join("/")}/`;
 export const generateStaticParams = () => getCategorias().map((c) => ({ slug: c.ruta.split("/").filter(Boolean).slice(1) }));
 export async function generateMetadata({ params }: { params: Promise<Params> }) {
