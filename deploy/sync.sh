@@ -52,7 +52,7 @@ if [ "$SOLO_CONTENIDO" = "1" ]; then
   git reset -q --hard "$NUEVO"
   CODIGO="$(curl -s -o /dev/null -w '%{http_code}' -X POST \
     -H "Authorization: Bearer ${REVALIDATE_SECRET}" \
-    "http://127.0.0.1:${PUERTO}/api/revalidate" || true)"
+    "http://127.0.0.1:${PUERTO}/api/revalidate/" || true)"
   echo "$(date '+%F %T') contenido actualizado en vivo $V ($(git log -1 --format=%s)) -> revalidate HTTP $CODIGO" >> "$LOG"
   exit 0
 fi
