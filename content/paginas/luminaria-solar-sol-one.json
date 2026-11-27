@@ -10,84 +10,131 @@
     "titulo": "Luminaria solar SOL-ONE Schréder para minería | INPROTAR",
     "descripcion": "Luminaria solar SOL-ONE de Schréder con ingeniería INPROTAR: autonomía calculada por sitio y dimerización conforme al DS N°1 para faenas mineras en Chile.",
     "imagen": {
-      "src": "/wp-content/uploads/2024/07/LED-Street-Lighting.jpg",
-      "alt": "Luminaria solar SOL-ONE Schréder"
-    }
+      "src": "/wp-content/uploads/2026/11/luminaria-solar-sol-one-schreder.png",
+      "alt": "Luminaria solar SOL-ONE de Schréder, todo en uno"
+    },
+    "modificado": "2026-11-27T22:05:13.897Z"
   },
   "bloques": [
     {
-      "tipo": "hero",
-      "titulo": "Luminaria solar SOL-ONE de Schréder",
-      "fondo": "/wp-content/uploads/2024/07/LED-Street-Lighting.jpg",
-      "oscurecer": 0.6,
-      "alto": 430
-    },
-    {
-      "tipo": "titulo",
-      "titulo": {
-        "texto": "Luz donde no llega la red, con ingeniería INPROTAR",
-        "nivel": "h2"
+      "tipo": "heroDividido",
+      "antetitulo": "Iluminación solar para minería e industria · Partner Schréder",
+      "titulo": "Luminaria solar SOL-ONE: luz autónoma que cumple el DS N°1",
+      "texto_md": "Sin cables, sin empalme y sin cuenta de luz. INPROTAR diseña, suministra y pone en marcha la SOL-ONE de Schréder con **autonomía calculada para tu sitio** y el perfil de dimerización que exige la norma.\n\n**Más de 130 luminarias solares** instaladas y verificadas por INPROTAR en un proyecto minero en zona de protección astronómica.",
+      "boton": {
+        "texto": "Cotiza tu proyecto solar",
+        "url": "https://wa.me/56990894601",
+        "estilo": "primario"
       },
-      "bajada_md": "Iluminación solar autónoma para caminos de servicio, accesos, pozos y estaciones remotas de faenas mineras e industriales en todo Chile.",
-      "alineacion": "centro"
+      "imagen": {
+        "src": "/wp-content/uploads/2026/11/luminaria-solar-sol-one-schreder.png",
+        "alt": "Luminaria solar SOL-ONE de Schréder, todo en uno",
+        "ancho": 900,
+        "alto": 900
+      }
     },
     {
       "tipo": "columnas",
+      "titulo": {
+        "texto": "Por qué la SOL-ONE con INPROTAR",
+        "nivel": "h2"
+      },
       "columnas": [
         {
-          "titulo": "Autonomía calculada por sitio",
+          "titulo": "Instalas hoy, iluminas esta noche",
           "imagen": {
             "src": "/media/icons/eficiencia-energetica.svg",
             "alt": ""
           },
-          "texto_md": "Dimensionamos cada instalación según la radiación del lugar, el perfil de encendido y la reserva de batería que necesita la operación."
+          "texto_md": "Sin zanjas, sin cableado y sin empalme eléctrico. Ideal para caminos, accesos, pozos y estaciones remotas donde llevar la red es caro o lento."
         },
         {
-          "titulo": "Cumplimiento DS N°1",
+          "titulo": "Cumple el DS N°1",
           "imagen": {
             "src": "/media/icons/sostenibilidad.svg",
             "alt": ""
           },
-          "texto_md": "Temperatura de color, óptica y dimerización definidas para respetar fielmente el Decreto Supremo N°1 y las zonas de protección astronómica."
+          "texto_md": "Temperatura de color, óptica y dimerización definidas por nuestro ingeniero lumínico para zonas industriales, mineras y de protección astronómica."
         },
         {
-          "titulo": "Cero consumo de la red",
+          "titulo": "Un solo responsable técnico",
           "imagen": {
             "src": "/media/icons/durabilidad.svg",
             "alt": ""
           },
-          "texto_md": "Sin cableado, sin empalme y sin cuenta de electricidad: la luminaria genera y almacena su propia energía."
+          "texto_md": "Cálculo, suministro, parametrización, puesta en marcha y garantía coordinada con Schréder: todo con INPROTAR."
         }
       ]
     },
     {
-      "tipo": "texto",
+      "tipo": "textoImagen",
       "titulo": {
-        "texto": "Qué es la SOL-ONE",
+        "texto": "Todo en uno: panel, batería y LED en un solo equipo",
         "nivel": "h2"
       },
-      "texto_md": "La **SOL-ONE** es una luminaria solar autónoma fabricada por **Schréder**, fábrica y partner comercial de INPROTAR. Integra panel fotovoltaico, batería de litio ferrofosfato (LiFePO4) y controlador de carga, y funciona sin conexión a la red eléctrica.\n\nEn INPROTAR elegimos la SOL-ONE para proyectos donde llevar energía es caro, lento o simplemente imposible, y la especificamos para que cumpla la norma desde el primer día."
+      "texto_md": "La SOL-ONE es una luminaria solar integrada fabricada por **Schréder**, partner comercial de INPROTAR. Panel fotovoltaico, batería, controlador y módulo LED vienen en un solo cuerpo listo para montar.\n\n- **Funciona 100 % con energía solar**, sin conexión a la red.\n- **Carga sin orientar el panel hacia el sol**, gracias a su diseño.\n- **Módulo solar resistente al granizo y a la corrosión.**\n- **Cuerpo de aluminio inyectado y ASA**, para intemperie extrema.\n- **Grado de protección IP66.**\n- **Distintas combinaciones de lentes** para caminos, áreas y perímetros.\n- **Garantía de fábrica de hasta 5 años** (sujeta a condiciones del fabricante).",
+      "imagen": {
+        "src": "/wp-content/uploads/2026/11/sol-one-schreder-luminaria-solar-integrada.png",
+        "alt": "SOL-ONE de Schréder, luminaria solar integrada con panel y LED",
+        "ancho": 900,
+        "alto": 900
+      },
+      "imagenAlLado": "derecha",
+      "botones": [
+        {
+          "texto": "Quiero una propuesta",
+          "url": "https://wa.me/56990894601",
+          "estilo": "oscuro"
+        }
+      ]
     },
     {
-      "tipo": "texto",
+      "tipo": "fichas",
       "titulo": {
-        "texto": "Cómo trabajamos un proyecto solar",
+        "texto": "Dos tamaños para cada necesidad",
         "nivel": "h2"
       },
-      "texto_md": "1. **Levantamiento en terreno:** ubicación, usos del área, horarios de operación y restricciones de la faena.\n2. **Cálculo de autonomía:** según la radiación del sitio, el perfil de dimerización y la capacidad de batería.\n3. **Memoria de cálculo:** simulación DIALux bajo NCh3833/2:2023 y cumplimiento del DS N°1, firmada por nuestro ingeniero lumínico.\n4. **Parametrización:** programación del controlador con el perfil definido y validación del fabricante.\n5. **Puesta en marcha y verificación:** medición con luxómetro en terreno y registro georreferenciado de cada luminaria.\n6. **Respaldo de garantía:** INPROTAR coordina con Schréder cualquier ajuste o reemplazo durante la vida del proyecto."
+      "fichas": [
+        {
+          "nombre": "SOL-ONE MINI",
+          "imagen": {
+            "src": "/wp-content/uploads/2026/11/luminaria-solar-sol-one-schreder.png",
+            "alt": "SOL-ONE MINI luminaria solar"
+          },
+          "especificaciones_md": "- **Flujo luminoso:** hasta 7.685 lm\n- **Grado de protección:** IP66\n- **Sistema:** 12 V CC, autónomo\n- **Uso típico:** accesos, pasajes, estacionamientos, perímetros y pozos\n- **Dimerización:** perfil programable de encendido y reducción nocturna",
+          "boton": {
+            "texto": "Solicitar ficha técnica MINI",
+            "url": "https://wa.me/56990894601",
+            "estilo": "contornoClaro"
+          }
+        },
+        {
+          "nombre": "SOL-ONE MAXI",
+          "imagen": {
+            "src": "/wp-content/uploads/2026/11/sol-one-schreder-luminaria-solar-integrada.png",
+            "alt": "SOL-ONE MAXI luminaria solar"
+          },
+          "especificaciones_md": "- **Flujo luminoso:** hasta 18.424 lm\n- **Grado de protección:** IP66\n- **Sistema:** 12 V CC, autónomo\n- **Uso típico:** caminos de servicio, accesos a faena y grandes áreas\n- **Dimerización:** perfil programable de encendido y reducción nocturna",
+          "boton": {
+            "texto": "Solicitar ficha técnica MAXI",
+            "url": "https://wa.me/56990894601",
+            "estilo": "contornoClaro"
+          }
+        }
+      ]
     },
     {
       "tipo": "bannerImagen",
       "fondo": "/wp-content/uploads/2024/07/beautiful-shot-starry-night-sky-scaled.jpg",
-      "oscurecer": 0.5,
+      "oscurecer": 0.45,
       "ladoTexto": "izquierda",
       "antetitulo": "Probada en minería",
-      "titulo": "Iluminación solar en un proyecto minero en zona de protección astronómica",
+      "titulo": "Más de 130 luminarias solares en zona de protección astronómica",
       "colorTitulo": "#ffffff",
-      "texto_md": "Diseñamos, suministramos y verificamos iluminación solar SOL-ONE en un proyecto minero del norte de Chile. Iluminamos lo que la operación necesita y protegemos el cielo, la biodiversidad y a las personas.",
+      "texto_md": "En un proyecto minero del norte de Chile, INPROTAR hizo la ingeniería de detalle bajo el DS N°1, suministró las luminarias Schréder y verificó cada punto en terreno con luxómetro y registro georreferenciado. Antes de que llegara la red, el alumbrado del proyecto ya funcionaba con energía solar.\n\nIluminamos lo que la operación necesita y protegemos el cielo, la biodiversidad y a las personas.",
       "botones": [
         {
-          "texto": "Conversemos por WhatsApp",
+          "texto": "Conversemos tu proyecto",
           "url": "https://wa.me/56990894601",
           "estilo": "contornoClaro"
         },
@@ -99,23 +146,37 @@
       ]
     },
     {
-      "tipo": "texto",
+      "tipo": "textoImagen",
       "titulo": {
-        "texto": "Aplicaciones",
+        "texto": "Del cálculo a la luz encendida",
         "nivel": "h2"
       },
-      "texto_md": "- Caminos de servicio y accesos a faena\n- Pozos, estaciones de bombeo y estaciones remotas\n- Perímetros y cercos de instalaciones\n- Estacionamientos y zonas de espera\n- Faenas temporales y frentes de obra\n- Recintos industriales y condominios sin empalme cercano"
+      "texto_md": "1. **Levantamiento en terreno:** ubicación, usos del área y horarios de operación.\n2. **Cálculo de autonomía:** según radiación del sitio, perfil de dimerización y batería.\n3. **Memoria de cálculo:** simulación DIALux bajo NCh3833/2:2023 y DS N°1.\n4. **Parametrización:** perfil programado con validación del fabricante.\n5. **Puesta en marcha:** medición con luxómetro y registro georreferenciado de cada luminaria.\n6. **Garantía coordinada:** INPROTAR gestiona con Schréder cualquier ajuste o reemplazo.",
+      "imagen": {
+        "src": "/wp-content/uploads/2026/11/sol-one-schreder-panel-solar-bateria.jpg",
+        "alt": "Detalle de la luminaria solar SOL-ONE de Schréder"
+      },
+      "imagenAlLado": "izquierda",
+      "botones": []
+    },
+    {
+      "tipo": "texto",
+      "titulo": {
+        "texto": "¿Dónde usar la SOL-ONE?",
+        "nivel": "h2"
+      },
+      "texto_md": "- **Minería:** caminos de servicio, accesos, pozos, estaciones de bombeo y tranques\n- **Industria y energía:** perímetros, patios, subestaciones y plantas remotas\n- **Obras y faenas temporales:** frentes de trabajo e instalaciones de faena\n- **Condominios y municipios:** pasajes, plazas, ciclovías y estacionamientos sin empalme cercano"
     },
     {
       "tipo": "bandaCta",
-      "titulo": "Solicita la ficha técnica y el cálculo de autonomía para tu proyecto",
-      "texto_md": "Te enviamos la ficha SOL-ONE y una propuesta con autonomía calculada para tu sitio.",
+      "titulo": "Recibe tu cálculo de autonomía y la ficha técnica SOL-ONE",
+      "texto_md": "Cuéntanos dónde está tu proyecto y qué necesitas iluminar. Te respondemos con la propuesta técnica y comercial.",
       "boton": {
-        "texto": "Solicitar por WhatsApp",
+        "texto": "Escríbenos por WhatsApp",
         "url": "https://wa.me/56990894601",
         "estilo": "primario"
       },
-      "tema": "oscuro"
+      "tema": "azul"
     },
     {
       "tipo": "faq",
@@ -123,7 +184,7 @@
       "preguntas": [
         {
           "pregunta": "¿Cuántas noches de autonomía tiene la SOL-ONE?",
-          "respuesta_md": "Depende de la radiación del lugar, del perfil de dimerización y de la capacidad de batería elegida. Por eso INPROTAR calcula la autonomía para cada proyecto antes de ofertar."
+          "respuesta_md": "Depende de la radiación del lugar, del perfil de dimerización y de la batería. INPROTAR calcula la autonomía para cada proyecto y la deja documentada en la propuesta."
         },
         {
           "pregunta": "¿La SOL-ONE cumple el DS N°1 en zonas de protección astronómica?",
@@ -134,8 +195,8 @@
           "respuesta_md": "Principalmente limpieza periódica del panel solar y revisión del estado de la batería. Definimos la frecuencia según el polvo y las condiciones de cada faena."
         },
         {
-          "pregunta": "¿Se puede cambiar la programación en terreno?",
-          "respuesta_md": "Los parámetros de batería y del perfil de encendido se ajustan con validación del fabricante. INPROTAR coordina ese proceso para no afectar la garantía ni la autonomía."
+          "pregunta": "¿Qué garantía tiene?",
+          "respuesta_md": "Schréder ofrece garantía de hasta 5 años, sujeta a sus condiciones. INPROTAR coordina la garantía con la fábrica durante toda la vida del proyecto."
         },
         {
           "pregunta": "¿Se puede combinar iluminación solar y eléctrica en una misma faena?",
