@@ -1,4 +1,17 @@
 [
-  { "id": "philips", "nombre": "Philips / Signify (SunStay, GreenPerform, Interact, GreenPower, Seacage, Tango)", "unidad": "iluminacion" },
-  { "id": "inprotar-conductores", "nombre": "Conductores Inprotar", "unidad": "suministros" }
+  {
+    "id": "philips",
+    "nombre": "Philips / Signify (SunStay, GreenPerform, Interact, GreenPower, Seacage, Tango)",
+    "unidad": "iluminacion"
+  },
+  {
+    "id": "inprotar-conductores",
+    "nombre": "Conductores Inprotar",
+    "unidad": "suministros"
+  },
+  {
+    "id": "schreder",
+    "nombre": "Schréder",
+    "unidad": "iluminacion"
+  }
 ]
